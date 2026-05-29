@@ -1,0 +1,812 @@
+[
+  {
+    "id": 1,
+    "phase_id": 1,
+    "week_no": 1,
+    "title_ar": "التحية الأولى",
+    "topic_en": "Greetings & Introductions",
+    "topic_ar": "التحية والتعريف بالنفس",
+    "est_minutes": 65
+  },
+  {
+    "id": 2,
+    "phase_id": 1,
+    "week_no": 1,
+    "title_ar": "تقديم النفس",
+    "topic_en": "Greetings & Introductions",
+    "topic_ar": "التحية والتعريف بالنفس",
+    "est_minutes": 65
+  },
+  {
+    "id": 3,
+    "phase_id": 1,
+    "week_no": 1,
+    "title_ar": "أسماء وكلمات لطف",
+    "topic_en": "Greetings & Introductions",
+    "topic_ar": "التحية والتعريف بالنفس",
+    "est_minutes": 65
+  },
+  {
+    "id": 4,
+    "phase_id": 1,
+    "week_no": 1,
+    "title_ar": "السؤال عن الحال",
+    "topic_en": "Greetings & Introductions",
+    "topic_ar": "التحية والتعريف بالنفس",
+    "est_minutes": 65
+  },
+  {
+    "id": 5,
+    "phase_id": 1,
+    "week_no": 1,
+    "title_ar": "بلد ولغة",
+    "topic_en": "Greetings & Introductions",
+    "topic_ar": "التحية والتعريف بالنفس",
+    "est_minutes": 65
+  },
+  {
+    "id": 6,
+    "phase_id": 1,
+    "week_no": 1,
+    "title_ar": "أصدقاء جدد",
+    "topic_en": "Greetings & Introductions",
+    "topic_ar": "التحية والتعريف بالنفس",
+    "est_minutes": 65
+  },
+  {
+    "id": 7,
+    "phase_id": 1,
+    "week_no": 1,
+    "title_ar": "وداع جميل",
+    "topic_en": "Greetings & Introductions",
+    "topic_ar": "التحية والتعريف بالنفس",
+    "est_minutes": 65
+  },
+  {
+    "id": 8,
+    "phase_id": 1,
+    "week_no": 2,
+    "title_ar": "الأرقام من 0 إلى 20",
+    "topic_en": "Numbers, Time & Days",
+    "topic_ar": "الأرقام والوقت والأيام",
+    "est_minutes": 65
+  },
+  {
+    "id": 9,
+    "phase_id": 1,
+    "week_no": 2,
+    "title_ar": "أرقام أكبر",
+    "topic_en": "Numbers, Time & Days",
+    "topic_ar": "الأرقام والوقت والأيام",
+    "est_minutes": 65
+  },
+  {
+    "id": 10,
+    "phase_id": 1,
+    "week_no": 2,
+    "title_ar": "أيام الأسبوع",
+    "topic_en": "Numbers, Time & Days",
+    "topic_ar": "الأرقام والوقت والأيام",
+    "est_minutes": 65
+  },
+  {
+    "id": 11,
+    "phase_id": 1,
+    "week_no": 2,
+    "title_ar": "الشهور والمواسم",
+    "topic_en": "Numbers, Time & Days",
+    "topic_ar": "الأرقام والوقت والأيام",
+    "est_minutes": 65
+  },
+  {
+    "id": 12,
+    "phase_id": 1,
+    "week_no": 2,
+    "title_ar": "الساعة والوقت",
+    "topic_en": "Numbers, Time & Days",
+    "topic_ar": "الأرقام والوقت والأيام",
+    "est_minutes": 65
+  },
+  {
+    "id": 13,
+    "phase_id": 1,
+    "week_no": 2,
+    "title_ar": "التاريخ والميلاد",
+    "topic_en": "Numbers, Time & Days",
+    "topic_ar": "الأرقام والوقت والأيام",
+    "est_minutes": 65
+  },
+  {
+    "id": 14,
+    "phase_id": 1,
+    "week_no": 2,
+    "title_ar": "المراجعة",
+    "topic_en": "Numbers, Time & Days",
+    "topic_ar": "الأرقام والوقت والأيام",
+    "est_minutes": 65
+  },
+  {
+    "id": 15,
+    "phase_id": 1,
+    "week_no": 3,
+    "title_ar": "أفراد العائلة",
+    "topic_en": "Family & People",
+    "topic_ar": "العائلة والأشخاص",
+    "est_minutes": 65
+  },
+  {
+    "id": 16,
+    "phase_id": 1,
+    "week_no": 3,
+    "title_ar": "الإخوة والأخوات",
+    "topic_en": "Family & People",
+    "topic_ar": "العائلة والأشخاص",
+    "est_minutes": 65
+  },
+  {
+    "id": 17,
+    "phase_id": 1,
+    "week_no": 3,
+    "title_ar": "الأقارب",
+    "topic_en": "Family & People",
+    "topic_ar": "العائلة والأشخاص",
+    "est_minutes": 65
+  },
+  {
+    "id": 18,
+    "phase_id": 1,
+    "week_no": 3,
+    "title_ar": "الأبناء والآباء",
+    "topic_en": "Family & People",
+    "topic_ar": "العائلة والأشخاص",
+    "est_minutes": 65
+  },
+  {
+    "id": 19,
+    "phase_id": 1,
+    "week_no": 3,
+    "title_ar": "العمر والوصف",
+    "topic_en": "Family & People",
+    "topic_ar": "العائلة والأشخاص",
+    "est_minutes": 65
+  },
+  {
+    "id": 20,
+    "phase_id": 1,
+    "week_no": 3,
+    "title_ar": "زيارات العائلة",
+    "topic_en": "Family & People",
+    "topic_ar": "العائلة والأشخاص",
+    "est_minutes": 65
+  },
+  {
+    "id": 21,
+    "phase_id": 1,
+    "week_no": 3,
+    "title_ar": "العائلة الكبيرة",
+    "topic_en": "Family & People",
+    "topic_ar": "العائلة والأشخاص",
+    "est_minutes": 65
+  },
+  {
+    "id": 22,
+    "phase_id": 1,
+    "week_no": 4,
+    "title_ar": "الصباح الباكر",
+    "topic_en": "Daily Routine",
+    "topic_ar": "الروتين اليومي",
+    "est_minutes": 65
+  },
+  {
+    "id": 23,
+    "phase_id": 1,
+    "week_no": 4,
+    "title_ar": "الذهاب للعمل",
+    "topic_en": "Daily Routine",
+    "topic_ar": "الروتين اليومي",
+    "est_minutes": 65
+  },
+  {
+    "id": 24,
+    "phase_id": 1,
+    "week_no": 4,
+    "title_ar": "وقت العمل أو الدراسة",
+    "topic_en": "Daily Routine",
+    "topic_ar": "الروتين اليومي",
+    "est_minutes": 65
+  },
+  {
+    "id": 25,
+    "phase_id": 1,
+    "week_no": 4,
+    "title_ar": "وقت الغداء",
+    "topic_en": "Daily Routine",
+    "topic_ar": "الروتين اليومي",
+    "est_minutes": 65
+  },
+  {
+    "id": 26,
+    "phase_id": 1,
+    "week_no": 4,
+    "title_ar": "بعد الظهر",
+    "topic_en": "Daily Routine",
+    "topic_ar": "الروتين اليومي",
+    "est_minutes": 65
+  },
+  {
+    "id": 27,
+    "phase_id": 1,
+    "week_no": 4,
+    "title_ar": "المساء والعائلة",
+    "topic_en": "Daily Routine",
+    "topic_ar": "الروتين اليومي",
+    "est_minutes": 65
+  },
+  {
+    "id": 28,
+    "phase_id": 1,
+    "week_no": 4,
+    "title_ar": "قبل النوم",
+    "topic_en": "Daily Routine",
+    "topic_ar": "الروتين اليومي",
+    "est_minutes": 65
+  },
+  {
+    "id": 29,
+    "phase_id": 1,
+    "week_no": 5,
+    "title_ar": "البيت والغرف",
+    "topic_en": "Home & Rooms",
+    "topic_ar": "البيت والغرف",
+    "est_minutes": 65
+  },
+  {
+    "id": 30,
+    "phase_id": 1,
+    "week_no": 5,
+    "title_ar": "الباب والنافذة",
+    "topic_en": "Home & Rooms",
+    "topic_ar": "البيت والغرف",
+    "est_minutes": 65
+  },
+  {
+    "id": 31,
+    "phase_id": 2,
+    "week_no": 5,
+    "title_ar": "غرفة المعيشة",
+    "topic_en": "Home & Furniture",
+    "topic_ar": "البيت والأثاث",
+    "est_minutes": 65
+  },
+  {
+    "id": 32,
+    "phase_id": 2,
+    "week_no": 5,
+    "title_ar": "غرفة النوم",
+    "topic_en": "Home & Furniture",
+    "topic_ar": "البيت والأثاث",
+    "est_minutes": 65
+  },
+  {
+    "id": 33,
+    "phase_id": 2,
+    "week_no": 5,
+    "title_ar": "المطبخ",
+    "topic_en": "Home & Furniture",
+    "topic_ar": "البيت والأثاث",
+    "est_minutes": 65
+  },
+  {
+    "id": 34,
+    "phase_id": 2,
+    "week_no": 5,
+    "title_ar": "الحمام",
+    "topic_en": "Home & Furniture",
+    "topic_ar": "البيت والأثاث",
+    "est_minutes": 65
+  },
+  {
+    "id": 35,
+    "phase_id": 2,
+    "week_no": 5,
+    "title_ar": "أدوات البيت",
+    "topic_en": "Home & Furniture",
+    "topic_ar": "البيت والأثاث",
+    "est_minutes": 65
+  },
+  {
+    "id": 36,
+    "phase_id": 2,
+    "week_no": 6,
+    "title_ar": "وجبات اليوم",
+    "topic_en": "Food & Restaurant",
+    "topic_ar": "الطعام والمطعم",
+    "est_minutes": 65
+  },
+  {
+    "id": 37,
+    "phase_id": 2,
+    "week_no": 6,
+    "title_ar": "في المطعم",
+    "topic_en": "Food & Restaurant",
+    "topic_ar": "الطعام والمطعم",
+    "est_minutes": 65
+  },
+  {
+    "id": 38,
+    "phase_id": 2,
+    "week_no": 6,
+    "title_ar": "طلب الطعام",
+    "topic_en": "Food & Restaurant",
+    "topic_ar": "الطعام والمطعم",
+    "est_minutes": 65
+  },
+  {
+    "id": 39,
+    "phase_id": 2,
+    "week_no": 6,
+    "title_ar": "الفواكه والخضار",
+    "topic_en": "Food & Restaurant",
+    "topic_ar": "الطعام والمطعم",
+    "est_minutes": 65
+  },
+  {
+    "id": 40,
+    "phase_id": 2,
+    "week_no": 6,
+    "title_ar": "اللحم والسمك",
+    "topic_en": "Food & Restaurant",
+    "topic_ar": "الطعام والمطعم",
+    "est_minutes": 65
+  },
+  {
+    "id": 41,
+    "phase_id": 2,
+    "week_no": 6,
+    "title_ar": "المشروبات",
+    "topic_en": "Food & Restaurant",
+    "topic_ar": "الطعام والمطعم",
+    "est_minutes": 65
+  },
+  {
+    "id": 42,
+    "phase_id": 2,
+    "week_no": 6,
+    "title_ar": "ضيافة الأهل",
+    "topic_en": "Food & Restaurant",
+    "topic_ar": "الطعام والمطعم",
+    "est_minutes": 65
+  },
+  {
+    "id": 43,
+    "phase_id": 2,
+    "week_no": 7,
+    "title_ar": "في السوق",
+    "topic_en": "Shopping & Clothes",
+    "topic_ar": "التسوق والملابس",
+    "est_minutes": 65
+  },
+  {
+    "id": 44,
+    "phase_id": 2,
+    "week_no": 7,
+    "title_ar": "الملابس",
+    "topic_en": "Shopping & Clothes",
+    "topic_ar": "التسوق والملابس",
+    "est_minutes": 65
+  },
+  {
+    "id": 45,
+    "phase_id": 2,
+    "week_no": 7,
+    "title_ar": "الألوان والمقاسات",
+    "topic_en": "Shopping & Clothes",
+    "topic_ar": "التسوق والملابس",
+    "est_minutes": 65
+  },
+  {
+    "id": 46,
+    "phase_id": 2,
+    "week_no": 7,
+    "title_ar": "السعر والدفع",
+    "topic_en": "Shopping & Clothes",
+    "topic_ar": "التسوق والملابس",
+    "est_minutes": 65
+  },
+  {
+    "id": 47,
+    "phase_id": 2,
+    "week_no": 7,
+    "title_ar": "تخفيضات وعروض",
+    "topic_en": "Shopping & Clothes",
+    "topic_ar": "التسوق والملابس",
+    "est_minutes": 65
+  },
+  {
+    "id": 48,
+    "phase_id": 2,
+    "week_no": 7,
+    "title_ar": "متجر الإلكترونيات",
+    "topic_en": "Shopping & Clothes",
+    "topic_ar": "التسوق والملابس",
+    "est_minutes": 65
+  },
+  {
+    "id": 49,
+    "phase_id": 2,
+    "week_no": 7,
+    "title_ar": "الإرجاع والاستبدال",
+    "topic_en": "Shopping & Clothes",
+    "topic_ar": "التسوق والملابس",
+    "est_minutes": 65
+  },
+  {
+    "id": 50,
+    "phase_id": 2,
+    "week_no": 8,
+    "title_ar": "السؤال عن الطريق",
+    "topic_en": "Directions & City",
+    "topic_ar": "الاتجاهات والمدينة",
+    "est_minutes": 65
+  },
+  {
+    "id": 51,
+    "phase_id": 2,
+    "week_no": 8,
+    "title_ar": "اتجاهات أساسية",
+    "topic_en": "Directions & City",
+    "topic_ar": "الاتجاهات والمدينة",
+    "est_minutes": 65
+  },
+  {
+    "id": 52,
+    "phase_id": 2,
+    "week_no": 8,
+    "title_ar": "في المدينة",
+    "topic_en": "Directions & City",
+    "topic_ar": "الاتجاهات والمدينة",
+    "est_minutes": 65
+  },
+  {
+    "id": 53,
+    "phase_id": 2,
+    "week_no": 8,
+    "title_ar": "وسائل النقل",
+    "topic_en": "Directions & City",
+    "topic_ar": "الاتجاهات والمدينة",
+    "est_minutes": 65
+  },
+  {
+    "id": 54,
+    "phase_id": 2,
+    "week_no": 8,
+    "title_ar": "محطة الحافلة",
+    "topic_en": "Directions & City",
+    "topic_ar": "الاتجاهات والمدينة",
+    "est_minutes": 65
+  },
+  {
+    "id": 55,
+    "phase_id": 2,
+    "week_no": 8,
+    "title_ar": "الذهاب للمطار",
+    "topic_en": "Directions & City",
+    "topic_ar": "الاتجاهات والمدينة",
+    "est_minutes": 65
+  },
+  {
+    "id": 56,
+    "phase_id": 2,
+    "week_no": 8,
+    "title_ar": "المراجعة",
+    "topic_en": "Directions & City",
+    "topic_ar": "الاتجاهات والمدينة",
+    "est_minutes": 65
+  },
+  {
+    "id": 57,
+    "phase_id": 2,
+    "week_no": 9,
+    "title_ar": "أجزاء الجسم",
+    "topic_en": "Health & Body",
+    "topic_ar": "الصحة والجسم",
+    "est_minutes": 65
+  },
+  {
+    "id": 58,
+    "phase_id": 2,
+    "week_no": 9,
+    "title_ar": "الألم والمرض",
+    "topic_en": "Health & Body",
+    "topic_ar": "الصحة والجسم",
+    "est_minutes": 65
+  },
+  {
+    "id": 59,
+    "phase_id": 2,
+    "week_no": 9,
+    "title_ar": "أعراض شائعة",
+    "topic_en": "Health & Body",
+    "topic_ar": "الصحة والجسم",
+    "est_minutes": 65
+  },
+  {
+    "id": 60,
+    "phase_id": 2,
+    "week_no": 9,
+    "title_ar": "نمط حياة صحي",
+    "topic_en": "Health & Body",
+    "topic_ar": "الصحة والجسم",
+    "est_minutes": 65
+  },
+  {
+    "id": 61,
+    "phase_id": 3,
+    "week_no": 9,
+    "title_ar": "عند الطبيب",
+    "topic_en": "At the Doctor",
+    "topic_ar": "عند الطبيب",
+    "est_minutes": 65
+  },
+  {
+    "id": 62,
+    "phase_id": 3,
+    "week_no": 9,
+    "title_ar": "في الصيدلية",
+    "topic_en": "At the Doctor",
+    "topic_ar": "عند الطبيب",
+    "est_minutes": 65
+  },
+  {
+    "id": 63,
+    "phase_id": 3,
+    "week_no": 9,
+    "title_ar": "إصابات بسيطة",
+    "topic_en": "At the Doctor",
+    "topic_ar": "عند الطبيب",
+    "est_minutes": 65
+  },
+  {
+    "id": 64,
+    "phase_id": 3,
+    "week_no": 10,
+    "title_ar": "البحث عن وظيفة",
+    "topic_en": "Work & Office",
+    "topic_ar": "العمل والمكتب",
+    "est_minutes": 65
+  },
+  {
+    "id": 65,
+    "phase_id": 3,
+    "week_no": 10,
+    "title_ar": "أول يوم عمل",
+    "topic_en": "Work & Office",
+    "topic_ar": "العمل والمكتب",
+    "est_minutes": 65
+  },
+  {
+    "id": 66,
+    "phase_id": 3,
+    "week_no": 10,
+    "title_ar": "في المكتب",
+    "topic_en": "Work & Office",
+    "topic_ar": "العمل والمكتب",
+    "est_minutes": 65
+  },
+  {
+    "id": 67,
+    "phase_id": 3,
+    "week_no": 10,
+    "title_ar": "الاجتماعات",
+    "topic_en": "Work & Office",
+    "topic_ar": "العمل والمكتب",
+    "est_minutes": 65
+  },
+  {
+    "id": 68,
+    "phase_id": 3,
+    "week_no": 10,
+    "title_ar": "البريد والمشاريع",
+    "topic_en": "Work & Office",
+    "topic_ar": "العمل والمكتب",
+    "est_minutes": 65
+  },
+  {
+    "id": 69,
+    "phase_id": 3,
+    "week_no": 10,
+    "title_ar": "المشاكل والحلول",
+    "topic_en": "Work & Office",
+    "topic_ar": "العمل والمكتب",
+    "est_minutes": 65
+  },
+  {
+    "id": 70,
+    "phase_id": 3,
+    "week_no": 10,
+    "title_ar": "نهاية الأسبوع",
+    "topic_en": "Work & Office",
+    "topic_ar": "العمل والمكتب",
+    "est_minutes": 65
+  },
+  {
+    "id": 71,
+    "phase_id": 3,
+    "week_no": 11,
+    "title_ar": "مكالمة هاتفية",
+    "topic_en": "Phone, Email & Interview",
+    "topic_ar": "الهاتف والبريد والمقابلة",
+    "est_minutes": 65
+  },
+  {
+    "id": 72,
+    "phase_id": 3,
+    "week_no": 11,
+    "title_ar": "ترك رسالة صوتية",
+    "topic_en": "Phone, Email & Interview",
+    "topic_ar": "الهاتف والبريد والمقابلة",
+    "est_minutes": 65
+  },
+  {
+    "id": 73,
+    "phase_id": 3,
+    "week_no": 11,
+    "title_ar": "كتابة بريد إلكتروني",
+    "topic_en": "Phone, Email & Interview",
+    "topic_ar": "الهاتف والبريد والمقابلة",
+    "est_minutes": 65
+  },
+  {
+    "id": 74,
+    "phase_id": 3,
+    "week_no": 11,
+    "title_ar": "التحضير للمقابلة",
+    "topic_en": "Phone, Email & Interview",
+    "topic_ar": "الهاتف والبريد والمقابلة",
+    "est_minutes": 65
+  },
+  {
+    "id": 75,
+    "phase_id": 3,
+    "week_no": 11,
+    "title_ar": "أسئلة المقابلة",
+    "topic_en": "Phone, Email & Interview",
+    "topic_ar": "الهاتف والبريد والمقابلة",
+    "est_minutes": 65
+  },
+  {
+    "id": 76,
+    "phase_id": 3,
+    "week_no": 11,
+    "title_ar": "الإجابات الذكية",
+    "topic_en": "Phone, Email & Interview",
+    "topic_ar": "الهاتف والبريد والمقابلة",
+    "est_minutes": 65
+  },
+  {
+    "id": 77,
+    "phase_id": 3,
+    "week_no": 11,
+    "title_ar": "متابعة المقابلة",
+    "topic_en": "Phone, Email & Interview",
+    "topic_ar": "الهاتف والبريد والمقابلة",
+    "est_minutes": 65
+  },
+  {
+    "id": 78,
+    "phase_id": 3,
+    "week_no": 12,
+    "title_ar": "إعطاء الرأي",
+    "topic_en": "Opinions & Past Stories",
+    "topic_ar": "الآراء وقصص الماضي",
+    "est_minutes": 65
+  },
+  {
+    "id": 79,
+    "phase_id": 3,
+    "week_no": 12,
+    "title_ar": "الموافقة والاختلاف",
+    "topic_en": "Opinions & Past Stories",
+    "topic_ar": "الآراء وقصص الماضي",
+    "est_minutes": 65
+  },
+  {
+    "id": 80,
+    "phase_id": 3,
+    "week_no": 12,
+    "title_ar": "ذكريات من الماضي",
+    "topic_en": "Opinions & Past Stories",
+    "topic_ar": "الآراء وقصص الماضي",
+    "est_minutes": 65
+  },
+  {
+    "id": 81,
+    "phase_id": 3,
+    "week_no": 12,
+    "title_ar": "قصة طريفة",
+    "topic_en": "Opinions & Past Stories",
+    "topic_ar": "الآراء وقصص الماضي",
+    "est_minutes": 65
+  },
+  {
+    "id": 82,
+    "phase_id": 3,
+    "week_no": 12,
+    "title_ar": "قصة من السفر",
+    "topic_en": "Opinions & Past Stories",
+    "topic_ar": "الآراء وقصص الماضي",
+    "est_minutes": 65
+  },
+  {
+    "id": 83,
+    "phase_id": 3,
+    "week_no": 12,
+    "title_ar": "تجارب صعبة",
+    "topic_en": "Opinions & Past Stories",
+    "topic_ar": "الآراء وقصص الماضي",
+    "est_minutes": 65
+  },
+  {
+    "id": 84,
+    "phase_id": 3,
+    "week_no": 12,
+    "title_ar": "نصيحة لصديق",
+    "topic_en": "Opinions & Past Stories",
+    "topic_ar": "الآراء وقصص الماضي",
+    "est_minutes": 65
+  },
+  {
+    "id": 85,
+    "phase_id": 3,
+    "week_no": 13,
+    "title_ar": "خطط لهذا الشهر",
+    "topic_en": "Future Plans & Review",
+    "topic_ar": "خطط المستقبل والمراجعة",
+    "est_minutes": 65
+  },
+  {
+    "id": 86,
+    "phase_id": 3,
+    "week_no": 13,
+    "title_ar": "أهداف هذا العام",
+    "topic_en": "Future Plans & Review",
+    "topic_ar": "خطط المستقبل والمراجعة",
+    "est_minutes": 65
+  },
+  {
+    "id": 87,
+    "phase_id": 3,
+    "week_no": 13,
+    "title_ar": "حلم كبير",
+    "topic_en": "Future Plans & Review",
+    "topic_ar": "خطط المستقبل والمراجعة",
+    "est_minutes": 65
+  },
+  {
+    "id": 88,
+    "phase_id": 3,
+    "week_no": 13,
+    "title_ar": "حياة صحية",
+    "topic_en": "Future Plans & Review",
+    "topic_ar": "خطط المستقبل والمراجعة",
+    "est_minutes": 65
+  },
+  {
+    "id": 89,
+    "phase_id": 3,
+    "week_no": 13,
+    "title_ar": "تعلم لغات",
+    "topic_en": "Future Plans & Review",
+    "topic_ar": "خطط المستقبل والمراجعة",
+    "est_minutes": 65
+  },
+  {
+    "id": 90,
+    "phase_id": 3,
+    "week_no": 13,
+    "title_ar": "مراجعة 90 يوماً",
+    "topic_en": "Future Plans & Review",
+    "topic_ar": "خطط المستقبل والمراجعة",
+    "est_minutes": 65
+  }
+]

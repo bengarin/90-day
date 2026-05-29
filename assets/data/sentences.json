@@ -1,0 +1,6932 @@
+[
+  {
+    "id": 1,
+    "day_id": 1,
+    "sentence_en": "Hello, my name is Ahmed.",
+    "translation_ar": "مرحباً، اسمي أحمد.",
+    "audio_ref": ""
+  },
+  {
+    "id": 2,
+    "day_id": 1,
+    "sentence_en": "Nice to meet you.",
+    "translation_ar": "تشرفت بمعرفتك.",
+    "audio_ref": ""
+  },
+  {
+    "id": 3,
+    "day_id": 1,
+    "sentence_en": "How are you today?",
+    "translation_ar": "كيف حالك اليوم؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 4,
+    "day_id": 1,
+    "sentence_en": "I am from Morocco.",
+    "translation_ar": "أنا من المغرب.",
+    "audio_ref": ""
+  },
+  {
+    "id": 5,
+    "day_id": 1,
+    "sentence_en": "I speak Arabic and a little English.",
+    "translation_ar": "أتحدث العربية وقليلاً من الإنجليزية.",
+    "audio_ref": ""
+  },
+  {
+    "id": 6,
+    "day_id": 1,
+    "sentence_en": "What is your name?",
+    "translation_ar": "ما اسمك؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 7,
+    "day_id": 1,
+    "sentence_en": "Where are you from?",
+    "translation_ar": "من أين أنت؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 8,
+    "day_id": 1,
+    "sentence_en": "I am happy to meet you.",
+    "translation_ar": "أنا سعيد بلقائك.",
+    "audio_ref": ""
+  },
+  {
+    "id": 9,
+    "day_id": 1,
+    "sentence_en": "Have a nice day.",
+    "translation_ar": "أتمنى لك يوماً سعيداً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 10,
+    "day_id": 1,
+    "sentence_en": "See you tomorrow.",
+    "translation_ar": "أراك غداً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 11,
+    "day_id": 1,
+    "sentence_en": "Thank you very much.",
+    "translation_ar": "شكراً جزيلاً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 12,
+    "day_id": 2,
+    "sentence_en": "Excuse me, can you help me?",
+    "translation_ar": "عذراً، هل يمكنك مساعدتي؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 13,
+    "day_id": 2,
+    "sentence_en": "I don't understand, please repeat.",
+    "translation_ar": "لا أفهم، من فضلك أعد.",
+    "audio_ref": ""
+  },
+  {
+    "id": 14,
+    "day_id": 2,
+    "sentence_en": "Could you speak slowly?",
+    "translation_ar": "هل يمكنك التحدث ببطء؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 15,
+    "day_id": 2,
+    "sentence_en": "Hello, my name is Ahmed.",
+    "translation_ar": "مرحباً، اسمي أحمد.",
+    "audio_ref": ""
+  },
+  {
+    "id": 16,
+    "day_id": 2,
+    "sentence_en": "Nice to meet you.",
+    "translation_ar": "تشرفت بمعرفتك.",
+    "audio_ref": ""
+  },
+  {
+    "id": 17,
+    "day_id": 2,
+    "sentence_en": "How are you today?",
+    "translation_ar": "كيف حالك اليوم؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 18,
+    "day_id": 2,
+    "sentence_en": "I am from Morocco.",
+    "translation_ar": "أنا من المغرب.",
+    "audio_ref": ""
+  },
+  {
+    "id": 19,
+    "day_id": 2,
+    "sentence_en": "I speak Arabic and a little English.",
+    "translation_ar": "أتحدث العربية وقليلاً من الإنجليزية.",
+    "audio_ref": ""
+  },
+  {
+    "id": 20,
+    "day_id": 2,
+    "sentence_en": "What is your name?",
+    "translation_ar": "ما اسمك؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 21,
+    "day_id": 2,
+    "sentence_en": "Where are you from?",
+    "translation_ar": "من أين أنت؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 22,
+    "day_id": 2,
+    "sentence_en": "I am happy to meet you.",
+    "translation_ar": "أنا سعيد بلقائك.",
+    "audio_ref": ""
+  },
+  {
+    "id": 23,
+    "day_id": 3,
+    "sentence_en": "Have a nice day.",
+    "translation_ar": "أتمنى لك يوماً سعيداً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 24,
+    "day_id": 3,
+    "sentence_en": "See you tomorrow.",
+    "translation_ar": "أراك غداً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 25,
+    "day_id": 3,
+    "sentence_en": "Thank you very much.",
+    "translation_ar": "شكراً جزيلاً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 26,
+    "day_id": 3,
+    "sentence_en": "Excuse me, can you help me?",
+    "translation_ar": "عذراً، هل يمكنك مساعدتي؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 27,
+    "day_id": 3,
+    "sentence_en": "I don't understand, please repeat.",
+    "translation_ar": "لا أفهم، من فضلك أعد.",
+    "audio_ref": ""
+  },
+  {
+    "id": 28,
+    "day_id": 3,
+    "sentence_en": "Could you speak slowly?",
+    "translation_ar": "هل يمكنك التحدث ببطء؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 29,
+    "day_id": 3,
+    "sentence_en": "Hello, my name is Ahmed.",
+    "translation_ar": "مرحباً، اسمي أحمد.",
+    "audio_ref": ""
+  },
+  {
+    "id": 30,
+    "day_id": 3,
+    "sentence_en": "Nice to meet you.",
+    "translation_ar": "تشرفت بمعرفتك.",
+    "audio_ref": ""
+  },
+  {
+    "id": 31,
+    "day_id": 3,
+    "sentence_en": "How are you today?",
+    "translation_ar": "كيف حالك اليوم؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 32,
+    "day_id": 3,
+    "sentence_en": "I am from Morocco.",
+    "translation_ar": "أنا من المغرب.",
+    "audio_ref": ""
+  },
+  {
+    "id": 33,
+    "day_id": 3,
+    "sentence_en": "I speak Arabic and a little English.",
+    "translation_ar": "أتحدث العربية وقليلاً من الإنجليزية.",
+    "audio_ref": ""
+  },
+  {
+    "id": 34,
+    "day_id": 4,
+    "sentence_en": "What is your name?",
+    "translation_ar": "ما اسمك؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 35,
+    "day_id": 4,
+    "sentence_en": "Where are you from?",
+    "translation_ar": "من أين أنت؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 36,
+    "day_id": 4,
+    "sentence_en": "I am happy to meet you.",
+    "translation_ar": "أنا سعيد بلقائك.",
+    "audio_ref": ""
+  },
+  {
+    "id": 37,
+    "day_id": 4,
+    "sentence_en": "Have a nice day.",
+    "translation_ar": "أتمنى لك يوماً سعيداً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 38,
+    "day_id": 4,
+    "sentence_en": "See you tomorrow.",
+    "translation_ar": "أراك غداً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 39,
+    "day_id": 4,
+    "sentence_en": "Thank you very much.",
+    "translation_ar": "شكراً جزيلاً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 40,
+    "day_id": 4,
+    "sentence_en": "Excuse me, can you help me?",
+    "translation_ar": "عذراً، هل يمكنك مساعدتي؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 41,
+    "day_id": 4,
+    "sentence_en": "I don't understand, please repeat.",
+    "translation_ar": "لا أفهم، من فضلك أعد.",
+    "audio_ref": ""
+  },
+  {
+    "id": 42,
+    "day_id": 4,
+    "sentence_en": "Could you speak slowly?",
+    "translation_ar": "هل يمكنك التحدث ببطء؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 43,
+    "day_id": 4,
+    "sentence_en": "Hello, my name is Ahmed.",
+    "translation_ar": "مرحباً، اسمي أحمد.",
+    "audio_ref": ""
+  },
+  {
+    "id": 44,
+    "day_id": 4,
+    "sentence_en": "Nice to meet you.",
+    "translation_ar": "تشرفت بمعرفتك.",
+    "audio_ref": ""
+  },
+  {
+    "id": 45,
+    "day_id": 5,
+    "sentence_en": "How are you today?",
+    "translation_ar": "كيف حالك اليوم؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 46,
+    "day_id": 5,
+    "sentence_en": "I am from Morocco.",
+    "translation_ar": "أنا من المغرب.",
+    "audio_ref": ""
+  },
+  {
+    "id": 47,
+    "day_id": 5,
+    "sentence_en": "I speak Arabic and a little English.",
+    "translation_ar": "أتحدث العربية وقليلاً من الإنجليزية.",
+    "audio_ref": ""
+  },
+  {
+    "id": 48,
+    "day_id": 5,
+    "sentence_en": "What is your name?",
+    "translation_ar": "ما اسمك؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 49,
+    "day_id": 5,
+    "sentence_en": "Where are you from?",
+    "translation_ar": "من أين أنت؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 50,
+    "day_id": 5,
+    "sentence_en": "I am happy to meet you.",
+    "translation_ar": "أنا سعيد بلقائك.",
+    "audio_ref": ""
+  },
+  {
+    "id": 51,
+    "day_id": 5,
+    "sentence_en": "Have a nice day.",
+    "translation_ar": "أتمنى لك يوماً سعيداً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 52,
+    "day_id": 5,
+    "sentence_en": "See you tomorrow.",
+    "translation_ar": "أراك غداً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 53,
+    "day_id": 5,
+    "sentence_en": "Thank you very much.",
+    "translation_ar": "شكراً جزيلاً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 54,
+    "day_id": 5,
+    "sentence_en": "Excuse me, can you help me?",
+    "translation_ar": "عذراً، هل يمكنك مساعدتي؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 55,
+    "day_id": 5,
+    "sentence_en": "I don't understand, please repeat.",
+    "translation_ar": "لا أفهم، من فضلك أعد.",
+    "audio_ref": ""
+  },
+  {
+    "id": 56,
+    "day_id": 6,
+    "sentence_en": "Could you speak slowly?",
+    "translation_ar": "هل يمكنك التحدث ببطء؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 57,
+    "day_id": 6,
+    "sentence_en": "Hello, my name is Ahmed.",
+    "translation_ar": "مرحباً، اسمي أحمد.",
+    "audio_ref": ""
+  },
+  {
+    "id": 58,
+    "day_id": 6,
+    "sentence_en": "Nice to meet you.",
+    "translation_ar": "تشرفت بمعرفتك.",
+    "audio_ref": ""
+  },
+  {
+    "id": 59,
+    "day_id": 6,
+    "sentence_en": "How are you today?",
+    "translation_ar": "كيف حالك اليوم؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 60,
+    "day_id": 6,
+    "sentence_en": "I am from Morocco.",
+    "translation_ar": "أنا من المغرب.",
+    "audio_ref": ""
+  },
+  {
+    "id": 61,
+    "day_id": 6,
+    "sentence_en": "I speak Arabic and a little English.",
+    "translation_ar": "أتحدث العربية وقليلاً من الإنجليزية.",
+    "audio_ref": ""
+  },
+  {
+    "id": 62,
+    "day_id": 6,
+    "sentence_en": "What is your name?",
+    "translation_ar": "ما اسمك؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 63,
+    "day_id": 6,
+    "sentence_en": "Where are you from?",
+    "translation_ar": "من أين أنت؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 64,
+    "day_id": 6,
+    "sentence_en": "I am happy to meet you.",
+    "translation_ar": "أنا سعيد بلقائك.",
+    "audio_ref": ""
+  },
+  {
+    "id": 65,
+    "day_id": 6,
+    "sentence_en": "Have a nice day.",
+    "translation_ar": "أتمنى لك يوماً سعيداً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 66,
+    "day_id": 6,
+    "sentence_en": "See you tomorrow.",
+    "translation_ar": "أراك غداً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 67,
+    "day_id": 7,
+    "sentence_en": "Thank you very much.",
+    "translation_ar": "شكراً جزيلاً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 68,
+    "day_id": 7,
+    "sentence_en": "Excuse me, can you help me?",
+    "translation_ar": "عذراً، هل يمكنك مساعدتي؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 69,
+    "day_id": 7,
+    "sentence_en": "I don't understand, please repeat.",
+    "translation_ar": "لا أفهم، من فضلك أعد.",
+    "audio_ref": ""
+  },
+  {
+    "id": 70,
+    "day_id": 7,
+    "sentence_en": "Could you speak slowly?",
+    "translation_ar": "هل يمكنك التحدث ببطء؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 71,
+    "day_id": 7,
+    "sentence_en": "Hello, my name is Ahmed.",
+    "translation_ar": "مرحباً، اسمي أحمد.",
+    "audio_ref": ""
+  },
+  {
+    "id": 72,
+    "day_id": 7,
+    "sentence_en": "Nice to meet you.",
+    "translation_ar": "تشرفت بمعرفتك.",
+    "audio_ref": ""
+  },
+  {
+    "id": 73,
+    "day_id": 7,
+    "sentence_en": "How are you today?",
+    "translation_ar": "كيف حالك اليوم؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 74,
+    "day_id": 7,
+    "sentence_en": "I am from Morocco.",
+    "translation_ar": "أنا من المغرب.",
+    "audio_ref": ""
+  },
+  {
+    "id": 75,
+    "day_id": 7,
+    "sentence_en": "I speak Arabic and a little English.",
+    "translation_ar": "أتحدث العربية وقليلاً من الإنجليزية.",
+    "audio_ref": ""
+  },
+  {
+    "id": 76,
+    "day_id": 7,
+    "sentence_en": "What is your name?",
+    "translation_ar": "ما اسمك؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 77,
+    "day_id": 7,
+    "sentence_en": "Where are you from?",
+    "translation_ar": "من أين أنت؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 78,
+    "day_id": 8,
+    "sentence_en": "It is seven o'clock.",
+    "translation_ar": "الساعة السابعة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 79,
+    "day_id": 8,
+    "sentence_en": "My phone number is 0612345678.",
+    "translation_ar": "رقم هاتفي 0612345678.",
+    "audio_ref": ""
+  },
+  {
+    "id": 80,
+    "day_id": 8,
+    "sentence_en": "Today is Monday, the fifth of June.",
+    "translation_ar": "اليوم الإثنين، الخامس من يونيو.",
+    "audio_ref": ""
+  },
+  {
+    "id": 81,
+    "day_id": 8,
+    "sentence_en": "I am twenty years old.",
+    "translation_ar": "عمري عشرون سنة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 82,
+    "day_id": 8,
+    "sentence_en": "How much does it cost?",
+    "translation_ar": "كم يكلف؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 83,
+    "day_id": 8,
+    "sentence_en": "It costs fifty dirham.",
+    "translation_ar": "يكلف خمسين درهماً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 84,
+    "day_id": 8,
+    "sentence_en": "My class is at nine in the morning.",
+    "translation_ar": "صفي في التاسعة صباحاً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 85,
+    "day_id": 8,
+    "sentence_en": "There are seven days in a week.",
+    "translation_ar": "هناك سبعة أيام في الأسبوع.",
+    "audio_ref": ""
+  },
+  {
+    "id": 86,
+    "day_id": 8,
+    "sentence_en": "I work eight hours every day.",
+    "translation_ar": "أعمل ثماني ساعات كل يوم.",
+    "audio_ref": ""
+  },
+  {
+    "id": 87,
+    "day_id": 8,
+    "sentence_en": "My birthday is in March.",
+    "translation_ar": "عيد ميلادي في مارس.",
+    "audio_ref": ""
+  },
+  {
+    "id": 88,
+    "day_id": 8,
+    "sentence_en": "I'll be there in ten minutes.",
+    "translation_ar": "سأكون هناك خلال عشر دقائق.",
+    "audio_ref": ""
+  },
+  {
+    "id": 89,
+    "day_id": 9,
+    "sentence_en": "Can I have two coffees, please?",
+    "translation_ar": "هل يمكنني الحصول على قهوتين من فضلك؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 90,
+    "day_id": 9,
+    "sentence_en": "The meeting starts at three p.m.",
+    "translation_ar": "الاجتماع يبدأ في الثالثة مساءً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 91,
+    "day_id": 9,
+    "sentence_en": "We have four classes today.",
+    "translation_ar": "لدينا أربعة صفوف اليوم.",
+    "audio_ref": ""
+  },
+  {
+    "id": 92,
+    "day_id": 9,
+    "sentence_en": "It is seven o'clock.",
+    "translation_ar": "الساعة السابعة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 93,
+    "day_id": 9,
+    "sentence_en": "My phone number is 0612345678.",
+    "translation_ar": "رقم هاتفي 0612345678.",
+    "audio_ref": ""
+  },
+  {
+    "id": 94,
+    "day_id": 9,
+    "sentence_en": "Today is Monday, the fifth of June.",
+    "translation_ar": "اليوم الإثنين، الخامس من يونيو.",
+    "audio_ref": ""
+  },
+  {
+    "id": 95,
+    "day_id": 9,
+    "sentence_en": "I am twenty years old.",
+    "translation_ar": "عمري عشرون سنة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 96,
+    "day_id": 9,
+    "sentence_en": "How much does it cost?",
+    "translation_ar": "كم يكلف؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 97,
+    "day_id": 9,
+    "sentence_en": "It costs fifty dirham.",
+    "translation_ar": "يكلف خمسين درهماً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 98,
+    "day_id": 9,
+    "sentence_en": "My class is at nine in the morning.",
+    "translation_ar": "صفي في التاسعة صباحاً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 99,
+    "day_id": 9,
+    "sentence_en": "There are seven days in a week.",
+    "translation_ar": "هناك سبعة أيام في الأسبوع.",
+    "audio_ref": ""
+  },
+  {
+    "id": 100,
+    "day_id": 10,
+    "sentence_en": "I work eight hours every day.",
+    "translation_ar": "أعمل ثماني ساعات كل يوم.",
+    "audio_ref": ""
+  },
+  {
+    "id": 101,
+    "day_id": 10,
+    "sentence_en": "My birthday is in March.",
+    "translation_ar": "عيد ميلادي في مارس.",
+    "audio_ref": ""
+  },
+  {
+    "id": 102,
+    "day_id": 10,
+    "sentence_en": "I'll be there in ten minutes.",
+    "translation_ar": "سأكون هناك خلال عشر دقائق.",
+    "audio_ref": ""
+  },
+  {
+    "id": 103,
+    "day_id": 10,
+    "sentence_en": "Can I have two coffees, please?",
+    "translation_ar": "هل يمكنني الحصول على قهوتين من فضلك؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 104,
+    "day_id": 10,
+    "sentence_en": "The meeting starts at three p.m.",
+    "translation_ar": "الاجتماع يبدأ في الثالثة مساءً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 105,
+    "day_id": 10,
+    "sentence_en": "We have four classes today.",
+    "translation_ar": "لدينا أربعة صفوف اليوم.",
+    "audio_ref": ""
+  },
+  {
+    "id": 106,
+    "day_id": 10,
+    "sentence_en": "It is seven o'clock.",
+    "translation_ar": "الساعة السابعة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 107,
+    "day_id": 10,
+    "sentence_en": "My phone number is 0612345678.",
+    "translation_ar": "رقم هاتفي 0612345678.",
+    "audio_ref": ""
+  },
+  {
+    "id": 108,
+    "day_id": 10,
+    "sentence_en": "Today is Monday, the fifth of June.",
+    "translation_ar": "اليوم الإثنين، الخامس من يونيو.",
+    "audio_ref": ""
+  },
+  {
+    "id": 109,
+    "day_id": 10,
+    "sentence_en": "I am twenty years old.",
+    "translation_ar": "عمري عشرون سنة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 110,
+    "day_id": 10,
+    "sentence_en": "How much does it cost?",
+    "translation_ar": "كم يكلف؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 111,
+    "day_id": 11,
+    "sentence_en": "It costs fifty dirham.",
+    "translation_ar": "يكلف خمسين درهماً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 112,
+    "day_id": 11,
+    "sentence_en": "My class is at nine in the morning.",
+    "translation_ar": "صفي في التاسعة صباحاً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 113,
+    "day_id": 11,
+    "sentence_en": "There are seven days in a week.",
+    "translation_ar": "هناك سبعة أيام في الأسبوع.",
+    "audio_ref": ""
+  },
+  {
+    "id": 114,
+    "day_id": 11,
+    "sentence_en": "I work eight hours every day.",
+    "translation_ar": "أعمل ثماني ساعات كل يوم.",
+    "audio_ref": ""
+  },
+  {
+    "id": 115,
+    "day_id": 11,
+    "sentence_en": "My birthday is in March.",
+    "translation_ar": "عيد ميلادي في مارس.",
+    "audio_ref": ""
+  },
+  {
+    "id": 116,
+    "day_id": 11,
+    "sentence_en": "I'll be there in ten minutes.",
+    "translation_ar": "سأكون هناك خلال عشر دقائق.",
+    "audio_ref": ""
+  },
+  {
+    "id": 117,
+    "day_id": 11,
+    "sentence_en": "Can I have two coffees, please?",
+    "translation_ar": "هل يمكنني الحصول على قهوتين من فضلك؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 118,
+    "day_id": 11,
+    "sentence_en": "The meeting starts at three p.m.",
+    "translation_ar": "الاجتماع يبدأ في الثالثة مساءً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 119,
+    "day_id": 11,
+    "sentence_en": "We have four classes today.",
+    "translation_ar": "لدينا أربعة صفوف اليوم.",
+    "audio_ref": ""
+  },
+  {
+    "id": 120,
+    "day_id": 11,
+    "sentence_en": "It is seven o'clock.",
+    "translation_ar": "الساعة السابعة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 121,
+    "day_id": 11,
+    "sentence_en": "My phone number is 0612345678.",
+    "translation_ar": "رقم هاتفي 0612345678.",
+    "audio_ref": ""
+  },
+  {
+    "id": 122,
+    "day_id": 12,
+    "sentence_en": "Today is Monday, the fifth of June.",
+    "translation_ar": "اليوم الإثنين، الخامس من يونيو.",
+    "audio_ref": ""
+  },
+  {
+    "id": 123,
+    "day_id": 12,
+    "sentence_en": "I am twenty years old.",
+    "translation_ar": "عمري عشرون سنة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 124,
+    "day_id": 12,
+    "sentence_en": "How much does it cost?",
+    "translation_ar": "كم يكلف؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 125,
+    "day_id": 12,
+    "sentence_en": "It costs fifty dirham.",
+    "translation_ar": "يكلف خمسين درهماً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 126,
+    "day_id": 12,
+    "sentence_en": "My class is at nine in the morning.",
+    "translation_ar": "صفي في التاسعة صباحاً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 127,
+    "day_id": 12,
+    "sentence_en": "There are seven days in a week.",
+    "translation_ar": "هناك سبعة أيام في الأسبوع.",
+    "audio_ref": ""
+  },
+  {
+    "id": 128,
+    "day_id": 12,
+    "sentence_en": "I work eight hours every day.",
+    "translation_ar": "أعمل ثماني ساعات كل يوم.",
+    "audio_ref": ""
+  },
+  {
+    "id": 129,
+    "day_id": 12,
+    "sentence_en": "My birthday is in March.",
+    "translation_ar": "عيد ميلادي في مارس.",
+    "audio_ref": ""
+  },
+  {
+    "id": 130,
+    "day_id": 12,
+    "sentence_en": "I'll be there in ten minutes.",
+    "translation_ar": "سأكون هناك خلال عشر دقائق.",
+    "audio_ref": ""
+  },
+  {
+    "id": 131,
+    "day_id": 12,
+    "sentence_en": "Can I have two coffees, please?",
+    "translation_ar": "هل يمكنني الحصول على قهوتين من فضلك؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 132,
+    "day_id": 12,
+    "sentence_en": "The meeting starts at three p.m.",
+    "translation_ar": "الاجتماع يبدأ في الثالثة مساءً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 133,
+    "day_id": 13,
+    "sentence_en": "We have four classes today.",
+    "translation_ar": "لدينا أربعة صفوف اليوم.",
+    "audio_ref": ""
+  },
+  {
+    "id": 134,
+    "day_id": 13,
+    "sentence_en": "It is seven o'clock.",
+    "translation_ar": "الساعة السابعة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 135,
+    "day_id": 13,
+    "sentence_en": "My phone number is 0612345678.",
+    "translation_ar": "رقم هاتفي 0612345678.",
+    "audio_ref": ""
+  },
+  {
+    "id": 136,
+    "day_id": 13,
+    "sentence_en": "Today is Monday, the fifth of June.",
+    "translation_ar": "اليوم الإثنين، الخامس من يونيو.",
+    "audio_ref": ""
+  },
+  {
+    "id": 137,
+    "day_id": 13,
+    "sentence_en": "I am twenty years old.",
+    "translation_ar": "عمري عشرون سنة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 138,
+    "day_id": 13,
+    "sentence_en": "How much does it cost?",
+    "translation_ar": "كم يكلف؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 139,
+    "day_id": 13,
+    "sentence_en": "It costs fifty dirham.",
+    "translation_ar": "يكلف خمسين درهماً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 140,
+    "day_id": 13,
+    "sentence_en": "My class is at nine in the morning.",
+    "translation_ar": "صفي في التاسعة صباحاً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 141,
+    "day_id": 13,
+    "sentence_en": "There are seven days in a week.",
+    "translation_ar": "هناك سبعة أيام في الأسبوع.",
+    "audio_ref": ""
+  },
+  {
+    "id": 142,
+    "day_id": 13,
+    "sentence_en": "I work eight hours every day.",
+    "translation_ar": "أعمل ثماني ساعات كل يوم.",
+    "audio_ref": ""
+  },
+  {
+    "id": 143,
+    "day_id": 13,
+    "sentence_en": "My birthday is in March.",
+    "translation_ar": "عيد ميلادي في مارس.",
+    "audio_ref": ""
+  },
+  {
+    "id": 144,
+    "day_id": 14,
+    "sentence_en": "I'll be there in ten minutes.",
+    "translation_ar": "سأكون هناك خلال عشر دقائق.",
+    "audio_ref": ""
+  },
+  {
+    "id": 145,
+    "day_id": 14,
+    "sentence_en": "Can I have two coffees, please?",
+    "translation_ar": "هل يمكنني الحصول على قهوتين من فضلك؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 146,
+    "day_id": 14,
+    "sentence_en": "The meeting starts at three p.m.",
+    "translation_ar": "الاجتماع يبدأ في الثالثة مساءً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 147,
+    "day_id": 14,
+    "sentence_en": "We have four classes today.",
+    "translation_ar": "لدينا أربعة صفوف اليوم.",
+    "audio_ref": ""
+  },
+  {
+    "id": 148,
+    "day_id": 14,
+    "sentence_en": "It is seven o'clock.",
+    "translation_ar": "الساعة السابعة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 149,
+    "day_id": 14,
+    "sentence_en": "My phone number is 0612345678.",
+    "translation_ar": "رقم هاتفي 0612345678.",
+    "audio_ref": ""
+  },
+  {
+    "id": 150,
+    "day_id": 14,
+    "sentence_en": "Today is Monday, the fifth of June.",
+    "translation_ar": "اليوم الإثنين، الخامس من يونيو.",
+    "audio_ref": ""
+  },
+  {
+    "id": 151,
+    "day_id": 14,
+    "sentence_en": "I am twenty years old.",
+    "translation_ar": "عمري عشرون سنة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 152,
+    "day_id": 14,
+    "sentence_en": "How much does it cost?",
+    "translation_ar": "كم يكلف؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 153,
+    "day_id": 14,
+    "sentence_en": "It costs fifty dirham.",
+    "translation_ar": "يكلف خمسين درهماً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 154,
+    "day_id": 14,
+    "sentence_en": "My class is at nine in the morning.",
+    "translation_ar": "صفي في التاسعة صباحاً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 155,
+    "day_id": 15,
+    "sentence_en": "This is my family.",
+    "translation_ar": "هذه عائلتي.",
+    "audio_ref": ""
+  },
+  {
+    "id": 156,
+    "day_id": 15,
+    "sentence_en": "I have one brother and two sisters.",
+    "translation_ar": "لدي أخ واحد وأختان.",
+    "audio_ref": ""
+  },
+  {
+    "id": 157,
+    "day_id": 15,
+    "sentence_en": "My father works in a hospital.",
+    "translation_ar": "والدي يعمل في مستشفى.",
+    "audio_ref": ""
+  },
+  {
+    "id": 158,
+    "day_id": 15,
+    "sentence_en": "My mother is a great cook.",
+    "translation_ar": "والدتي طاهية رائعة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 159,
+    "day_id": 15,
+    "sentence_en": "My grandmother tells nice stories.",
+    "translation_ar": "جدتي تحكي قصصاً جميلة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 160,
+    "day_id": 15,
+    "sentence_en": "We visit our cousins every month.",
+    "translation_ar": "نزور أبناء عمنا كل شهر.",
+    "audio_ref": ""
+  },
+  {
+    "id": 161,
+    "day_id": 15,
+    "sentence_en": "My sister is younger than me.",
+    "translation_ar": "أختي أصغر مني.",
+    "audio_ref": ""
+  },
+  {
+    "id": 162,
+    "day_id": 15,
+    "sentence_en": "My brother is taller than me.",
+    "translation_ar": "أخي أطول مني.",
+    "audio_ref": ""
+  },
+  {
+    "id": 163,
+    "day_id": 15,
+    "sentence_en": "I love my family very much.",
+    "translation_ar": "أحب عائلتي كثيراً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 164,
+    "day_id": 15,
+    "sentence_en": "We have dinner together every evening.",
+    "translation_ar": "نتناول العشاء معاً كل مساء.",
+    "audio_ref": ""
+  },
+  {
+    "id": 165,
+    "day_id": 15,
+    "sentence_en": "My uncle lives in France.",
+    "translation_ar": "عمي يعيش في فرنسا.",
+    "audio_ref": ""
+  },
+  {
+    "id": 166,
+    "day_id": 16,
+    "sentence_en": "My cousin and I are close friends.",
+    "translation_ar": "أنا وابن عمي أصدقاء مقربون.",
+    "audio_ref": ""
+  },
+  {
+    "id": 167,
+    "day_id": 16,
+    "sentence_en": "My parents are very kind.",
+    "translation_ar": "والداي لطيفان جداً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 168,
+    "day_id": 16,
+    "sentence_en": "We celebrate birthdays at home.",
+    "translation_ar": "نحتفل بأعياد الميلاد في البيت.",
+    "audio_ref": ""
+  },
+  {
+    "id": 169,
+    "day_id": 16,
+    "sentence_en": "This is my family.",
+    "translation_ar": "هذه عائلتي.",
+    "audio_ref": ""
+  },
+  {
+    "id": 170,
+    "day_id": 16,
+    "sentence_en": "I have one brother and two sisters.",
+    "translation_ar": "لدي أخ واحد وأختان.",
+    "audio_ref": ""
+  },
+  {
+    "id": 171,
+    "day_id": 16,
+    "sentence_en": "My father works in a hospital.",
+    "translation_ar": "والدي يعمل في مستشفى.",
+    "audio_ref": ""
+  },
+  {
+    "id": 172,
+    "day_id": 16,
+    "sentence_en": "My mother is a great cook.",
+    "translation_ar": "والدتي طاهية رائعة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 173,
+    "day_id": 16,
+    "sentence_en": "My grandmother tells nice stories.",
+    "translation_ar": "جدتي تحكي قصصاً جميلة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 174,
+    "day_id": 16,
+    "sentence_en": "We visit our cousins every month.",
+    "translation_ar": "نزور أبناء عمنا كل شهر.",
+    "audio_ref": ""
+  },
+  {
+    "id": 175,
+    "day_id": 16,
+    "sentence_en": "My sister is younger than me.",
+    "translation_ar": "أختي أصغر مني.",
+    "audio_ref": ""
+  },
+  {
+    "id": 176,
+    "day_id": 16,
+    "sentence_en": "My brother is taller than me.",
+    "translation_ar": "أخي أطول مني.",
+    "audio_ref": ""
+  },
+  {
+    "id": 177,
+    "day_id": 17,
+    "sentence_en": "I love my family very much.",
+    "translation_ar": "أحب عائلتي كثيراً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 178,
+    "day_id": 17,
+    "sentence_en": "We have dinner together every evening.",
+    "translation_ar": "نتناول العشاء معاً كل مساء.",
+    "audio_ref": ""
+  },
+  {
+    "id": 179,
+    "day_id": 17,
+    "sentence_en": "My uncle lives in France.",
+    "translation_ar": "عمي يعيش في فرنسا.",
+    "audio_ref": ""
+  },
+  {
+    "id": 180,
+    "day_id": 17,
+    "sentence_en": "My cousin and I are close friends.",
+    "translation_ar": "أنا وابن عمي أصدقاء مقربون.",
+    "audio_ref": ""
+  },
+  {
+    "id": 181,
+    "day_id": 17,
+    "sentence_en": "My parents are very kind.",
+    "translation_ar": "والداي لطيفان جداً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 182,
+    "day_id": 17,
+    "sentence_en": "We celebrate birthdays at home.",
+    "translation_ar": "نحتفل بأعياد الميلاد في البيت.",
+    "audio_ref": ""
+  },
+  {
+    "id": 183,
+    "day_id": 17,
+    "sentence_en": "This is my family.",
+    "translation_ar": "هذه عائلتي.",
+    "audio_ref": ""
+  },
+  {
+    "id": 184,
+    "day_id": 17,
+    "sentence_en": "I have one brother and two sisters.",
+    "translation_ar": "لدي أخ واحد وأختان.",
+    "audio_ref": ""
+  },
+  {
+    "id": 185,
+    "day_id": 17,
+    "sentence_en": "My father works in a hospital.",
+    "translation_ar": "والدي يعمل في مستشفى.",
+    "audio_ref": ""
+  },
+  {
+    "id": 186,
+    "day_id": 17,
+    "sentence_en": "My mother is a great cook.",
+    "translation_ar": "والدتي طاهية رائعة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 187,
+    "day_id": 17,
+    "sentence_en": "My grandmother tells nice stories.",
+    "translation_ar": "جدتي تحكي قصصاً جميلة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 188,
+    "day_id": 18,
+    "sentence_en": "We visit our cousins every month.",
+    "translation_ar": "نزور أبناء عمنا كل شهر.",
+    "audio_ref": ""
+  },
+  {
+    "id": 189,
+    "day_id": 18,
+    "sentence_en": "My sister is younger than me.",
+    "translation_ar": "أختي أصغر مني.",
+    "audio_ref": ""
+  },
+  {
+    "id": 190,
+    "day_id": 18,
+    "sentence_en": "My brother is taller than me.",
+    "translation_ar": "أخي أطول مني.",
+    "audio_ref": ""
+  },
+  {
+    "id": 191,
+    "day_id": 18,
+    "sentence_en": "I love my family very much.",
+    "translation_ar": "أحب عائلتي كثيراً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 192,
+    "day_id": 18,
+    "sentence_en": "We have dinner together every evening.",
+    "translation_ar": "نتناول العشاء معاً كل مساء.",
+    "audio_ref": ""
+  },
+  {
+    "id": 193,
+    "day_id": 18,
+    "sentence_en": "My uncle lives in France.",
+    "translation_ar": "عمي يعيش في فرنسا.",
+    "audio_ref": ""
+  },
+  {
+    "id": 194,
+    "day_id": 18,
+    "sentence_en": "My cousin and I are close friends.",
+    "translation_ar": "أنا وابن عمي أصدقاء مقربون.",
+    "audio_ref": ""
+  },
+  {
+    "id": 195,
+    "day_id": 18,
+    "sentence_en": "My parents are very kind.",
+    "translation_ar": "والداي لطيفان جداً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 196,
+    "day_id": 18,
+    "sentence_en": "We celebrate birthdays at home.",
+    "translation_ar": "نحتفل بأعياد الميلاد في البيت.",
+    "audio_ref": ""
+  },
+  {
+    "id": 197,
+    "day_id": 18,
+    "sentence_en": "This is my family.",
+    "translation_ar": "هذه عائلتي.",
+    "audio_ref": ""
+  },
+  {
+    "id": 198,
+    "day_id": 18,
+    "sentence_en": "I have one brother and two sisters.",
+    "translation_ar": "لدي أخ واحد وأختان.",
+    "audio_ref": ""
+  },
+  {
+    "id": 199,
+    "day_id": 19,
+    "sentence_en": "My father works in a hospital.",
+    "translation_ar": "والدي يعمل في مستشفى.",
+    "audio_ref": ""
+  },
+  {
+    "id": 200,
+    "day_id": 19,
+    "sentence_en": "My mother is a great cook.",
+    "translation_ar": "والدتي طاهية رائعة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 201,
+    "day_id": 19,
+    "sentence_en": "My grandmother tells nice stories.",
+    "translation_ar": "جدتي تحكي قصصاً جميلة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 202,
+    "day_id": 19,
+    "sentence_en": "We visit our cousins every month.",
+    "translation_ar": "نزور أبناء عمنا كل شهر.",
+    "audio_ref": ""
+  },
+  {
+    "id": 203,
+    "day_id": 19,
+    "sentence_en": "My sister is younger than me.",
+    "translation_ar": "أختي أصغر مني.",
+    "audio_ref": ""
+  },
+  {
+    "id": 204,
+    "day_id": 19,
+    "sentence_en": "My brother is taller than me.",
+    "translation_ar": "أخي أطول مني.",
+    "audio_ref": ""
+  },
+  {
+    "id": 205,
+    "day_id": 19,
+    "sentence_en": "I love my family very much.",
+    "translation_ar": "أحب عائلتي كثيراً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 206,
+    "day_id": 19,
+    "sentence_en": "We have dinner together every evening.",
+    "translation_ar": "نتناول العشاء معاً كل مساء.",
+    "audio_ref": ""
+  },
+  {
+    "id": 207,
+    "day_id": 19,
+    "sentence_en": "My uncle lives in France.",
+    "translation_ar": "عمي يعيش في فرنسا.",
+    "audio_ref": ""
+  },
+  {
+    "id": 208,
+    "day_id": 19,
+    "sentence_en": "My cousin and I are close friends.",
+    "translation_ar": "أنا وابن عمي أصدقاء مقربون.",
+    "audio_ref": ""
+  },
+  {
+    "id": 209,
+    "day_id": 19,
+    "sentence_en": "My parents are very kind.",
+    "translation_ar": "والداي لطيفان جداً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 210,
+    "day_id": 20,
+    "sentence_en": "We celebrate birthdays at home.",
+    "translation_ar": "نحتفل بأعياد الميلاد في البيت.",
+    "audio_ref": ""
+  },
+  {
+    "id": 211,
+    "day_id": 20,
+    "sentence_en": "This is my family.",
+    "translation_ar": "هذه عائلتي.",
+    "audio_ref": ""
+  },
+  {
+    "id": 212,
+    "day_id": 20,
+    "sentence_en": "I have one brother and two sisters.",
+    "translation_ar": "لدي أخ واحد وأختان.",
+    "audio_ref": ""
+  },
+  {
+    "id": 213,
+    "day_id": 20,
+    "sentence_en": "My father works in a hospital.",
+    "translation_ar": "والدي يعمل في مستشفى.",
+    "audio_ref": ""
+  },
+  {
+    "id": 214,
+    "day_id": 20,
+    "sentence_en": "My mother is a great cook.",
+    "translation_ar": "والدتي طاهية رائعة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 215,
+    "day_id": 20,
+    "sentence_en": "My grandmother tells nice stories.",
+    "translation_ar": "جدتي تحكي قصصاً جميلة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 216,
+    "day_id": 20,
+    "sentence_en": "We visit our cousins every month.",
+    "translation_ar": "نزور أبناء عمنا كل شهر.",
+    "audio_ref": ""
+  },
+  {
+    "id": 217,
+    "day_id": 20,
+    "sentence_en": "My sister is younger than me.",
+    "translation_ar": "أختي أصغر مني.",
+    "audio_ref": ""
+  },
+  {
+    "id": 218,
+    "day_id": 20,
+    "sentence_en": "My brother is taller than me.",
+    "translation_ar": "أخي أطول مني.",
+    "audio_ref": ""
+  },
+  {
+    "id": 219,
+    "day_id": 20,
+    "sentence_en": "I love my family very much.",
+    "translation_ar": "أحب عائلتي كثيراً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 220,
+    "day_id": 20,
+    "sentence_en": "We have dinner together every evening.",
+    "translation_ar": "نتناول العشاء معاً كل مساء.",
+    "audio_ref": ""
+  },
+  {
+    "id": 221,
+    "day_id": 21,
+    "sentence_en": "My uncle lives in France.",
+    "translation_ar": "عمي يعيش في فرنسا.",
+    "audio_ref": ""
+  },
+  {
+    "id": 222,
+    "day_id": 21,
+    "sentence_en": "My cousin and I are close friends.",
+    "translation_ar": "أنا وابن عمي أصدقاء مقربون.",
+    "audio_ref": ""
+  },
+  {
+    "id": 223,
+    "day_id": 21,
+    "sentence_en": "My parents are very kind.",
+    "translation_ar": "والداي لطيفان جداً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 224,
+    "day_id": 21,
+    "sentence_en": "We celebrate birthdays at home.",
+    "translation_ar": "نحتفل بأعياد الميلاد في البيت.",
+    "audio_ref": ""
+  },
+  {
+    "id": 225,
+    "day_id": 21,
+    "sentence_en": "This is my family.",
+    "translation_ar": "هذه عائلتي.",
+    "audio_ref": ""
+  },
+  {
+    "id": 226,
+    "day_id": 21,
+    "sentence_en": "I have one brother and two sisters.",
+    "translation_ar": "لدي أخ واحد وأختان.",
+    "audio_ref": ""
+  },
+  {
+    "id": 227,
+    "day_id": 21,
+    "sentence_en": "My father works in a hospital.",
+    "translation_ar": "والدي يعمل في مستشفى.",
+    "audio_ref": ""
+  },
+  {
+    "id": 228,
+    "day_id": 21,
+    "sentence_en": "My mother is a great cook.",
+    "translation_ar": "والدتي طاهية رائعة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 229,
+    "day_id": 21,
+    "sentence_en": "My grandmother tells nice stories.",
+    "translation_ar": "جدتي تحكي قصصاً جميلة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 230,
+    "day_id": 21,
+    "sentence_en": "We visit our cousins every month.",
+    "translation_ar": "نزور أبناء عمنا كل شهر.",
+    "audio_ref": ""
+  },
+  {
+    "id": 231,
+    "day_id": 21,
+    "sentence_en": "My sister is younger than me.",
+    "translation_ar": "أختي أصغر مني.",
+    "audio_ref": ""
+  },
+  {
+    "id": 232,
+    "day_id": 22,
+    "sentence_en": "I wake up at six in the morning.",
+    "translation_ar": "أستيقظ في السادسة صباحاً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 233,
+    "day_id": 22,
+    "sentence_en": "I take a shower and get dressed.",
+    "translation_ar": "أستحم وألبس ملابسي.",
+    "audio_ref": ""
+  },
+  {
+    "id": 234,
+    "day_id": 22,
+    "sentence_en": "I have breakfast with my family.",
+    "translation_ar": "أتناول الفطور مع عائلتي.",
+    "audio_ref": ""
+  },
+  {
+    "id": 235,
+    "day_id": 22,
+    "sentence_en": "I go to work by bus.",
+    "translation_ar": "أذهب إلى العمل بالحافلة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 236,
+    "day_id": 22,
+    "sentence_en": "I start work at nine.",
+    "translation_ar": "أبدأ العمل في التاسعة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 237,
+    "day_id": 22,
+    "sentence_en": "I have lunch at one.",
+    "translation_ar": "أتغدى في الواحدة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 238,
+    "day_id": 22,
+    "sentence_en": "After work I go to the gym.",
+    "translation_ar": "بعد العمل أذهب إلى النادي.",
+    "audio_ref": ""
+  },
+  {
+    "id": 239,
+    "day_id": 22,
+    "sentence_en": "I cook dinner at home.",
+    "translation_ar": "أطبخ العشاء في البيت.",
+    "audio_ref": ""
+  },
+  {
+    "id": 240,
+    "day_id": 22,
+    "sentence_en": "In the evening I study English.",
+    "translation_ar": "في المساء أدرس الإنجليزية.",
+    "audio_ref": ""
+  },
+  {
+    "id": 241,
+    "day_id": 22,
+    "sentence_en": "I go to bed at eleven.",
+    "translation_ar": "أنام في الحادية عشرة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 242,
+    "day_id": 22,
+    "sentence_en": "On weekends I rest and see friends.",
+    "translation_ar": "في عطلة نهاية الأسبوع أرتاح وأرى أصدقائي.",
+    "audio_ref": ""
+  },
+  {
+    "id": 243,
+    "day_id": 23,
+    "sentence_en": "I read a book before sleeping.",
+    "translation_ar": "أقرأ كتاباً قبل النوم.",
+    "audio_ref": ""
+  },
+  {
+    "id": 244,
+    "day_id": 23,
+    "sentence_en": "I usually exercise three times a week.",
+    "translation_ar": "عادةً أتمرّن ثلاث مرات أسبوعياً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 245,
+    "day_id": 23,
+    "sentence_en": "I always check my phone in the morning.",
+    "translation_ar": "أتفقد هاتفي في الصباح دائماً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 246,
+    "day_id": 23,
+    "sentence_en": "I wake up at six in the morning.",
+    "translation_ar": "أستيقظ في السادسة صباحاً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 247,
+    "day_id": 23,
+    "sentence_en": "I take a shower and get dressed.",
+    "translation_ar": "أستحم وألبس ملابسي.",
+    "audio_ref": ""
+  },
+  {
+    "id": 248,
+    "day_id": 23,
+    "sentence_en": "I have breakfast with my family.",
+    "translation_ar": "أتناول الفطور مع عائلتي.",
+    "audio_ref": ""
+  },
+  {
+    "id": 249,
+    "day_id": 23,
+    "sentence_en": "I go to work by bus.",
+    "translation_ar": "أذهب إلى العمل بالحافلة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 250,
+    "day_id": 23,
+    "sentence_en": "I start work at nine.",
+    "translation_ar": "أبدأ العمل في التاسعة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 251,
+    "day_id": 23,
+    "sentence_en": "I have lunch at one.",
+    "translation_ar": "أتغدى في الواحدة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 252,
+    "day_id": 23,
+    "sentence_en": "After work I go to the gym.",
+    "translation_ar": "بعد العمل أذهب إلى النادي.",
+    "audio_ref": ""
+  },
+  {
+    "id": 253,
+    "day_id": 23,
+    "sentence_en": "I cook dinner at home.",
+    "translation_ar": "أطبخ العشاء في البيت.",
+    "audio_ref": ""
+  },
+  {
+    "id": 254,
+    "day_id": 24,
+    "sentence_en": "In the evening I study English.",
+    "translation_ar": "في المساء أدرس الإنجليزية.",
+    "audio_ref": ""
+  },
+  {
+    "id": 255,
+    "day_id": 24,
+    "sentence_en": "I go to bed at eleven.",
+    "translation_ar": "أنام في الحادية عشرة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 256,
+    "day_id": 24,
+    "sentence_en": "On weekends I rest and see friends.",
+    "translation_ar": "في عطلة نهاية الأسبوع أرتاح وأرى أصدقائي.",
+    "audio_ref": ""
+  },
+  {
+    "id": 257,
+    "day_id": 24,
+    "sentence_en": "I read a book before sleeping.",
+    "translation_ar": "أقرأ كتاباً قبل النوم.",
+    "audio_ref": ""
+  },
+  {
+    "id": 258,
+    "day_id": 24,
+    "sentence_en": "I usually exercise three times a week.",
+    "translation_ar": "عادةً أتمرّن ثلاث مرات أسبوعياً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 259,
+    "day_id": 24,
+    "sentence_en": "I always check my phone in the morning.",
+    "translation_ar": "أتفقد هاتفي في الصباح دائماً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 260,
+    "day_id": 24,
+    "sentence_en": "I wake up at six in the morning.",
+    "translation_ar": "أستيقظ في السادسة صباحاً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 261,
+    "day_id": 24,
+    "sentence_en": "I take a shower and get dressed.",
+    "translation_ar": "أستحم وألبس ملابسي.",
+    "audio_ref": ""
+  },
+  {
+    "id": 262,
+    "day_id": 24,
+    "sentence_en": "I have breakfast with my family.",
+    "translation_ar": "أتناول الفطور مع عائلتي.",
+    "audio_ref": ""
+  },
+  {
+    "id": 263,
+    "day_id": 24,
+    "sentence_en": "I go to work by bus.",
+    "translation_ar": "أذهب إلى العمل بالحافلة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 264,
+    "day_id": 24,
+    "sentence_en": "I start work at nine.",
+    "translation_ar": "أبدأ العمل في التاسعة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 265,
+    "day_id": 25,
+    "sentence_en": "I have lunch at one.",
+    "translation_ar": "أتغدى في الواحدة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 266,
+    "day_id": 25,
+    "sentence_en": "After work I go to the gym.",
+    "translation_ar": "بعد العمل أذهب إلى النادي.",
+    "audio_ref": ""
+  },
+  {
+    "id": 267,
+    "day_id": 25,
+    "sentence_en": "I cook dinner at home.",
+    "translation_ar": "أطبخ العشاء في البيت.",
+    "audio_ref": ""
+  },
+  {
+    "id": 268,
+    "day_id": 25,
+    "sentence_en": "In the evening I study English.",
+    "translation_ar": "في المساء أدرس الإنجليزية.",
+    "audio_ref": ""
+  },
+  {
+    "id": 269,
+    "day_id": 25,
+    "sentence_en": "I go to bed at eleven.",
+    "translation_ar": "أنام في الحادية عشرة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 270,
+    "day_id": 25,
+    "sentence_en": "On weekends I rest and see friends.",
+    "translation_ar": "في عطلة نهاية الأسبوع أرتاح وأرى أصدقائي.",
+    "audio_ref": ""
+  },
+  {
+    "id": 271,
+    "day_id": 25,
+    "sentence_en": "I read a book before sleeping.",
+    "translation_ar": "أقرأ كتاباً قبل النوم.",
+    "audio_ref": ""
+  },
+  {
+    "id": 272,
+    "day_id": 25,
+    "sentence_en": "I usually exercise three times a week.",
+    "translation_ar": "عادةً أتمرّن ثلاث مرات أسبوعياً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 273,
+    "day_id": 25,
+    "sentence_en": "I always check my phone in the morning.",
+    "translation_ar": "أتفقد هاتفي في الصباح دائماً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 274,
+    "day_id": 25,
+    "sentence_en": "I wake up at six in the morning.",
+    "translation_ar": "أستيقظ في السادسة صباحاً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 275,
+    "day_id": 25,
+    "sentence_en": "I take a shower and get dressed.",
+    "translation_ar": "أستحم وألبس ملابسي.",
+    "audio_ref": ""
+  },
+  {
+    "id": 276,
+    "day_id": 26,
+    "sentence_en": "I have breakfast with my family.",
+    "translation_ar": "أتناول الفطور مع عائلتي.",
+    "audio_ref": ""
+  },
+  {
+    "id": 277,
+    "day_id": 26,
+    "sentence_en": "I go to work by bus.",
+    "translation_ar": "أذهب إلى العمل بالحافلة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 278,
+    "day_id": 26,
+    "sentence_en": "I start work at nine.",
+    "translation_ar": "أبدأ العمل في التاسعة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 279,
+    "day_id": 26,
+    "sentence_en": "I have lunch at one.",
+    "translation_ar": "أتغدى في الواحدة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 280,
+    "day_id": 26,
+    "sentence_en": "After work I go to the gym.",
+    "translation_ar": "بعد العمل أذهب إلى النادي.",
+    "audio_ref": ""
+  },
+  {
+    "id": 281,
+    "day_id": 26,
+    "sentence_en": "I cook dinner at home.",
+    "translation_ar": "أطبخ العشاء في البيت.",
+    "audio_ref": ""
+  },
+  {
+    "id": 282,
+    "day_id": 26,
+    "sentence_en": "In the evening I study English.",
+    "translation_ar": "في المساء أدرس الإنجليزية.",
+    "audio_ref": ""
+  },
+  {
+    "id": 283,
+    "day_id": 26,
+    "sentence_en": "I go to bed at eleven.",
+    "translation_ar": "أنام في الحادية عشرة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 284,
+    "day_id": 26,
+    "sentence_en": "On weekends I rest and see friends.",
+    "translation_ar": "في عطلة نهاية الأسبوع أرتاح وأرى أصدقائي.",
+    "audio_ref": ""
+  },
+  {
+    "id": 285,
+    "day_id": 26,
+    "sentence_en": "I read a book before sleeping.",
+    "translation_ar": "أقرأ كتاباً قبل النوم.",
+    "audio_ref": ""
+  },
+  {
+    "id": 286,
+    "day_id": 26,
+    "sentence_en": "I usually exercise three times a week.",
+    "translation_ar": "عادةً أتمرّن ثلاث مرات أسبوعياً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 287,
+    "day_id": 27,
+    "sentence_en": "I always check my phone in the morning.",
+    "translation_ar": "أتفقد هاتفي في الصباح دائماً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 288,
+    "day_id": 27,
+    "sentence_en": "I wake up at six in the morning.",
+    "translation_ar": "أستيقظ في السادسة صباحاً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 289,
+    "day_id": 27,
+    "sentence_en": "I take a shower and get dressed.",
+    "translation_ar": "أستحم وألبس ملابسي.",
+    "audio_ref": ""
+  },
+  {
+    "id": 290,
+    "day_id": 27,
+    "sentence_en": "I have breakfast with my family.",
+    "translation_ar": "أتناول الفطور مع عائلتي.",
+    "audio_ref": ""
+  },
+  {
+    "id": 291,
+    "day_id": 27,
+    "sentence_en": "I go to work by bus.",
+    "translation_ar": "أذهب إلى العمل بالحافلة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 292,
+    "day_id": 27,
+    "sentence_en": "I start work at nine.",
+    "translation_ar": "أبدأ العمل في التاسعة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 293,
+    "day_id": 27,
+    "sentence_en": "I have lunch at one.",
+    "translation_ar": "أتغدى في الواحدة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 294,
+    "day_id": 27,
+    "sentence_en": "After work I go to the gym.",
+    "translation_ar": "بعد العمل أذهب إلى النادي.",
+    "audio_ref": ""
+  },
+  {
+    "id": 295,
+    "day_id": 27,
+    "sentence_en": "I cook dinner at home.",
+    "translation_ar": "أطبخ العشاء في البيت.",
+    "audio_ref": ""
+  },
+  {
+    "id": 296,
+    "day_id": 27,
+    "sentence_en": "In the evening I study English.",
+    "translation_ar": "في المساء أدرس الإنجليزية.",
+    "audio_ref": ""
+  },
+  {
+    "id": 297,
+    "day_id": 27,
+    "sentence_en": "I go to bed at eleven.",
+    "translation_ar": "أنام في الحادية عشرة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 298,
+    "day_id": 28,
+    "sentence_en": "On weekends I rest and see friends.",
+    "translation_ar": "في عطلة نهاية الأسبوع أرتاح وأرى أصدقائي.",
+    "audio_ref": ""
+  },
+  {
+    "id": 299,
+    "day_id": 28,
+    "sentence_en": "I read a book before sleeping.",
+    "translation_ar": "أقرأ كتاباً قبل النوم.",
+    "audio_ref": ""
+  },
+  {
+    "id": 300,
+    "day_id": 28,
+    "sentence_en": "I usually exercise three times a week.",
+    "translation_ar": "عادةً أتمرّن ثلاث مرات أسبوعياً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 301,
+    "day_id": 28,
+    "sentence_en": "I always check my phone in the morning.",
+    "translation_ar": "أتفقد هاتفي في الصباح دائماً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 302,
+    "day_id": 28,
+    "sentence_en": "I wake up at six in the morning.",
+    "translation_ar": "أستيقظ في السادسة صباحاً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 303,
+    "day_id": 28,
+    "sentence_en": "I take a shower and get dressed.",
+    "translation_ar": "أستحم وألبس ملابسي.",
+    "audio_ref": ""
+  },
+  {
+    "id": 304,
+    "day_id": 28,
+    "sentence_en": "I have breakfast with my family.",
+    "translation_ar": "أتناول الفطور مع عائلتي.",
+    "audio_ref": ""
+  },
+  {
+    "id": 305,
+    "day_id": 28,
+    "sentence_en": "I go to work by bus.",
+    "translation_ar": "أذهب إلى العمل بالحافلة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 306,
+    "day_id": 28,
+    "sentence_en": "I start work at nine.",
+    "translation_ar": "أبدأ العمل في التاسعة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 307,
+    "day_id": 28,
+    "sentence_en": "I have lunch at one.",
+    "translation_ar": "أتغدى في الواحدة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 308,
+    "day_id": 28,
+    "sentence_en": "After work I go to the gym.",
+    "translation_ar": "بعد العمل أذهب إلى النادي.",
+    "audio_ref": ""
+  },
+  {
+    "id": 309,
+    "day_id": 29,
+    "sentence_en": "I live in a small apartment.",
+    "translation_ar": "أعيش في شقة صغيرة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 310,
+    "day_id": 29,
+    "sentence_en": "Our home has three rooms.",
+    "translation_ar": "بيتنا فيه ثلاث غرف.",
+    "audio_ref": ""
+  },
+  {
+    "id": 311,
+    "day_id": 29,
+    "sentence_en": "My bedroom is on the second floor.",
+    "translation_ar": "غرفة نومي في الطابق الثاني.",
+    "audio_ref": ""
+  },
+  {
+    "id": 312,
+    "day_id": 29,
+    "sentence_en": "Please close the door.",
+    "translation_ar": "من فضلك أغلق الباب.",
+    "audio_ref": ""
+  },
+  {
+    "id": 313,
+    "day_id": 29,
+    "sentence_en": "Open the window for some fresh air.",
+    "translation_ar": "افتح النافذة لبعض الهواء النقي.",
+    "audio_ref": ""
+  },
+  {
+    "id": 314,
+    "day_id": 29,
+    "sentence_en": "The kitchen is next to the living room.",
+    "translation_ar": "المطبخ بجانب غرفة المعيشة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 315,
+    "day_id": 29,
+    "sentence_en": "Our garden is small but nice.",
+    "translation_ar": "حديقتنا صغيرة لكنها لطيفة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 316,
+    "day_id": 29,
+    "sentence_en": "The lights are on.",
+    "translation_ar": "الأضواء مضاءة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 317,
+    "day_id": 29,
+    "sentence_en": "Please use the elevator.",
+    "translation_ar": "من فضلك استعمل المصعد.",
+    "audio_ref": ""
+  },
+  {
+    "id": 318,
+    "day_id": 29,
+    "sentence_en": "I forgot the key at home.",
+    "translation_ar": "نسيت المفتاح في البيت.",
+    "audio_ref": ""
+  },
+  {
+    "id": 319,
+    "day_id": 29,
+    "sentence_en": "There is a beautiful view from the balcony.",
+    "translation_ar": "هناك منظر جميل من الشرفة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 320,
+    "day_id": 30,
+    "sentence_en": "Be careful on the stairs.",
+    "translation_ar": "احذر على الدرج.",
+    "audio_ref": ""
+  },
+  {
+    "id": 321,
+    "day_id": 30,
+    "sentence_en": "The bathroom is at the end of the hall.",
+    "translation_ar": "الحمام في نهاية الممر.",
+    "audio_ref": ""
+  },
+  {
+    "id": 322,
+    "day_id": 30,
+    "sentence_en": "This is my favorite room.",
+    "translation_ar": "هذه غرفتي المفضلة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 323,
+    "day_id": 30,
+    "sentence_en": "I live in a small apartment.",
+    "translation_ar": "أعيش في شقة صغيرة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 324,
+    "day_id": 30,
+    "sentence_en": "Our home has three rooms.",
+    "translation_ar": "بيتنا فيه ثلاث غرف.",
+    "audio_ref": ""
+  },
+  {
+    "id": 325,
+    "day_id": 30,
+    "sentence_en": "My bedroom is on the second floor.",
+    "translation_ar": "غرفة نومي في الطابق الثاني.",
+    "audio_ref": ""
+  },
+  {
+    "id": 326,
+    "day_id": 30,
+    "sentence_en": "Please close the door.",
+    "translation_ar": "من فضلك أغلق الباب.",
+    "audio_ref": ""
+  },
+  {
+    "id": 327,
+    "day_id": 30,
+    "sentence_en": "Open the window for some fresh air.",
+    "translation_ar": "افتح النافذة لبعض الهواء النقي.",
+    "audio_ref": ""
+  },
+  {
+    "id": 328,
+    "day_id": 30,
+    "sentence_en": "The kitchen is next to the living room.",
+    "translation_ar": "المطبخ بجانب غرفة المعيشة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 329,
+    "day_id": 30,
+    "sentence_en": "Our garden is small but nice.",
+    "translation_ar": "حديقتنا صغيرة لكنها لطيفة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 330,
+    "day_id": 30,
+    "sentence_en": "The lights are on.",
+    "translation_ar": "الأضواء مضاءة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 331,
+    "day_id": 31,
+    "sentence_en": "We bought a new sofa for the living room.",
+    "translation_ar": "اشترينا أريكة جديدة لغرفة المعيشة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 332,
+    "day_id": 31,
+    "sentence_en": "Please put the plates on the table.",
+    "translation_ar": "من فضلك ضع الصحون على الطاولة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 333,
+    "day_id": 31,
+    "sentence_en": "The fridge is full of food.",
+    "translation_ar": "الثلاجة مليئة بالطعام.",
+    "audio_ref": ""
+  },
+  {
+    "id": 334,
+    "day_id": 31,
+    "sentence_en": "I clean my house every Saturday.",
+    "translation_ar": "أنظف بيتي كل سبت.",
+    "audio_ref": ""
+  },
+  {
+    "id": 335,
+    "day_id": 31,
+    "sentence_en": "Where is the remote control?",
+    "translation_ar": "أين جهاز التحكم؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 336,
+    "day_id": 31,
+    "sentence_en": "Can you turn on the light?",
+    "translation_ar": "هل يمكنك إضاءة الضوء؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 337,
+    "day_id": 31,
+    "sentence_en": "The washing machine is broken.",
+    "translation_ar": "الغسالة معطلة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 338,
+    "day_id": 31,
+    "sentence_en": "My books are on the shelf.",
+    "translation_ar": "كتبي على الرف.",
+    "audio_ref": ""
+  },
+  {
+    "id": 339,
+    "day_id": 31,
+    "sentence_en": "The mirror is too high for me.",
+    "translation_ar": "المرآة عالية جداً بالنسبة لي.",
+    "audio_ref": ""
+  },
+  {
+    "id": 340,
+    "day_id": 31,
+    "sentence_en": "Could you pass me the salt?",
+    "translation_ar": "هل يمكنك إعطائي الملح؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 341,
+    "day_id": 31,
+    "sentence_en": "I need to wash the dishes.",
+    "translation_ar": "أحتاج إلى غسل الصحون.",
+    "audio_ref": ""
+  },
+  {
+    "id": 342,
+    "day_id": 32,
+    "sentence_en": "The curtains are very nice.",
+    "translation_ar": "الستائر جميلة جداً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 343,
+    "day_id": 32,
+    "sentence_en": "My desk is near the window.",
+    "translation_ar": "مكتبي بجانب النافذة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 344,
+    "day_id": 32,
+    "sentence_en": "I sleep on a comfortable bed.",
+    "translation_ar": "أنام على سرير مريح.",
+    "audio_ref": ""
+  },
+  {
+    "id": 345,
+    "day_id": 32,
+    "sentence_en": "We bought a new sofa for the living room.",
+    "translation_ar": "اشترينا أريكة جديدة لغرفة المعيشة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 346,
+    "day_id": 32,
+    "sentence_en": "Please put the plates on the table.",
+    "translation_ar": "من فضلك ضع الصحون على الطاولة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 347,
+    "day_id": 32,
+    "sentence_en": "The fridge is full of food.",
+    "translation_ar": "الثلاجة مليئة بالطعام.",
+    "audio_ref": ""
+  },
+  {
+    "id": 348,
+    "day_id": 32,
+    "sentence_en": "I clean my house every Saturday.",
+    "translation_ar": "أنظف بيتي كل سبت.",
+    "audio_ref": ""
+  },
+  {
+    "id": 349,
+    "day_id": 32,
+    "sentence_en": "Where is the remote control?",
+    "translation_ar": "أين جهاز التحكم؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 350,
+    "day_id": 32,
+    "sentence_en": "Can you turn on the light?",
+    "translation_ar": "هل يمكنك إضاءة الضوء؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 351,
+    "day_id": 32,
+    "sentence_en": "The washing machine is broken.",
+    "translation_ar": "الغسالة معطلة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 352,
+    "day_id": 32,
+    "sentence_en": "My books are on the shelf.",
+    "translation_ar": "كتبي على الرف.",
+    "audio_ref": ""
+  },
+  {
+    "id": 353,
+    "day_id": 33,
+    "sentence_en": "The mirror is too high for me.",
+    "translation_ar": "المرآة عالية جداً بالنسبة لي.",
+    "audio_ref": ""
+  },
+  {
+    "id": 354,
+    "day_id": 33,
+    "sentence_en": "Could you pass me the salt?",
+    "translation_ar": "هل يمكنك إعطائي الملح؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 355,
+    "day_id": 33,
+    "sentence_en": "I need to wash the dishes.",
+    "translation_ar": "أحتاج إلى غسل الصحون.",
+    "audio_ref": ""
+  },
+  {
+    "id": 356,
+    "day_id": 33,
+    "sentence_en": "The curtains are very nice.",
+    "translation_ar": "الستائر جميلة جداً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 357,
+    "day_id": 33,
+    "sentence_en": "My desk is near the window.",
+    "translation_ar": "مكتبي بجانب النافذة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 358,
+    "day_id": 33,
+    "sentence_en": "I sleep on a comfortable bed.",
+    "translation_ar": "أنام على سرير مريح.",
+    "audio_ref": ""
+  },
+  {
+    "id": 359,
+    "day_id": 33,
+    "sentence_en": "We bought a new sofa for the living room.",
+    "translation_ar": "اشترينا أريكة جديدة لغرفة المعيشة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 360,
+    "day_id": 33,
+    "sentence_en": "Please put the plates on the table.",
+    "translation_ar": "من فضلك ضع الصحون على الطاولة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 361,
+    "day_id": 33,
+    "sentence_en": "The fridge is full of food.",
+    "translation_ar": "الثلاجة مليئة بالطعام.",
+    "audio_ref": ""
+  },
+  {
+    "id": 362,
+    "day_id": 33,
+    "sentence_en": "I clean my house every Saturday.",
+    "translation_ar": "أنظف بيتي كل سبت.",
+    "audio_ref": ""
+  },
+  {
+    "id": 363,
+    "day_id": 33,
+    "sentence_en": "Where is the remote control?",
+    "translation_ar": "أين جهاز التحكم؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 364,
+    "day_id": 34,
+    "sentence_en": "Can you turn on the light?",
+    "translation_ar": "هل يمكنك إضاءة الضوء؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 365,
+    "day_id": 34,
+    "sentence_en": "The washing machine is broken.",
+    "translation_ar": "الغسالة معطلة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 366,
+    "day_id": 34,
+    "sentence_en": "My books are on the shelf.",
+    "translation_ar": "كتبي على الرف.",
+    "audio_ref": ""
+  },
+  {
+    "id": 367,
+    "day_id": 34,
+    "sentence_en": "The mirror is too high for me.",
+    "translation_ar": "المرآة عالية جداً بالنسبة لي.",
+    "audio_ref": ""
+  },
+  {
+    "id": 368,
+    "day_id": 34,
+    "sentence_en": "Could you pass me the salt?",
+    "translation_ar": "هل يمكنك إعطائي الملح؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 369,
+    "day_id": 34,
+    "sentence_en": "I need to wash the dishes.",
+    "translation_ar": "أحتاج إلى غسل الصحون.",
+    "audio_ref": ""
+  },
+  {
+    "id": 370,
+    "day_id": 34,
+    "sentence_en": "The curtains are very nice.",
+    "translation_ar": "الستائر جميلة جداً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 371,
+    "day_id": 34,
+    "sentence_en": "My desk is near the window.",
+    "translation_ar": "مكتبي بجانب النافذة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 372,
+    "day_id": 34,
+    "sentence_en": "I sleep on a comfortable bed.",
+    "translation_ar": "أنام على سرير مريح.",
+    "audio_ref": ""
+  },
+  {
+    "id": 373,
+    "day_id": 34,
+    "sentence_en": "We bought a new sofa for the living room.",
+    "translation_ar": "اشترينا أريكة جديدة لغرفة المعيشة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 374,
+    "day_id": 34,
+    "sentence_en": "Please put the plates on the table.",
+    "translation_ar": "من فضلك ضع الصحون على الطاولة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 375,
+    "day_id": 35,
+    "sentence_en": "The fridge is full of food.",
+    "translation_ar": "الثلاجة مليئة بالطعام.",
+    "audio_ref": ""
+  },
+  {
+    "id": 376,
+    "day_id": 35,
+    "sentence_en": "I clean my house every Saturday.",
+    "translation_ar": "أنظف بيتي كل سبت.",
+    "audio_ref": ""
+  },
+  {
+    "id": 377,
+    "day_id": 35,
+    "sentence_en": "Where is the remote control?",
+    "translation_ar": "أين جهاز التحكم؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 378,
+    "day_id": 35,
+    "sentence_en": "Can you turn on the light?",
+    "translation_ar": "هل يمكنك إضاءة الضوء؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 379,
+    "day_id": 35,
+    "sentence_en": "The washing machine is broken.",
+    "translation_ar": "الغسالة معطلة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 380,
+    "day_id": 35,
+    "sentence_en": "My books are on the shelf.",
+    "translation_ar": "كتبي على الرف.",
+    "audio_ref": ""
+  },
+  {
+    "id": 381,
+    "day_id": 35,
+    "sentence_en": "The mirror is too high for me.",
+    "translation_ar": "المرآة عالية جداً بالنسبة لي.",
+    "audio_ref": ""
+  },
+  {
+    "id": 382,
+    "day_id": 35,
+    "sentence_en": "Could you pass me the salt?",
+    "translation_ar": "هل يمكنك إعطائي الملح؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 383,
+    "day_id": 35,
+    "sentence_en": "I need to wash the dishes.",
+    "translation_ar": "أحتاج إلى غسل الصحون.",
+    "audio_ref": ""
+  },
+  {
+    "id": 384,
+    "day_id": 35,
+    "sentence_en": "The curtains are very nice.",
+    "translation_ar": "الستائر جميلة جداً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 385,
+    "day_id": 35,
+    "sentence_en": "My desk is near the window.",
+    "translation_ar": "مكتبي بجانب النافذة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 386,
+    "day_id": 36,
+    "sentence_en": "I would like to see the menu.",
+    "translation_ar": "أود رؤية القائمة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 387,
+    "day_id": 36,
+    "sentence_en": "Can I have a glass of water?",
+    "translation_ar": "هل يمكنني الحصول على كوب ماء؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 388,
+    "day_id": 36,
+    "sentence_en": "I'll have chicken and rice.",
+    "translation_ar": "سأتناول الدجاج والأرز.",
+    "audio_ref": ""
+  },
+  {
+    "id": 389,
+    "day_id": 36,
+    "sentence_en": "Is it spicy?",
+    "translation_ar": "هل هو حار؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 390,
+    "day_id": 36,
+    "sentence_en": "I'm allergic to nuts.",
+    "translation_ar": "لدي حساسية من المكسرات.",
+    "audio_ref": ""
+  },
+  {
+    "id": 391,
+    "day_id": 36,
+    "sentence_en": "The food is delicious.",
+    "translation_ar": "الطعام لذيذ.",
+    "audio_ref": ""
+  },
+  {
+    "id": 392,
+    "day_id": 36,
+    "sentence_en": "Can I have the bill, please?",
+    "translation_ar": "هل يمكنني الحصول على الفاتورة من فضلك؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 393,
+    "day_id": 36,
+    "sentence_en": "I would like a table for two.",
+    "translation_ar": "أود طاولة لشخصين.",
+    "audio_ref": ""
+  },
+  {
+    "id": 394,
+    "day_id": 36,
+    "sentence_en": "Do you have any vegetarian dishes?",
+    "translation_ar": "هل لديكم أطباق نباتية؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 395,
+    "day_id": 36,
+    "sentence_en": "I'm hungry.",
+    "translation_ar": "أنا جائع.",
+    "audio_ref": ""
+  },
+  {
+    "id": 396,
+    "day_id": 36,
+    "sentence_en": "I'm thirsty.",
+    "translation_ar": "أنا عطشان.",
+    "audio_ref": ""
+  },
+  {
+    "id": 397,
+    "day_id": 37,
+    "sentence_en": "This is too salty.",
+    "translation_ar": "هذا مالح جداً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 398,
+    "day_id": 37,
+    "sentence_en": "Can I get this to go?",
+    "translation_ar": "هل يمكنني الحصول على هذا سفري؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 399,
+    "day_id": 37,
+    "sentence_en": "My favorite food is couscous.",
+    "translation_ar": "طعامي المفضل هو الكسكس.",
+    "audio_ref": ""
+  },
+  {
+    "id": 400,
+    "day_id": 37,
+    "sentence_en": "I would like to see the menu.",
+    "translation_ar": "أود رؤية القائمة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 401,
+    "day_id": 37,
+    "sentence_en": "Can I have a glass of water?",
+    "translation_ar": "هل يمكنني الحصول على كوب ماء؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 402,
+    "day_id": 37,
+    "sentence_en": "I'll have chicken and rice.",
+    "translation_ar": "سأتناول الدجاج والأرز.",
+    "audio_ref": ""
+  },
+  {
+    "id": 403,
+    "day_id": 37,
+    "sentence_en": "Is it spicy?",
+    "translation_ar": "هل هو حار؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 404,
+    "day_id": 37,
+    "sentence_en": "I'm allergic to nuts.",
+    "translation_ar": "لدي حساسية من المكسرات.",
+    "audio_ref": ""
+  },
+  {
+    "id": 405,
+    "day_id": 37,
+    "sentence_en": "The food is delicious.",
+    "translation_ar": "الطعام لذيذ.",
+    "audio_ref": ""
+  },
+  {
+    "id": 406,
+    "day_id": 37,
+    "sentence_en": "Can I have the bill, please?",
+    "translation_ar": "هل يمكنني الحصول على الفاتورة من فضلك؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 407,
+    "day_id": 37,
+    "sentence_en": "I would like a table for two.",
+    "translation_ar": "أود طاولة لشخصين.",
+    "audio_ref": ""
+  },
+  {
+    "id": 408,
+    "day_id": 38,
+    "sentence_en": "Do you have any vegetarian dishes?",
+    "translation_ar": "هل لديكم أطباق نباتية؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 409,
+    "day_id": 38,
+    "sentence_en": "I'm hungry.",
+    "translation_ar": "أنا جائع.",
+    "audio_ref": ""
+  },
+  {
+    "id": 410,
+    "day_id": 38,
+    "sentence_en": "I'm thirsty.",
+    "translation_ar": "أنا عطشان.",
+    "audio_ref": ""
+  },
+  {
+    "id": 411,
+    "day_id": 38,
+    "sentence_en": "This is too salty.",
+    "translation_ar": "هذا مالح جداً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 412,
+    "day_id": 38,
+    "sentence_en": "Can I get this to go?",
+    "translation_ar": "هل يمكنني الحصول على هذا سفري؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 413,
+    "day_id": 38,
+    "sentence_en": "My favorite food is couscous.",
+    "translation_ar": "طعامي المفضل هو الكسكس.",
+    "audio_ref": ""
+  },
+  {
+    "id": 414,
+    "day_id": 38,
+    "sentence_en": "I would like to see the menu.",
+    "translation_ar": "أود رؤية القائمة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 415,
+    "day_id": 38,
+    "sentence_en": "Can I have a glass of water?",
+    "translation_ar": "هل يمكنني الحصول على كوب ماء؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 416,
+    "day_id": 38,
+    "sentence_en": "I'll have chicken and rice.",
+    "translation_ar": "سأتناول الدجاج والأرز.",
+    "audio_ref": ""
+  },
+  {
+    "id": 417,
+    "day_id": 38,
+    "sentence_en": "Is it spicy?",
+    "translation_ar": "هل هو حار؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 418,
+    "day_id": 38,
+    "sentence_en": "I'm allergic to nuts.",
+    "translation_ar": "لدي حساسية من المكسرات.",
+    "audio_ref": ""
+  },
+  {
+    "id": 419,
+    "day_id": 39,
+    "sentence_en": "The food is delicious.",
+    "translation_ar": "الطعام لذيذ.",
+    "audio_ref": ""
+  },
+  {
+    "id": 420,
+    "day_id": 39,
+    "sentence_en": "Can I have the bill, please?",
+    "translation_ar": "هل يمكنني الحصول على الفاتورة من فضلك؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 421,
+    "day_id": 39,
+    "sentence_en": "I would like a table for two.",
+    "translation_ar": "أود طاولة لشخصين.",
+    "audio_ref": ""
+  },
+  {
+    "id": 422,
+    "day_id": 39,
+    "sentence_en": "Do you have any vegetarian dishes?",
+    "translation_ar": "هل لديكم أطباق نباتية؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 423,
+    "day_id": 39,
+    "sentence_en": "I'm hungry.",
+    "translation_ar": "أنا جائع.",
+    "audio_ref": ""
+  },
+  {
+    "id": 424,
+    "day_id": 39,
+    "sentence_en": "I'm thirsty.",
+    "translation_ar": "أنا عطشان.",
+    "audio_ref": ""
+  },
+  {
+    "id": 425,
+    "day_id": 39,
+    "sentence_en": "This is too salty.",
+    "translation_ar": "هذا مالح جداً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 426,
+    "day_id": 39,
+    "sentence_en": "Can I get this to go?",
+    "translation_ar": "هل يمكنني الحصول على هذا سفري؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 427,
+    "day_id": 39,
+    "sentence_en": "My favorite food is couscous.",
+    "translation_ar": "طعامي المفضل هو الكسكس.",
+    "audio_ref": ""
+  },
+  {
+    "id": 428,
+    "day_id": 39,
+    "sentence_en": "I would like to see the menu.",
+    "translation_ar": "أود رؤية القائمة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 429,
+    "day_id": 39,
+    "sentence_en": "Can I have a glass of water?",
+    "translation_ar": "هل يمكنني الحصول على كوب ماء؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 430,
+    "day_id": 40,
+    "sentence_en": "I'll have chicken and rice.",
+    "translation_ar": "سأتناول الدجاج والأرز.",
+    "audio_ref": ""
+  },
+  {
+    "id": 431,
+    "day_id": 40,
+    "sentence_en": "Is it spicy?",
+    "translation_ar": "هل هو حار؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 432,
+    "day_id": 40,
+    "sentence_en": "I'm allergic to nuts.",
+    "translation_ar": "لدي حساسية من المكسرات.",
+    "audio_ref": ""
+  },
+  {
+    "id": 433,
+    "day_id": 40,
+    "sentence_en": "The food is delicious.",
+    "translation_ar": "الطعام لذيذ.",
+    "audio_ref": ""
+  },
+  {
+    "id": 434,
+    "day_id": 40,
+    "sentence_en": "Can I have the bill, please?",
+    "translation_ar": "هل يمكنني الحصول على الفاتورة من فضلك؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 435,
+    "day_id": 40,
+    "sentence_en": "I would like a table for two.",
+    "translation_ar": "أود طاولة لشخصين.",
+    "audio_ref": ""
+  },
+  {
+    "id": 436,
+    "day_id": 40,
+    "sentence_en": "Do you have any vegetarian dishes?",
+    "translation_ar": "هل لديكم أطباق نباتية؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 437,
+    "day_id": 40,
+    "sentence_en": "I'm hungry.",
+    "translation_ar": "أنا جائع.",
+    "audio_ref": ""
+  },
+  {
+    "id": 438,
+    "day_id": 40,
+    "sentence_en": "I'm thirsty.",
+    "translation_ar": "أنا عطشان.",
+    "audio_ref": ""
+  },
+  {
+    "id": 439,
+    "day_id": 40,
+    "sentence_en": "This is too salty.",
+    "translation_ar": "هذا مالح جداً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 440,
+    "day_id": 40,
+    "sentence_en": "Can I get this to go?",
+    "translation_ar": "هل يمكنني الحصول على هذا سفري؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 441,
+    "day_id": 41,
+    "sentence_en": "My favorite food is couscous.",
+    "translation_ar": "طعامي المفضل هو الكسكس.",
+    "audio_ref": ""
+  },
+  {
+    "id": 442,
+    "day_id": 41,
+    "sentence_en": "I would like to see the menu.",
+    "translation_ar": "أود رؤية القائمة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 443,
+    "day_id": 41,
+    "sentence_en": "Can I have a glass of water?",
+    "translation_ar": "هل يمكنني الحصول على كوب ماء؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 444,
+    "day_id": 41,
+    "sentence_en": "I'll have chicken and rice.",
+    "translation_ar": "سأتناول الدجاج والأرز.",
+    "audio_ref": ""
+  },
+  {
+    "id": 445,
+    "day_id": 41,
+    "sentence_en": "Is it spicy?",
+    "translation_ar": "هل هو حار؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 446,
+    "day_id": 41,
+    "sentence_en": "I'm allergic to nuts.",
+    "translation_ar": "لدي حساسية من المكسرات.",
+    "audio_ref": ""
+  },
+  {
+    "id": 447,
+    "day_id": 41,
+    "sentence_en": "The food is delicious.",
+    "translation_ar": "الطعام لذيذ.",
+    "audio_ref": ""
+  },
+  {
+    "id": 448,
+    "day_id": 41,
+    "sentence_en": "Can I have the bill, please?",
+    "translation_ar": "هل يمكنني الحصول على الفاتورة من فضلك؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 449,
+    "day_id": 41,
+    "sentence_en": "I would like a table for two.",
+    "translation_ar": "أود طاولة لشخصين.",
+    "audio_ref": ""
+  },
+  {
+    "id": 450,
+    "day_id": 41,
+    "sentence_en": "Do you have any vegetarian dishes?",
+    "translation_ar": "هل لديكم أطباق نباتية؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 451,
+    "day_id": 41,
+    "sentence_en": "I'm hungry.",
+    "translation_ar": "أنا جائع.",
+    "audio_ref": ""
+  },
+  {
+    "id": 452,
+    "day_id": 42,
+    "sentence_en": "I'm thirsty.",
+    "translation_ar": "أنا عطشان.",
+    "audio_ref": ""
+  },
+  {
+    "id": 453,
+    "day_id": 42,
+    "sentence_en": "This is too salty.",
+    "translation_ar": "هذا مالح جداً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 454,
+    "day_id": 42,
+    "sentence_en": "Can I get this to go?",
+    "translation_ar": "هل يمكنني الحصول على هذا سفري؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 455,
+    "day_id": 42,
+    "sentence_en": "My favorite food is couscous.",
+    "translation_ar": "طعامي المفضل هو الكسكس.",
+    "audio_ref": ""
+  },
+  {
+    "id": 456,
+    "day_id": 42,
+    "sentence_en": "I would like to see the menu.",
+    "translation_ar": "أود رؤية القائمة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 457,
+    "day_id": 42,
+    "sentence_en": "Can I have a glass of water?",
+    "translation_ar": "هل يمكنني الحصول على كوب ماء؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 458,
+    "day_id": 42,
+    "sentence_en": "I'll have chicken and rice.",
+    "translation_ar": "سأتناول الدجاج والأرز.",
+    "audio_ref": ""
+  },
+  {
+    "id": 459,
+    "day_id": 42,
+    "sentence_en": "Is it spicy?",
+    "translation_ar": "هل هو حار؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 460,
+    "day_id": 42,
+    "sentence_en": "I'm allergic to nuts.",
+    "translation_ar": "لدي حساسية من المكسرات.",
+    "audio_ref": ""
+  },
+  {
+    "id": 461,
+    "day_id": 42,
+    "sentence_en": "The food is delicious.",
+    "translation_ar": "الطعام لذيذ.",
+    "audio_ref": ""
+  },
+  {
+    "id": 462,
+    "day_id": 42,
+    "sentence_en": "Can I have the bill, please?",
+    "translation_ar": "هل يمكنني الحصول على الفاتورة من فضلك؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 463,
+    "day_id": 43,
+    "sentence_en": "How much is this?",
+    "translation_ar": "بكم هذا؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 464,
+    "day_id": 43,
+    "sentence_en": "Do you have this in a larger size?",
+    "translation_ar": "هل لديكم هذا بمقاس أكبر؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 465,
+    "day_id": 43,
+    "sentence_en": "Can I try it on?",
+    "translation_ar": "هل يمكنني تجربته؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 466,
+    "day_id": 43,
+    "sentence_en": "I'll take it.",
+    "translation_ar": "سآخذه.",
+    "audio_ref": ""
+  },
+  {
+    "id": 467,
+    "day_id": 43,
+    "sentence_en": "Do you accept credit cards?",
+    "translation_ar": "هل تقبلون بطاقات الائتمان؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 468,
+    "day_id": 43,
+    "sentence_en": "Where is the fitting room?",
+    "translation_ar": "أين غرفة القياس؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 469,
+    "day_id": 43,
+    "sentence_en": "Is there a discount?",
+    "translation_ar": "هل هناك خصم؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 470,
+    "day_id": 43,
+    "sentence_en": "It's too expensive for me.",
+    "translation_ar": "إنه غالٍ جداً بالنسبة لي.",
+    "audio_ref": ""
+  },
+  {
+    "id": 471,
+    "day_id": 43,
+    "sentence_en": "Can I have a receipt, please?",
+    "translation_ar": "هل يمكنني الحصول على إيصال من فضلك؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 472,
+    "day_id": 43,
+    "sentence_en": "Do you have this in blue?",
+    "translation_ar": "هل لديكم هذا باللون الأزرق؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 473,
+    "day_id": 43,
+    "sentence_en": "I'm just looking, thank you.",
+    "translation_ar": "أنا أتفرج فقط، شكراً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 474,
+    "day_id": 44,
+    "sentence_en": "Where can I pay?",
+    "translation_ar": "أين يمكنني الدفع؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 475,
+    "day_id": 44,
+    "sentence_en": "Can I return this if it doesn't fit?",
+    "translation_ar": "هل يمكنني إرجاع هذا إذا لم يناسبني؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 476,
+    "day_id": 44,
+    "sentence_en": "I need a small bag.",
+    "translation_ar": "أحتاج حقيبة صغيرة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 477,
+    "day_id": 44,
+    "sentence_en": "How much is this?",
+    "translation_ar": "بكم هذا؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 478,
+    "day_id": 44,
+    "sentence_en": "Do you have this in a larger size?",
+    "translation_ar": "هل لديكم هذا بمقاس أكبر؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 479,
+    "day_id": 44,
+    "sentence_en": "Can I try it on?",
+    "translation_ar": "هل يمكنني تجربته؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 480,
+    "day_id": 44,
+    "sentence_en": "I'll take it.",
+    "translation_ar": "سآخذه.",
+    "audio_ref": ""
+  },
+  {
+    "id": 481,
+    "day_id": 44,
+    "sentence_en": "Do you accept credit cards?",
+    "translation_ar": "هل تقبلون بطاقات الائتمان؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 482,
+    "day_id": 44,
+    "sentence_en": "Where is the fitting room?",
+    "translation_ar": "أين غرفة القياس؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 483,
+    "day_id": 44,
+    "sentence_en": "Is there a discount?",
+    "translation_ar": "هل هناك خصم؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 484,
+    "day_id": 44,
+    "sentence_en": "It's too expensive for me.",
+    "translation_ar": "إنه غالٍ جداً بالنسبة لي.",
+    "audio_ref": ""
+  },
+  {
+    "id": 485,
+    "day_id": 45,
+    "sentence_en": "Can I have a receipt, please?",
+    "translation_ar": "هل يمكنني الحصول على إيصال من فضلك؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 486,
+    "day_id": 45,
+    "sentence_en": "Do you have this in blue?",
+    "translation_ar": "هل لديكم هذا باللون الأزرق؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 487,
+    "day_id": 45,
+    "sentence_en": "I'm just looking, thank you.",
+    "translation_ar": "أنا أتفرج فقط، شكراً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 488,
+    "day_id": 45,
+    "sentence_en": "Where can I pay?",
+    "translation_ar": "أين يمكنني الدفع؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 489,
+    "day_id": 45,
+    "sentence_en": "Can I return this if it doesn't fit?",
+    "translation_ar": "هل يمكنني إرجاع هذا إذا لم يناسبني؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 490,
+    "day_id": 45,
+    "sentence_en": "I need a small bag.",
+    "translation_ar": "أحتاج حقيبة صغيرة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 491,
+    "day_id": 45,
+    "sentence_en": "How much is this?",
+    "translation_ar": "بكم هذا؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 492,
+    "day_id": 45,
+    "sentence_en": "Do you have this in a larger size?",
+    "translation_ar": "هل لديكم هذا بمقاس أكبر؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 493,
+    "day_id": 45,
+    "sentence_en": "Can I try it on?",
+    "translation_ar": "هل يمكنني تجربته؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 494,
+    "day_id": 45,
+    "sentence_en": "I'll take it.",
+    "translation_ar": "سآخذه.",
+    "audio_ref": ""
+  },
+  {
+    "id": 495,
+    "day_id": 45,
+    "sentence_en": "Do you accept credit cards?",
+    "translation_ar": "هل تقبلون بطاقات الائتمان؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 496,
+    "day_id": 46,
+    "sentence_en": "Where is the fitting room?",
+    "translation_ar": "أين غرفة القياس؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 497,
+    "day_id": 46,
+    "sentence_en": "Is there a discount?",
+    "translation_ar": "هل هناك خصم؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 498,
+    "day_id": 46,
+    "sentence_en": "It's too expensive for me.",
+    "translation_ar": "إنه غالٍ جداً بالنسبة لي.",
+    "audio_ref": ""
+  },
+  {
+    "id": 499,
+    "day_id": 46,
+    "sentence_en": "Can I have a receipt, please?",
+    "translation_ar": "هل يمكنني الحصول على إيصال من فضلك؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 500,
+    "day_id": 46,
+    "sentence_en": "Do you have this in blue?",
+    "translation_ar": "هل لديكم هذا باللون الأزرق؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 501,
+    "day_id": 46,
+    "sentence_en": "I'm just looking, thank you.",
+    "translation_ar": "أنا أتفرج فقط، شكراً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 502,
+    "day_id": 46,
+    "sentence_en": "Where can I pay?",
+    "translation_ar": "أين يمكنني الدفع؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 503,
+    "day_id": 46,
+    "sentence_en": "Can I return this if it doesn't fit?",
+    "translation_ar": "هل يمكنني إرجاع هذا إذا لم يناسبني؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 504,
+    "day_id": 46,
+    "sentence_en": "I need a small bag.",
+    "translation_ar": "أحتاج حقيبة صغيرة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 505,
+    "day_id": 46,
+    "sentence_en": "How much is this?",
+    "translation_ar": "بكم هذا؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 506,
+    "day_id": 46,
+    "sentence_en": "Do you have this in a larger size?",
+    "translation_ar": "هل لديكم هذا بمقاس أكبر؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 507,
+    "day_id": 47,
+    "sentence_en": "Can I try it on?",
+    "translation_ar": "هل يمكنني تجربته؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 508,
+    "day_id": 47,
+    "sentence_en": "I'll take it.",
+    "translation_ar": "سآخذه.",
+    "audio_ref": ""
+  },
+  {
+    "id": 509,
+    "day_id": 47,
+    "sentence_en": "Do you accept credit cards?",
+    "translation_ar": "هل تقبلون بطاقات الائتمان؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 510,
+    "day_id": 47,
+    "sentence_en": "Where is the fitting room?",
+    "translation_ar": "أين غرفة القياس؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 511,
+    "day_id": 47,
+    "sentence_en": "Is there a discount?",
+    "translation_ar": "هل هناك خصم؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 512,
+    "day_id": 47,
+    "sentence_en": "It's too expensive for me.",
+    "translation_ar": "إنه غالٍ جداً بالنسبة لي.",
+    "audio_ref": ""
+  },
+  {
+    "id": 513,
+    "day_id": 47,
+    "sentence_en": "Can I have a receipt, please?",
+    "translation_ar": "هل يمكنني الحصول على إيصال من فضلك؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 514,
+    "day_id": 47,
+    "sentence_en": "Do you have this in blue?",
+    "translation_ar": "هل لديكم هذا باللون الأزرق؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 515,
+    "day_id": 47,
+    "sentence_en": "I'm just looking, thank you.",
+    "translation_ar": "أنا أتفرج فقط، شكراً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 516,
+    "day_id": 47,
+    "sentence_en": "Where can I pay?",
+    "translation_ar": "أين يمكنني الدفع؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 517,
+    "day_id": 47,
+    "sentence_en": "Can I return this if it doesn't fit?",
+    "translation_ar": "هل يمكنني إرجاع هذا إذا لم يناسبني؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 518,
+    "day_id": 48,
+    "sentence_en": "I need a small bag.",
+    "translation_ar": "أحتاج حقيبة صغيرة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 519,
+    "day_id": 48,
+    "sentence_en": "How much is this?",
+    "translation_ar": "بكم هذا؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 520,
+    "day_id": 48,
+    "sentence_en": "Do you have this in a larger size?",
+    "translation_ar": "هل لديكم هذا بمقاس أكبر؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 521,
+    "day_id": 48,
+    "sentence_en": "Can I try it on?",
+    "translation_ar": "هل يمكنني تجربته؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 522,
+    "day_id": 48,
+    "sentence_en": "I'll take it.",
+    "translation_ar": "سآخذه.",
+    "audio_ref": ""
+  },
+  {
+    "id": 523,
+    "day_id": 48,
+    "sentence_en": "Do you accept credit cards?",
+    "translation_ar": "هل تقبلون بطاقات الائتمان؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 524,
+    "day_id": 48,
+    "sentence_en": "Where is the fitting room?",
+    "translation_ar": "أين غرفة القياس؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 525,
+    "day_id": 48,
+    "sentence_en": "Is there a discount?",
+    "translation_ar": "هل هناك خصم؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 526,
+    "day_id": 48,
+    "sentence_en": "It's too expensive for me.",
+    "translation_ar": "إنه غالٍ جداً بالنسبة لي.",
+    "audio_ref": ""
+  },
+  {
+    "id": 527,
+    "day_id": 48,
+    "sentence_en": "Can I have a receipt, please?",
+    "translation_ar": "هل يمكنني الحصول على إيصال من فضلك؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 528,
+    "day_id": 48,
+    "sentence_en": "Do you have this in blue?",
+    "translation_ar": "هل لديكم هذا باللون الأزرق؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 529,
+    "day_id": 49,
+    "sentence_en": "I'm just looking, thank you.",
+    "translation_ar": "أنا أتفرج فقط، شكراً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 530,
+    "day_id": 49,
+    "sentence_en": "Where can I pay?",
+    "translation_ar": "أين يمكنني الدفع؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 531,
+    "day_id": 49,
+    "sentence_en": "Can I return this if it doesn't fit?",
+    "translation_ar": "هل يمكنني إرجاع هذا إذا لم يناسبني؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 532,
+    "day_id": 49,
+    "sentence_en": "I need a small bag.",
+    "translation_ar": "أحتاج حقيبة صغيرة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 533,
+    "day_id": 49,
+    "sentence_en": "How much is this?",
+    "translation_ar": "بكم هذا؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 534,
+    "day_id": 49,
+    "sentence_en": "Do you have this in a larger size?",
+    "translation_ar": "هل لديكم هذا بمقاس أكبر؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 535,
+    "day_id": 49,
+    "sentence_en": "Can I try it on?",
+    "translation_ar": "هل يمكنني تجربته؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 536,
+    "day_id": 49,
+    "sentence_en": "I'll take it.",
+    "translation_ar": "سآخذه.",
+    "audio_ref": ""
+  },
+  {
+    "id": 537,
+    "day_id": 49,
+    "sentence_en": "Do you accept credit cards?",
+    "translation_ar": "هل تقبلون بطاقات الائتمان؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 538,
+    "day_id": 49,
+    "sentence_en": "Where is the fitting room?",
+    "translation_ar": "أين غرفة القياس؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 539,
+    "day_id": 49,
+    "sentence_en": "Is there a discount?",
+    "translation_ar": "هل هناك خصم؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 540,
+    "day_id": 50,
+    "sentence_en": "Excuse me, how do I get to the station?",
+    "translation_ar": "عذراً، كيف أصل إلى المحطة؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 541,
+    "day_id": 50,
+    "sentence_en": "Go straight ahead, then turn right.",
+    "translation_ar": "اذهب مستقيماً، ثم انعطف يميناً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 542,
+    "day_id": 50,
+    "sentence_en": "It's about five minutes on foot.",
+    "translation_ar": "حوالي خمس دقائق سيراً على الأقدام.",
+    "audio_ref": ""
+  },
+  {
+    "id": 543,
+    "day_id": 50,
+    "sentence_en": "Is the bank far from here?",
+    "translation_ar": "هل البنك بعيد من هنا؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 544,
+    "day_id": 50,
+    "sentence_en": "It's next to the post office.",
+    "translation_ar": "إنه بجانب مكتب البريد.",
+    "audio_ref": ""
+  },
+  {
+    "id": 545,
+    "day_id": 50,
+    "sentence_en": "Turn left at the traffic light.",
+    "translation_ar": "انعطف يساراً عند الإشارة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 546,
+    "day_id": 50,
+    "sentence_en": "Could you show me on the map?",
+    "translation_ar": "هل يمكنك أن تريني على الخريطة؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 547,
+    "day_id": 50,
+    "sentence_en": "I'm lost.",
+    "translation_ar": "أنا تائه.",
+    "audio_ref": ""
+  },
+  {
+    "id": 548,
+    "day_id": 50,
+    "sentence_en": "I'm looking for the airport.",
+    "translation_ar": "أبحث عن المطار.",
+    "audio_ref": ""
+  },
+  {
+    "id": 549,
+    "day_id": 50,
+    "sentence_en": "Take the bus number 12.",
+    "translation_ar": "خذ الحافلة رقم 12.",
+    "audio_ref": ""
+  },
+  {
+    "id": 550,
+    "day_id": 50,
+    "sentence_en": "The hotel is in the city center.",
+    "translation_ar": "الفندق في وسط المدينة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 551,
+    "day_id": 51,
+    "sentence_en": "Can I walk there?",
+    "translation_ar": "هل يمكنني المشي إلى هناك؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 552,
+    "day_id": 51,
+    "sentence_en": "The taxi stand is on the corner.",
+    "translation_ar": "موقف سيارات الأجرة على الزاوية.",
+    "audio_ref": ""
+  },
+  {
+    "id": 553,
+    "day_id": 51,
+    "sentence_en": "Please drop me off here.",
+    "translation_ar": "من فضلك أنزلني هنا.",
+    "audio_ref": ""
+  },
+  {
+    "id": 554,
+    "day_id": 51,
+    "sentence_en": "Excuse me, how do I get to the station?",
+    "translation_ar": "عذراً، كيف أصل إلى المحطة؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 555,
+    "day_id": 51,
+    "sentence_en": "Go straight ahead, then turn right.",
+    "translation_ar": "اذهب مستقيماً، ثم انعطف يميناً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 556,
+    "day_id": 51,
+    "sentence_en": "It's about five minutes on foot.",
+    "translation_ar": "حوالي خمس دقائق سيراً على الأقدام.",
+    "audio_ref": ""
+  },
+  {
+    "id": 557,
+    "day_id": 51,
+    "sentence_en": "Is the bank far from here?",
+    "translation_ar": "هل البنك بعيد من هنا؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 558,
+    "day_id": 51,
+    "sentence_en": "It's next to the post office.",
+    "translation_ar": "إنه بجانب مكتب البريد.",
+    "audio_ref": ""
+  },
+  {
+    "id": 559,
+    "day_id": 51,
+    "sentence_en": "Turn left at the traffic light.",
+    "translation_ar": "انعطف يساراً عند الإشارة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 560,
+    "day_id": 51,
+    "sentence_en": "Could you show me on the map?",
+    "translation_ar": "هل يمكنك أن تريني على الخريطة؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 561,
+    "day_id": 51,
+    "sentence_en": "I'm lost.",
+    "translation_ar": "أنا تائه.",
+    "audio_ref": ""
+  },
+  {
+    "id": 562,
+    "day_id": 52,
+    "sentence_en": "I'm looking for the airport.",
+    "translation_ar": "أبحث عن المطار.",
+    "audio_ref": ""
+  },
+  {
+    "id": 563,
+    "day_id": 52,
+    "sentence_en": "Take the bus number 12.",
+    "translation_ar": "خذ الحافلة رقم 12.",
+    "audio_ref": ""
+  },
+  {
+    "id": 564,
+    "day_id": 52,
+    "sentence_en": "The hotel is in the city center.",
+    "translation_ar": "الفندق في وسط المدينة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 565,
+    "day_id": 52,
+    "sentence_en": "Can I walk there?",
+    "translation_ar": "هل يمكنني المشي إلى هناك؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 566,
+    "day_id": 52,
+    "sentence_en": "The taxi stand is on the corner.",
+    "translation_ar": "موقف سيارات الأجرة على الزاوية.",
+    "audio_ref": ""
+  },
+  {
+    "id": 567,
+    "day_id": 52,
+    "sentence_en": "Please drop me off here.",
+    "translation_ar": "من فضلك أنزلني هنا.",
+    "audio_ref": ""
+  },
+  {
+    "id": 568,
+    "day_id": 52,
+    "sentence_en": "Excuse me, how do I get to the station?",
+    "translation_ar": "عذراً، كيف أصل إلى المحطة؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 569,
+    "day_id": 52,
+    "sentence_en": "Go straight ahead, then turn right.",
+    "translation_ar": "اذهب مستقيماً، ثم انعطف يميناً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 570,
+    "day_id": 52,
+    "sentence_en": "It's about five minutes on foot.",
+    "translation_ar": "حوالي خمس دقائق سيراً على الأقدام.",
+    "audio_ref": ""
+  },
+  {
+    "id": 571,
+    "day_id": 52,
+    "sentence_en": "Is the bank far from here?",
+    "translation_ar": "هل البنك بعيد من هنا؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 572,
+    "day_id": 52,
+    "sentence_en": "It's next to the post office.",
+    "translation_ar": "إنه بجانب مكتب البريد.",
+    "audio_ref": ""
+  },
+  {
+    "id": 573,
+    "day_id": 53,
+    "sentence_en": "Turn left at the traffic light.",
+    "translation_ar": "انعطف يساراً عند الإشارة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 574,
+    "day_id": 53,
+    "sentence_en": "Could you show me on the map?",
+    "translation_ar": "هل يمكنك أن تريني على الخريطة؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 575,
+    "day_id": 53,
+    "sentence_en": "I'm lost.",
+    "translation_ar": "أنا تائه.",
+    "audio_ref": ""
+  },
+  {
+    "id": 576,
+    "day_id": 53,
+    "sentence_en": "I'm looking for the airport.",
+    "translation_ar": "أبحث عن المطار.",
+    "audio_ref": ""
+  },
+  {
+    "id": 577,
+    "day_id": 53,
+    "sentence_en": "Take the bus number 12.",
+    "translation_ar": "خذ الحافلة رقم 12.",
+    "audio_ref": ""
+  },
+  {
+    "id": 578,
+    "day_id": 53,
+    "sentence_en": "The hotel is in the city center.",
+    "translation_ar": "الفندق في وسط المدينة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 579,
+    "day_id": 53,
+    "sentence_en": "Can I walk there?",
+    "translation_ar": "هل يمكنني المشي إلى هناك؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 580,
+    "day_id": 53,
+    "sentence_en": "The taxi stand is on the corner.",
+    "translation_ar": "موقف سيارات الأجرة على الزاوية.",
+    "audio_ref": ""
+  },
+  {
+    "id": 581,
+    "day_id": 53,
+    "sentence_en": "Please drop me off here.",
+    "translation_ar": "من فضلك أنزلني هنا.",
+    "audio_ref": ""
+  },
+  {
+    "id": 582,
+    "day_id": 53,
+    "sentence_en": "Excuse me, how do I get to the station?",
+    "translation_ar": "عذراً، كيف أصل إلى المحطة؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 583,
+    "day_id": 53,
+    "sentence_en": "Go straight ahead, then turn right.",
+    "translation_ar": "اذهب مستقيماً، ثم انعطف يميناً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 584,
+    "day_id": 54,
+    "sentence_en": "It's about five minutes on foot.",
+    "translation_ar": "حوالي خمس دقائق سيراً على الأقدام.",
+    "audio_ref": ""
+  },
+  {
+    "id": 585,
+    "day_id": 54,
+    "sentence_en": "Is the bank far from here?",
+    "translation_ar": "هل البنك بعيد من هنا؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 586,
+    "day_id": 54,
+    "sentence_en": "It's next to the post office.",
+    "translation_ar": "إنه بجانب مكتب البريد.",
+    "audio_ref": ""
+  },
+  {
+    "id": 587,
+    "day_id": 54,
+    "sentence_en": "Turn left at the traffic light.",
+    "translation_ar": "انعطف يساراً عند الإشارة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 588,
+    "day_id": 54,
+    "sentence_en": "Could you show me on the map?",
+    "translation_ar": "هل يمكنك أن تريني على الخريطة؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 589,
+    "day_id": 54,
+    "sentence_en": "I'm lost.",
+    "translation_ar": "أنا تائه.",
+    "audio_ref": ""
+  },
+  {
+    "id": 590,
+    "day_id": 54,
+    "sentence_en": "I'm looking for the airport.",
+    "translation_ar": "أبحث عن المطار.",
+    "audio_ref": ""
+  },
+  {
+    "id": 591,
+    "day_id": 54,
+    "sentence_en": "Take the bus number 12.",
+    "translation_ar": "خذ الحافلة رقم 12.",
+    "audio_ref": ""
+  },
+  {
+    "id": 592,
+    "day_id": 54,
+    "sentence_en": "The hotel is in the city center.",
+    "translation_ar": "الفندق في وسط المدينة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 593,
+    "day_id": 54,
+    "sentence_en": "Can I walk there?",
+    "translation_ar": "هل يمكنني المشي إلى هناك؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 594,
+    "day_id": 54,
+    "sentence_en": "The taxi stand is on the corner.",
+    "translation_ar": "موقف سيارات الأجرة على الزاوية.",
+    "audio_ref": ""
+  },
+  {
+    "id": 595,
+    "day_id": 55,
+    "sentence_en": "Please drop me off here.",
+    "translation_ar": "من فضلك أنزلني هنا.",
+    "audio_ref": ""
+  },
+  {
+    "id": 596,
+    "day_id": 55,
+    "sentence_en": "Excuse me, how do I get to the station?",
+    "translation_ar": "عذراً، كيف أصل إلى المحطة؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 597,
+    "day_id": 55,
+    "sentence_en": "Go straight ahead, then turn right.",
+    "translation_ar": "اذهب مستقيماً، ثم انعطف يميناً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 598,
+    "day_id": 55,
+    "sentence_en": "It's about five minutes on foot.",
+    "translation_ar": "حوالي خمس دقائق سيراً على الأقدام.",
+    "audio_ref": ""
+  },
+  {
+    "id": 599,
+    "day_id": 55,
+    "sentence_en": "Is the bank far from here?",
+    "translation_ar": "هل البنك بعيد من هنا؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 600,
+    "day_id": 55,
+    "sentence_en": "It's next to the post office.",
+    "translation_ar": "إنه بجانب مكتب البريد.",
+    "audio_ref": ""
+  },
+  {
+    "id": 601,
+    "day_id": 55,
+    "sentence_en": "Turn left at the traffic light.",
+    "translation_ar": "انعطف يساراً عند الإشارة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 602,
+    "day_id": 55,
+    "sentence_en": "Could you show me on the map?",
+    "translation_ar": "هل يمكنك أن تريني على الخريطة؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 603,
+    "day_id": 55,
+    "sentence_en": "I'm lost.",
+    "translation_ar": "أنا تائه.",
+    "audio_ref": ""
+  },
+  {
+    "id": 604,
+    "day_id": 55,
+    "sentence_en": "I'm looking for the airport.",
+    "translation_ar": "أبحث عن المطار.",
+    "audio_ref": ""
+  },
+  {
+    "id": 605,
+    "day_id": 55,
+    "sentence_en": "Take the bus number 12.",
+    "translation_ar": "خذ الحافلة رقم 12.",
+    "audio_ref": ""
+  },
+  {
+    "id": 606,
+    "day_id": 56,
+    "sentence_en": "The hotel is in the city center.",
+    "translation_ar": "الفندق في وسط المدينة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 607,
+    "day_id": 56,
+    "sentence_en": "Can I walk there?",
+    "translation_ar": "هل يمكنني المشي إلى هناك؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 608,
+    "day_id": 56,
+    "sentence_en": "The taxi stand is on the corner.",
+    "translation_ar": "موقف سيارات الأجرة على الزاوية.",
+    "audio_ref": ""
+  },
+  {
+    "id": 609,
+    "day_id": 56,
+    "sentence_en": "Please drop me off here.",
+    "translation_ar": "من فضلك أنزلني هنا.",
+    "audio_ref": ""
+  },
+  {
+    "id": 610,
+    "day_id": 56,
+    "sentence_en": "Excuse me, how do I get to the station?",
+    "translation_ar": "عذراً، كيف أصل إلى المحطة؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 611,
+    "day_id": 56,
+    "sentence_en": "Go straight ahead, then turn right.",
+    "translation_ar": "اذهب مستقيماً، ثم انعطف يميناً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 612,
+    "day_id": 56,
+    "sentence_en": "It's about five minutes on foot.",
+    "translation_ar": "حوالي خمس دقائق سيراً على الأقدام.",
+    "audio_ref": ""
+  },
+  {
+    "id": 613,
+    "day_id": 56,
+    "sentence_en": "Is the bank far from here?",
+    "translation_ar": "هل البنك بعيد من هنا؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 614,
+    "day_id": 56,
+    "sentence_en": "It's next to the post office.",
+    "translation_ar": "إنه بجانب مكتب البريد.",
+    "audio_ref": ""
+  },
+  {
+    "id": 615,
+    "day_id": 56,
+    "sentence_en": "Turn left at the traffic light.",
+    "translation_ar": "انعطف يساراً عند الإشارة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 616,
+    "day_id": 56,
+    "sentence_en": "Could you show me on the map?",
+    "translation_ar": "هل يمكنك أن تريني على الخريطة؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 617,
+    "day_id": 57,
+    "sentence_en": "I don't feel well today.",
+    "translation_ar": "لا أشعر بخير اليوم.",
+    "audio_ref": ""
+  },
+  {
+    "id": 618,
+    "day_id": 57,
+    "sentence_en": "My head hurts.",
+    "translation_ar": "رأسي يؤلمني.",
+    "audio_ref": ""
+  },
+  {
+    "id": 619,
+    "day_id": 57,
+    "sentence_en": "I have a sore throat.",
+    "translation_ar": "حلقي يؤلمني.",
+    "audio_ref": ""
+  },
+  {
+    "id": 620,
+    "day_id": 57,
+    "sentence_en": "I think I have the flu.",
+    "translation_ar": "أعتقد أن لدي إنفلونزا.",
+    "audio_ref": ""
+  },
+  {
+    "id": 621,
+    "day_id": 57,
+    "sentence_en": "I need to see a doctor.",
+    "translation_ar": "أحتاج إلى رؤية طبيب.",
+    "audio_ref": ""
+  },
+  {
+    "id": 622,
+    "day_id": 57,
+    "sentence_en": "My stomach hurts after eating.",
+    "translation_ar": "معدتي تؤلمني بعد الأكل.",
+    "audio_ref": ""
+  },
+  {
+    "id": 623,
+    "day_id": 57,
+    "sentence_en": "I have a high fever.",
+    "translation_ar": "عندي حمى عالية.",
+    "audio_ref": ""
+  },
+  {
+    "id": 624,
+    "day_id": 57,
+    "sentence_en": "Please rest in bed.",
+    "translation_ar": "من فضلك ارتح في السرير.",
+    "audio_ref": ""
+  },
+  {
+    "id": 625,
+    "day_id": 57,
+    "sentence_en": "Drink plenty of water.",
+    "translation_ar": "اشرب الكثير من الماء.",
+    "audio_ref": ""
+  },
+  {
+    "id": 626,
+    "day_id": 57,
+    "sentence_en": "I am allergic to penicillin.",
+    "translation_ar": "لدي حساسية من البنسلين.",
+    "audio_ref": ""
+  },
+  {
+    "id": 627,
+    "day_id": 57,
+    "sentence_en": "My back is hurting me.",
+    "translation_ar": "ظهري يؤلمني.",
+    "audio_ref": ""
+  },
+  {
+    "id": 628,
+    "day_id": 58,
+    "sentence_en": "I twisted my ankle.",
+    "translation_ar": "لويت كاحلي.",
+    "audio_ref": ""
+  },
+  {
+    "id": 629,
+    "day_id": 58,
+    "sentence_en": "Take a deep breath.",
+    "translation_ar": "خذ نفساً عميقاً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 630,
+    "day_id": 58,
+    "sentence_en": "How do you feel now?",
+    "translation_ar": "كيف تشعر الآن؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 631,
+    "day_id": 58,
+    "sentence_en": "I don't feel well today.",
+    "translation_ar": "لا أشعر بخير اليوم.",
+    "audio_ref": ""
+  },
+  {
+    "id": 632,
+    "day_id": 58,
+    "sentence_en": "My head hurts.",
+    "translation_ar": "رأسي يؤلمني.",
+    "audio_ref": ""
+  },
+  {
+    "id": 633,
+    "day_id": 58,
+    "sentence_en": "I have a sore throat.",
+    "translation_ar": "حلقي يؤلمني.",
+    "audio_ref": ""
+  },
+  {
+    "id": 634,
+    "day_id": 58,
+    "sentence_en": "I think I have the flu.",
+    "translation_ar": "أعتقد أن لدي إنفلونزا.",
+    "audio_ref": ""
+  },
+  {
+    "id": 635,
+    "day_id": 58,
+    "sentence_en": "I need to see a doctor.",
+    "translation_ar": "أحتاج إلى رؤية طبيب.",
+    "audio_ref": ""
+  },
+  {
+    "id": 636,
+    "day_id": 58,
+    "sentence_en": "My stomach hurts after eating.",
+    "translation_ar": "معدتي تؤلمني بعد الأكل.",
+    "audio_ref": ""
+  },
+  {
+    "id": 637,
+    "day_id": 58,
+    "sentence_en": "I have a high fever.",
+    "translation_ar": "عندي حمى عالية.",
+    "audio_ref": ""
+  },
+  {
+    "id": 638,
+    "day_id": 58,
+    "sentence_en": "Please rest in bed.",
+    "translation_ar": "من فضلك ارتح في السرير.",
+    "audio_ref": ""
+  },
+  {
+    "id": 639,
+    "day_id": 59,
+    "sentence_en": "Drink plenty of water.",
+    "translation_ar": "اشرب الكثير من الماء.",
+    "audio_ref": ""
+  },
+  {
+    "id": 640,
+    "day_id": 59,
+    "sentence_en": "I am allergic to penicillin.",
+    "translation_ar": "لدي حساسية من البنسلين.",
+    "audio_ref": ""
+  },
+  {
+    "id": 641,
+    "day_id": 59,
+    "sentence_en": "My back is hurting me.",
+    "translation_ar": "ظهري يؤلمني.",
+    "audio_ref": ""
+  },
+  {
+    "id": 642,
+    "day_id": 59,
+    "sentence_en": "I twisted my ankle.",
+    "translation_ar": "لويت كاحلي.",
+    "audio_ref": ""
+  },
+  {
+    "id": 643,
+    "day_id": 59,
+    "sentence_en": "Take a deep breath.",
+    "translation_ar": "خذ نفساً عميقاً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 644,
+    "day_id": 59,
+    "sentence_en": "How do you feel now?",
+    "translation_ar": "كيف تشعر الآن؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 645,
+    "day_id": 59,
+    "sentence_en": "I don't feel well today.",
+    "translation_ar": "لا أشعر بخير اليوم.",
+    "audio_ref": ""
+  },
+  {
+    "id": 646,
+    "day_id": 59,
+    "sentence_en": "My head hurts.",
+    "translation_ar": "رأسي يؤلمني.",
+    "audio_ref": ""
+  },
+  {
+    "id": 647,
+    "day_id": 59,
+    "sentence_en": "I have a sore throat.",
+    "translation_ar": "حلقي يؤلمني.",
+    "audio_ref": ""
+  },
+  {
+    "id": 648,
+    "day_id": 59,
+    "sentence_en": "I think I have the flu.",
+    "translation_ar": "أعتقد أن لدي إنفلونزا.",
+    "audio_ref": ""
+  },
+  {
+    "id": 649,
+    "day_id": 59,
+    "sentence_en": "I need to see a doctor.",
+    "translation_ar": "أحتاج إلى رؤية طبيب.",
+    "audio_ref": ""
+  },
+  {
+    "id": 650,
+    "day_id": 60,
+    "sentence_en": "My stomach hurts after eating.",
+    "translation_ar": "معدتي تؤلمني بعد الأكل.",
+    "audio_ref": ""
+  },
+  {
+    "id": 651,
+    "day_id": 60,
+    "sentence_en": "I have a high fever.",
+    "translation_ar": "عندي حمى عالية.",
+    "audio_ref": ""
+  },
+  {
+    "id": 652,
+    "day_id": 60,
+    "sentence_en": "Please rest in bed.",
+    "translation_ar": "من فضلك ارتح في السرير.",
+    "audio_ref": ""
+  },
+  {
+    "id": 653,
+    "day_id": 60,
+    "sentence_en": "Drink plenty of water.",
+    "translation_ar": "اشرب الكثير من الماء.",
+    "audio_ref": ""
+  },
+  {
+    "id": 654,
+    "day_id": 60,
+    "sentence_en": "I am allergic to penicillin.",
+    "translation_ar": "لدي حساسية من البنسلين.",
+    "audio_ref": ""
+  },
+  {
+    "id": 655,
+    "day_id": 60,
+    "sentence_en": "My back is hurting me.",
+    "translation_ar": "ظهري يؤلمني.",
+    "audio_ref": ""
+  },
+  {
+    "id": 656,
+    "day_id": 60,
+    "sentence_en": "I twisted my ankle.",
+    "translation_ar": "لويت كاحلي.",
+    "audio_ref": ""
+  },
+  {
+    "id": 657,
+    "day_id": 60,
+    "sentence_en": "Take a deep breath.",
+    "translation_ar": "خذ نفساً عميقاً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 658,
+    "day_id": 60,
+    "sentence_en": "How do you feel now?",
+    "translation_ar": "كيف تشعر الآن؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 659,
+    "day_id": 60,
+    "sentence_en": "I don't feel well today.",
+    "translation_ar": "لا أشعر بخير اليوم.",
+    "audio_ref": ""
+  },
+  {
+    "id": 660,
+    "day_id": 60,
+    "sentence_en": "My head hurts.",
+    "translation_ar": "رأسي يؤلمني.",
+    "audio_ref": ""
+  },
+  {
+    "id": 661,
+    "day_id": 61,
+    "sentence_en": "I'd like to make an appointment with the doctor.",
+    "translation_ar": "أود حجز موعد مع الطبيب.",
+    "audio_ref": ""
+  },
+  {
+    "id": 662,
+    "day_id": 61,
+    "sentence_en": "Take this pill three times a day.",
+    "translation_ar": "خذ هذه الحبة ثلاث مرات يومياً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 663,
+    "day_id": 61,
+    "sentence_en": "The pharmacy is open until midnight.",
+    "translation_ar": "الصيدلية مفتوحة حتى منتصف الليل.",
+    "audio_ref": ""
+  },
+  {
+    "id": 664,
+    "day_id": 61,
+    "sentence_en": "Do I need a prescription?",
+    "translation_ar": "هل أحتاج وصفة طبية؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 665,
+    "day_id": 61,
+    "sentence_en": "I'd like to do a blood test.",
+    "translation_ar": "أود إجراء فحص دم.",
+    "audio_ref": ""
+  },
+  {
+    "id": 666,
+    "day_id": 61,
+    "sentence_en": "Please follow the doctor's advice.",
+    "translation_ar": "من فضلك اتبع نصيحة الطبيب.",
+    "audio_ref": ""
+  },
+  {
+    "id": 667,
+    "day_id": 61,
+    "sentence_en": "I have health insurance.",
+    "translation_ar": "لدي تأمين صحي.",
+    "audio_ref": ""
+  },
+  {
+    "id": 668,
+    "day_id": 61,
+    "sentence_en": "My next appointment is on Monday.",
+    "translation_ar": "موعدي القادم يوم الإثنين.",
+    "audio_ref": ""
+  },
+  {
+    "id": 669,
+    "day_id": 61,
+    "sentence_en": "Please call an ambulance.",
+    "translation_ar": "من فضلك اتصل بالإسعاف.",
+    "audio_ref": ""
+  },
+  {
+    "id": 670,
+    "day_id": 61,
+    "sentence_en": "I need to see a specialist.",
+    "translation_ar": "أحتاج إلى رؤية أخصائي.",
+    "audio_ref": ""
+  },
+  {
+    "id": 671,
+    "day_id": 61,
+    "sentence_en": "I feel much better today.",
+    "translation_ar": "أشعر بتحسن كبير اليوم.",
+    "audio_ref": ""
+  },
+  {
+    "id": 672,
+    "day_id": 62,
+    "sentence_en": "This medicine helps me sleep.",
+    "translation_ar": "هذا الدواء يساعدني على النوم.",
+    "audio_ref": ""
+  },
+  {
+    "id": 673,
+    "day_id": 62,
+    "sentence_en": "I have a checkup next week.",
+    "translation_ar": "عندي فحص الأسبوع القادم.",
+    "audio_ref": ""
+  },
+  {
+    "id": 674,
+    "day_id": 62,
+    "sentence_en": "My doctor is very kind.",
+    "translation_ar": "طبيبي لطيف جداً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 675,
+    "day_id": 62,
+    "sentence_en": "I'd like to make an appointment with the doctor.",
+    "translation_ar": "أود حجز موعد مع الطبيب.",
+    "audio_ref": ""
+  },
+  {
+    "id": 676,
+    "day_id": 62,
+    "sentence_en": "Take this pill three times a day.",
+    "translation_ar": "خذ هذه الحبة ثلاث مرات يومياً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 677,
+    "day_id": 62,
+    "sentence_en": "The pharmacy is open until midnight.",
+    "translation_ar": "الصيدلية مفتوحة حتى منتصف الليل.",
+    "audio_ref": ""
+  },
+  {
+    "id": 678,
+    "day_id": 62,
+    "sentence_en": "Do I need a prescription?",
+    "translation_ar": "هل أحتاج وصفة طبية؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 679,
+    "day_id": 62,
+    "sentence_en": "I'd like to do a blood test.",
+    "translation_ar": "أود إجراء فحص دم.",
+    "audio_ref": ""
+  },
+  {
+    "id": 680,
+    "day_id": 62,
+    "sentence_en": "Please follow the doctor's advice.",
+    "translation_ar": "من فضلك اتبع نصيحة الطبيب.",
+    "audio_ref": ""
+  },
+  {
+    "id": 681,
+    "day_id": 62,
+    "sentence_en": "I have health insurance.",
+    "translation_ar": "لدي تأمين صحي.",
+    "audio_ref": ""
+  },
+  {
+    "id": 682,
+    "day_id": 62,
+    "sentence_en": "My next appointment is on Monday.",
+    "translation_ar": "موعدي القادم يوم الإثنين.",
+    "audio_ref": ""
+  },
+  {
+    "id": 683,
+    "day_id": 63,
+    "sentence_en": "Please call an ambulance.",
+    "translation_ar": "من فضلك اتصل بالإسعاف.",
+    "audio_ref": ""
+  },
+  {
+    "id": 684,
+    "day_id": 63,
+    "sentence_en": "I need to see a specialist.",
+    "translation_ar": "أحتاج إلى رؤية أخصائي.",
+    "audio_ref": ""
+  },
+  {
+    "id": 685,
+    "day_id": 63,
+    "sentence_en": "I feel much better today.",
+    "translation_ar": "أشعر بتحسن كبير اليوم.",
+    "audio_ref": ""
+  },
+  {
+    "id": 686,
+    "day_id": 63,
+    "sentence_en": "This medicine helps me sleep.",
+    "translation_ar": "هذا الدواء يساعدني على النوم.",
+    "audio_ref": ""
+  },
+  {
+    "id": 687,
+    "day_id": 63,
+    "sentence_en": "I have a checkup next week.",
+    "translation_ar": "عندي فحص الأسبوع القادم.",
+    "audio_ref": ""
+  },
+  {
+    "id": 688,
+    "day_id": 63,
+    "sentence_en": "My doctor is very kind.",
+    "translation_ar": "طبيبي لطيف جداً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 689,
+    "day_id": 63,
+    "sentence_en": "I'd like to make an appointment with the doctor.",
+    "translation_ar": "أود حجز موعد مع الطبيب.",
+    "audio_ref": ""
+  },
+  {
+    "id": 690,
+    "day_id": 63,
+    "sentence_en": "Take this pill three times a day.",
+    "translation_ar": "خذ هذه الحبة ثلاث مرات يومياً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 691,
+    "day_id": 63,
+    "sentence_en": "The pharmacy is open until midnight.",
+    "translation_ar": "الصيدلية مفتوحة حتى منتصف الليل.",
+    "audio_ref": ""
+  },
+  {
+    "id": 692,
+    "day_id": 63,
+    "sentence_en": "Do I need a prescription?",
+    "translation_ar": "هل أحتاج وصفة طبية؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 693,
+    "day_id": 63,
+    "sentence_en": "I'd like to do a blood test.",
+    "translation_ar": "أود إجراء فحص دم.",
+    "audio_ref": ""
+  },
+  {
+    "id": 694,
+    "day_id": 64,
+    "sentence_en": "I have a meeting at ten.",
+    "translation_ar": "عندي اجتماع في العاشرة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 695,
+    "day_id": 64,
+    "sentence_en": "Please send me the report by email.",
+    "translation_ar": "من فضلك أرسل لي التقرير بالبريد الإلكتروني.",
+    "audio_ref": ""
+  },
+  {
+    "id": 696,
+    "day_id": 64,
+    "sentence_en": "I will be in the office tomorrow.",
+    "translation_ar": "سأكون في المكتب غداً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 697,
+    "day_id": 64,
+    "sentence_en": "Our project deadline is Friday.",
+    "translation_ar": "الموعد النهائي لمشروعنا الجمعة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 698,
+    "day_id": 64,
+    "sentence_en": "Can you help me with this task?",
+    "translation_ar": "هل يمكنك مساعدتي في هذه المهمة؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 699,
+    "day_id": 64,
+    "sentence_en": "I work from nine to five.",
+    "translation_ar": "أعمل من التاسعة حتى الخامسة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 700,
+    "day_id": 64,
+    "sentence_en": "My manager is in a meeting.",
+    "translation_ar": "مديري في اجتماع.",
+    "audio_ref": ""
+  },
+  {
+    "id": 701,
+    "day_id": 64,
+    "sentence_en": "Let's discuss this after lunch.",
+    "translation_ar": "لنناقش هذا بعد الغداء.",
+    "audio_ref": ""
+  },
+  {
+    "id": 702,
+    "day_id": 64,
+    "sentence_en": "I need a day off next week.",
+    "translation_ar": "أحتاج يوم إجازة الأسبوع القادم.",
+    "audio_ref": ""
+  },
+  {
+    "id": 703,
+    "day_id": 64,
+    "sentence_en": "The team is working hard.",
+    "translation_ar": "الفريق يعمل بجد.",
+    "audio_ref": ""
+  },
+  {
+    "id": 704,
+    "day_id": 64,
+    "sentence_en": "Please prepare the presentation.",
+    "translation_ar": "من فضلك حضّر العرض التقديمي.",
+    "audio_ref": ""
+  },
+  {
+    "id": 705,
+    "day_id": 65,
+    "sentence_en": "I will join the call in five minutes.",
+    "translation_ar": "سأنضم للمكالمة بعد خمس دقائق.",
+    "audio_ref": ""
+  },
+  {
+    "id": 706,
+    "day_id": 65,
+    "sentence_en": "Could you give me feedback?",
+    "translation_ar": "هل يمكنك إعطائي ملاحظات؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 707,
+    "day_id": 65,
+    "sentence_en": "My salary is paid monthly.",
+    "translation_ar": "يُدفع راتبي شهرياً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 708,
+    "day_id": 65,
+    "sentence_en": "I have a meeting at ten.",
+    "translation_ar": "عندي اجتماع في العاشرة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 709,
+    "day_id": 65,
+    "sentence_en": "Please send me the report by email.",
+    "translation_ar": "من فضلك أرسل لي التقرير بالبريد الإلكتروني.",
+    "audio_ref": ""
+  },
+  {
+    "id": 710,
+    "day_id": 65,
+    "sentence_en": "I will be in the office tomorrow.",
+    "translation_ar": "سأكون في المكتب غداً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 711,
+    "day_id": 65,
+    "sentence_en": "Our project deadline is Friday.",
+    "translation_ar": "الموعد النهائي لمشروعنا الجمعة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 712,
+    "day_id": 65,
+    "sentence_en": "Can you help me with this task?",
+    "translation_ar": "هل يمكنك مساعدتي في هذه المهمة؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 713,
+    "day_id": 65,
+    "sentence_en": "I work from nine to five.",
+    "translation_ar": "أعمل من التاسعة حتى الخامسة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 714,
+    "day_id": 65,
+    "sentence_en": "My manager is in a meeting.",
+    "translation_ar": "مديري في اجتماع.",
+    "audio_ref": ""
+  },
+  {
+    "id": 715,
+    "day_id": 65,
+    "sentence_en": "Let's discuss this after lunch.",
+    "translation_ar": "لنناقش هذا بعد الغداء.",
+    "audio_ref": ""
+  },
+  {
+    "id": 716,
+    "day_id": 66,
+    "sentence_en": "I need a day off next week.",
+    "translation_ar": "أحتاج يوم إجازة الأسبوع القادم.",
+    "audio_ref": ""
+  },
+  {
+    "id": 717,
+    "day_id": 66,
+    "sentence_en": "The team is working hard.",
+    "translation_ar": "الفريق يعمل بجد.",
+    "audio_ref": ""
+  },
+  {
+    "id": 718,
+    "day_id": 66,
+    "sentence_en": "Please prepare the presentation.",
+    "translation_ar": "من فضلك حضّر العرض التقديمي.",
+    "audio_ref": ""
+  },
+  {
+    "id": 719,
+    "day_id": 66,
+    "sentence_en": "I will join the call in five minutes.",
+    "translation_ar": "سأنضم للمكالمة بعد خمس دقائق.",
+    "audio_ref": ""
+  },
+  {
+    "id": 720,
+    "day_id": 66,
+    "sentence_en": "Could you give me feedback?",
+    "translation_ar": "هل يمكنك إعطائي ملاحظات؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 721,
+    "day_id": 66,
+    "sentence_en": "My salary is paid monthly.",
+    "translation_ar": "يُدفع راتبي شهرياً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 722,
+    "day_id": 66,
+    "sentence_en": "I have a meeting at ten.",
+    "translation_ar": "عندي اجتماع في العاشرة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 723,
+    "day_id": 66,
+    "sentence_en": "Please send me the report by email.",
+    "translation_ar": "من فضلك أرسل لي التقرير بالبريد الإلكتروني.",
+    "audio_ref": ""
+  },
+  {
+    "id": 724,
+    "day_id": 66,
+    "sentence_en": "I will be in the office tomorrow.",
+    "translation_ar": "سأكون في المكتب غداً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 725,
+    "day_id": 66,
+    "sentence_en": "Our project deadline is Friday.",
+    "translation_ar": "الموعد النهائي لمشروعنا الجمعة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 726,
+    "day_id": 66,
+    "sentence_en": "Can you help me with this task?",
+    "translation_ar": "هل يمكنك مساعدتي في هذه المهمة؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 727,
+    "day_id": 67,
+    "sentence_en": "I work from nine to five.",
+    "translation_ar": "أعمل من التاسعة حتى الخامسة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 728,
+    "day_id": 67,
+    "sentence_en": "My manager is in a meeting.",
+    "translation_ar": "مديري في اجتماع.",
+    "audio_ref": ""
+  },
+  {
+    "id": 729,
+    "day_id": 67,
+    "sentence_en": "Let's discuss this after lunch.",
+    "translation_ar": "لنناقش هذا بعد الغداء.",
+    "audio_ref": ""
+  },
+  {
+    "id": 730,
+    "day_id": 67,
+    "sentence_en": "I need a day off next week.",
+    "translation_ar": "أحتاج يوم إجازة الأسبوع القادم.",
+    "audio_ref": ""
+  },
+  {
+    "id": 731,
+    "day_id": 67,
+    "sentence_en": "The team is working hard.",
+    "translation_ar": "الفريق يعمل بجد.",
+    "audio_ref": ""
+  },
+  {
+    "id": 732,
+    "day_id": 67,
+    "sentence_en": "Please prepare the presentation.",
+    "translation_ar": "من فضلك حضّر العرض التقديمي.",
+    "audio_ref": ""
+  },
+  {
+    "id": 733,
+    "day_id": 67,
+    "sentence_en": "I will join the call in five minutes.",
+    "translation_ar": "سأنضم للمكالمة بعد خمس دقائق.",
+    "audio_ref": ""
+  },
+  {
+    "id": 734,
+    "day_id": 67,
+    "sentence_en": "Could you give me feedback?",
+    "translation_ar": "هل يمكنك إعطائي ملاحظات؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 735,
+    "day_id": 67,
+    "sentence_en": "My salary is paid monthly.",
+    "translation_ar": "يُدفع راتبي شهرياً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 736,
+    "day_id": 67,
+    "sentence_en": "I have a meeting at ten.",
+    "translation_ar": "عندي اجتماع في العاشرة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 737,
+    "day_id": 67,
+    "sentence_en": "Please send me the report by email.",
+    "translation_ar": "من فضلك أرسل لي التقرير بالبريد الإلكتروني.",
+    "audio_ref": ""
+  },
+  {
+    "id": 738,
+    "day_id": 68,
+    "sentence_en": "I will be in the office tomorrow.",
+    "translation_ar": "سأكون في المكتب غداً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 739,
+    "day_id": 68,
+    "sentence_en": "Our project deadline is Friday.",
+    "translation_ar": "الموعد النهائي لمشروعنا الجمعة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 740,
+    "day_id": 68,
+    "sentence_en": "Can you help me with this task?",
+    "translation_ar": "هل يمكنك مساعدتي في هذه المهمة؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 741,
+    "day_id": 68,
+    "sentence_en": "I work from nine to five.",
+    "translation_ar": "أعمل من التاسعة حتى الخامسة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 742,
+    "day_id": 68,
+    "sentence_en": "My manager is in a meeting.",
+    "translation_ar": "مديري في اجتماع.",
+    "audio_ref": ""
+  },
+  {
+    "id": 743,
+    "day_id": 68,
+    "sentence_en": "Let's discuss this after lunch.",
+    "translation_ar": "لنناقش هذا بعد الغداء.",
+    "audio_ref": ""
+  },
+  {
+    "id": 744,
+    "day_id": 68,
+    "sentence_en": "I need a day off next week.",
+    "translation_ar": "أحتاج يوم إجازة الأسبوع القادم.",
+    "audio_ref": ""
+  },
+  {
+    "id": 745,
+    "day_id": 68,
+    "sentence_en": "The team is working hard.",
+    "translation_ar": "الفريق يعمل بجد.",
+    "audio_ref": ""
+  },
+  {
+    "id": 746,
+    "day_id": 68,
+    "sentence_en": "Please prepare the presentation.",
+    "translation_ar": "من فضلك حضّر العرض التقديمي.",
+    "audio_ref": ""
+  },
+  {
+    "id": 747,
+    "day_id": 68,
+    "sentence_en": "I will join the call in five minutes.",
+    "translation_ar": "سأنضم للمكالمة بعد خمس دقائق.",
+    "audio_ref": ""
+  },
+  {
+    "id": 748,
+    "day_id": 68,
+    "sentence_en": "Could you give me feedback?",
+    "translation_ar": "هل يمكنك إعطائي ملاحظات؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 749,
+    "day_id": 69,
+    "sentence_en": "My salary is paid monthly.",
+    "translation_ar": "يُدفع راتبي شهرياً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 750,
+    "day_id": 69,
+    "sentence_en": "I have a meeting at ten.",
+    "translation_ar": "عندي اجتماع في العاشرة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 751,
+    "day_id": 69,
+    "sentence_en": "Please send me the report by email.",
+    "translation_ar": "من فضلك أرسل لي التقرير بالبريد الإلكتروني.",
+    "audio_ref": ""
+  },
+  {
+    "id": 752,
+    "day_id": 69,
+    "sentence_en": "I will be in the office tomorrow.",
+    "translation_ar": "سأكون في المكتب غداً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 753,
+    "day_id": 69,
+    "sentence_en": "Our project deadline is Friday.",
+    "translation_ar": "الموعد النهائي لمشروعنا الجمعة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 754,
+    "day_id": 69,
+    "sentence_en": "Can you help me with this task?",
+    "translation_ar": "هل يمكنك مساعدتي في هذه المهمة؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 755,
+    "day_id": 69,
+    "sentence_en": "I work from nine to five.",
+    "translation_ar": "أعمل من التاسعة حتى الخامسة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 756,
+    "day_id": 69,
+    "sentence_en": "My manager is in a meeting.",
+    "translation_ar": "مديري في اجتماع.",
+    "audio_ref": ""
+  },
+  {
+    "id": 757,
+    "day_id": 69,
+    "sentence_en": "Let's discuss this after lunch.",
+    "translation_ar": "لنناقش هذا بعد الغداء.",
+    "audio_ref": ""
+  },
+  {
+    "id": 758,
+    "day_id": 69,
+    "sentence_en": "I need a day off next week.",
+    "translation_ar": "أحتاج يوم إجازة الأسبوع القادم.",
+    "audio_ref": ""
+  },
+  {
+    "id": 759,
+    "day_id": 69,
+    "sentence_en": "The team is working hard.",
+    "translation_ar": "الفريق يعمل بجد.",
+    "audio_ref": ""
+  },
+  {
+    "id": 760,
+    "day_id": 70,
+    "sentence_en": "Please prepare the presentation.",
+    "translation_ar": "من فضلك حضّر العرض التقديمي.",
+    "audio_ref": ""
+  },
+  {
+    "id": 761,
+    "day_id": 70,
+    "sentence_en": "I will join the call in five minutes.",
+    "translation_ar": "سأنضم للمكالمة بعد خمس دقائق.",
+    "audio_ref": ""
+  },
+  {
+    "id": 762,
+    "day_id": 70,
+    "sentence_en": "Could you give me feedback?",
+    "translation_ar": "هل يمكنك إعطائي ملاحظات؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 763,
+    "day_id": 70,
+    "sentence_en": "My salary is paid monthly.",
+    "translation_ar": "يُدفع راتبي شهرياً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 764,
+    "day_id": 70,
+    "sentence_en": "I have a meeting at ten.",
+    "translation_ar": "عندي اجتماع في العاشرة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 765,
+    "day_id": 70,
+    "sentence_en": "Please send me the report by email.",
+    "translation_ar": "من فضلك أرسل لي التقرير بالبريد الإلكتروني.",
+    "audio_ref": ""
+  },
+  {
+    "id": 766,
+    "day_id": 70,
+    "sentence_en": "I will be in the office tomorrow.",
+    "translation_ar": "سأكون في المكتب غداً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 767,
+    "day_id": 70,
+    "sentence_en": "Our project deadline is Friday.",
+    "translation_ar": "الموعد النهائي لمشروعنا الجمعة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 768,
+    "day_id": 70,
+    "sentence_en": "Can you help me with this task?",
+    "translation_ar": "هل يمكنك مساعدتي في هذه المهمة؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 769,
+    "day_id": 70,
+    "sentence_en": "I work from nine to five.",
+    "translation_ar": "أعمل من التاسعة حتى الخامسة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 770,
+    "day_id": 70,
+    "sentence_en": "My manager is in a meeting.",
+    "translation_ar": "مديري في اجتماع.",
+    "audio_ref": ""
+  },
+  {
+    "id": 771,
+    "day_id": 71,
+    "sentence_en": "Hello, can I speak to Mr. Ali?",
+    "translation_ar": "مرحباً، هل يمكنني التحدث إلى السيد علي؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 772,
+    "day_id": 71,
+    "sentence_en": "Please leave a message after the tone.",
+    "translation_ar": "من فضلك اترك رسالة بعد الصافرة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 773,
+    "day_id": 71,
+    "sentence_en": "I'm calling about the job advertisement.",
+    "translation_ar": "أتصل بشأن إعلان الوظيفة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 774,
+    "day_id": 71,
+    "sentence_en": "Could you send the file as an attachment?",
+    "translation_ar": "هل يمكنك إرسال الملف كمرفق؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 775,
+    "day_id": 71,
+    "sentence_en": "I confirm our meeting for Friday.",
+    "translation_ar": "أؤكد اجتماعنا يوم الجمعة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 776,
+    "day_id": 71,
+    "sentence_en": "Tell me about yourself.",
+    "translation_ar": "حدّثني عن نفسك.",
+    "audio_ref": ""
+  },
+  {
+    "id": 777,
+    "day_id": 71,
+    "sentence_en": "Why do you want this job?",
+    "translation_ar": "لماذا تريد هذه الوظيفة؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 778,
+    "day_id": 71,
+    "sentence_en": "What is your biggest strength?",
+    "translation_ar": "ما هي أكبر نقاط قوتك؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 779,
+    "day_id": 71,
+    "sentence_en": "I am a quick learner and a team player.",
+    "translation_ar": "أنا متعلم سريع وعضو فريق جيد.",
+    "audio_ref": ""
+  },
+  {
+    "id": 780,
+    "day_id": 71,
+    "sentence_en": "Do you have any questions for me?",
+    "translation_ar": "هل لديك أي أسئلة لي؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 781,
+    "day_id": 71,
+    "sentence_en": "Thank you for the opportunity.",
+    "translation_ar": "شكراً على هذه الفرصة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 782,
+    "day_id": 72,
+    "sentence_en": "I look forward to your reply.",
+    "translation_ar": "أتطلع إلى ردك.",
+    "audio_ref": ""
+  },
+  {
+    "id": 783,
+    "day_id": 72,
+    "sentence_en": "Best regards, Ahmed.",
+    "translation_ar": "مع أطيب التحيات، أحمد.",
+    "audio_ref": ""
+  },
+  {
+    "id": 784,
+    "day_id": 72,
+    "sentence_en": "Please confirm by tomorrow.",
+    "translation_ar": "من فضلك أكد قبل الغد.",
+    "audio_ref": ""
+  },
+  {
+    "id": 785,
+    "day_id": 72,
+    "sentence_en": "Hello, can I speak to Mr. Ali?",
+    "translation_ar": "مرحباً، هل يمكنني التحدث إلى السيد علي؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 786,
+    "day_id": 72,
+    "sentence_en": "Please leave a message after the tone.",
+    "translation_ar": "من فضلك اترك رسالة بعد الصافرة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 787,
+    "day_id": 72,
+    "sentence_en": "I'm calling about the job advertisement.",
+    "translation_ar": "أتصل بشأن إعلان الوظيفة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 788,
+    "day_id": 72,
+    "sentence_en": "Could you send the file as an attachment?",
+    "translation_ar": "هل يمكنك إرسال الملف كمرفق؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 789,
+    "day_id": 72,
+    "sentence_en": "I confirm our meeting for Friday.",
+    "translation_ar": "أؤكد اجتماعنا يوم الجمعة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 790,
+    "day_id": 72,
+    "sentence_en": "Tell me about yourself.",
+    "translation_ar": "حدّثني عن نفسك.",
+    "audio_ref": ""
+  },
+  {
+    "id": 791,
+    "day_id": 72,
+    "sentence_en": "Why do you want this job?",
+    "translation_ar": "لماذا تريد هذه الوظيفة؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 792,
+    "day_id": 72,
+    "sentence_en": "What is your biggest strength?",
+    "translation_ar": "ما هي أكبر نقاط قوتك؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 793,
+    "day_id": 73,
+    "sentence_en": "I am a quick learner and a team player.",
+    "translation_ar": "أنا متعلم سريع وعضو فريق جيد.",
+    "audio_ref": ""
+  },
+  {
+    "id": 794,
+    "day_id": 73,
+    "sentence_en": "Do you have any questions for me?",
+    "translation_ar": "هل لديك أي أسئلة لي؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 795,
+    "day_id": 73,
+    "sentence_en": "Thank you for the opportunity.",
+    "translation_ar": "شكراً على هذه الفرصة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 796,
+    "day_id": 73,
+    "sentence_en": "I look forward to your reply.",
+    "translation_ar": "أتطلع إلى ردك.",
+    "audio_ref": ""
+  },
+  {
+    "id": 797,
+    "day_id": 73,
+    "sentence_en": "Best regards, Ahmed.",
+    "translation_ar": "مع أطيب التحيات، أحمد.",
+    "audio_ref": ""
+  },
+  {
+    "id": 798,
+    "day_id": 73,
+    "sentence_en": "Please confirm by tomorrow.",
+    "translation_ar": "من فضلك أكد قبل الغد.",
+    "audio_ref": ""
+  },
+  {
+    "id": 799,
+    "day_id": 73,
+    "sentence_en": "Hello, can I speak to Mr. Ali?",
+    "translation_ar": "مرحباً، هل يمكنني التحدث إلى السيد علي؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 800,
+    "day_id": 73,
+    "sentence_en": "Please leave a message after the tone.",
+    "translation_ar": "من فضلك اترك رسالة بعد الصافرة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 801,
+    "day_id": 73,
+    "sentence_en": "I'm calling about the job advertisement.",
+    "translation_ar": "أتصل بشأن إعلان الوظيفة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 802,
+    "day_id": 73,
+    "sentence_en": "Could you send the file as an attachment?",
+    "translation_ar": "هل يمكنك إرسال الملف كمرفق؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 803,
+    "day_id": 73,
+    "sentence_en": "I confirm our meeting for Friday.",
+    "translation_ar": "أؤكد اجتماعنا يوم الجمعة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 804,
+    "day_id": 74,
+    "sentence_en": "Tell me about yourself.",
+    "translation_ar": "حدّثني عن نفسك.",
+    "audio_ref": ""
+  },
+  {
+    "id": 805,
+    "day_id": 74,
+    "sentence_en": "Why do you want this job?",
+    "translation_ar": "لماذا تريد هذه الوظيفة؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 806,
+    "day_id": 74,
+    "sentence_en": "What is your biggest strength?",
+    "translation_ar": "ما هي أكبر نقاط قوتك؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 807,
+    "day_id": 74,
+    "sentence_en": "I am a quick learner and a team player.",
+    "translation_ar": "أنا متعلم سريع وعضو فريق جيد.",
+    "audio_ref": ""
+  },
+  {
+    "id": 808,
+    "day_id": 74,
+    "sentence_en": "Do you have any questions for me?",
+    "translation_ar": "هل لديك أي أسئلة لي؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 809,
+    "day_id": 74,
+    "sentence_en": "Thank you for the opportunity.",
+    "translation_ar": "شكراً على هذه الفرصة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 810,
+    "day_id": 74,
+    "sentence_en": "I look forward to your reply.",
+    "translation_ar": "أتطلع إلى ردك.",
+    "audio_ref": ""
+  },
+  {
+    "id": 811,
+    "day_id": 74,
+    "sentence_en": "Best regards, Ahmed.",
+    "translation_ar": "مع أطيب التحيات، أحمد.",
+    "audio_ref": ""
+  },
+  {
+    "id": 812,
+    "day_id": 74,
+    "sentence_en": "Please confirm by tomorrow.",
+    "translation_ar": "من فضلك أكد قبل الغد.",
+    "audio_ref": ""
+  },
+  {
+    "id": 813,
+    "day_id": 74,
+    "sentence_en": "Hello, can I speak to Mr. Ali?",
+    "translation_ar": "مرحباً، هل يمكنني التحدث إلى السيد علي؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 814,
+    "day_id": 74,
+    "sentence_en": "Please leave a message after the tone.",
+    "translation_ar": "من فضلك اترك رسالة بعد الصافرة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 815,
+    "day_id": 75,
+    "sentence_en": "I'm calling about the job advertisement.",
+    "translation_ar": "أتصل بشأن إعلان الوظيفة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 816,
+    "day_id": 75,
+    "sentence_en": "Could you send the file as an attachment?",
+    "translation_ar": "هل يمكنك إرسال الملف كمرفق؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 817,
+    "day_id": 75,
+    "sentence_en": "I confirm our meeting for Friday.",
+    "translation_ar": "أؤكد اجتماعنا يوم الجمعة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 818,
+    "day_id": 75,
+    "sentence_en": "Tell me about yourself.",
+    "translation_ar": "حدّثني عن نفسك.",
+    "audio_ref": ""
+  },
+  {
+    "id": 819,
+    "day_id": 75,
+    "sentence_en": "Why do you want this job?",
+    "translation_ar": "لماذا تريد هذه الوظيفة؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 820,
+    "day_id": 75,
+    "sentence_en": "What is your biggest strength?",
+    "translation_ar": "ما هي أكبر نقاط قوتك؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 821,
+    "day_id": 75,
+    "sentence_en": "I am a quick learner and a team player.",
+    "translation_ar": "أنا متعلم سريع وعضو فريق جيد.",
+    "audio_ref": ""
+  },
+  {
+    "id": 822,
+    "day_id": 75,
+    "sentence_en": "Do you have any questions for me?",
+    "translation_ar": "هل لديك أي أسئلة لي؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 823,
+    "day_id": 75,
+    "sentence_en": "Thank you for the opportunity.",
+    "translation_ar": "شكراً على هذه الفرصة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 824,
+    "day_id": 75,
+    "sentence_en": "I look forward to your reply.",
+    "translation_ar": "أتطلع إلى ردك.",
+    "audio_ref": ""
+  },
+  {
+    "id": 825,
+    "day_id": 75,
+    "sentence_en": "Best regards, Ahmed.",
+    "translation_ar": "مع أطيب التحيات، أحمد.",
+    "audio_ref": ""
+  },
+  {
+    "id": 826,
+    "day_id": 76,
+    "sentence_en": "Please confirm by tomorrow.",
+    "translation_ar": "من فضلك أكد قبل الغد.",
+    "audio_ref": ""
+  },
+  {
+    "id": 827,
+    "day_id": 76,
+    "sentence_en": "Hello, can I speak to Mr. Ali?",
+    "translation_ar": "مرحباً، هل يمكنني التحدث إلى السيد علي؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 828,
+    "day_id": 76,
+    "sentence_en": "Please leave a message after the tone.",
+    "translation_ar": "من فضلك اترك رسالة بعد الصافرة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 829,
+    "day_id": 76,
+    "sentence_en": "I'm calling about the job advertisement.",
+    "translation_ar": "أتصل بشأن إعلان الوظيفة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 830,
+    "day_id": 76,
+    "sentence_en": "Could you send the file as an attachment?",
+    "translation_ar": "هل يمكنك إرسال الملف كمرفق؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 831,
+    "day_id": 76,
+    "sentence_en": "I confirm our meeting for Friday.",
+    "translation_ar": "أؤكد اجتماعنا يوم الجمعة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 832,
+    "day_id": 76,
+    "sentence_en": "Tell me about yourself.",
+    "translation_ar": "حدّثني عن نفسك.",
+    "audio_ref": ""
+  },
+  {
+    "id": 833,
+    "day_id": 76,
+    "sentence_en": "Why do you want this job?",
+    "translation_ar": "لماذا تريد هذه الوظيفة؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 834,
+    "day_id": 76,
+    "sentence_en": "What is your biggest strength?",
+    "translation_ar": "ما هي أكبر نقاط قوتك؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 835,
+    "day_id": 76,
+    "sentence_en": "I am a quick learner and a team player.",
+    "translation_ar": "أنا متعلم سريع وعضو فريق جيد.",
+    "audio_ref": ""
+  },
+  {
+    "id": 836,
+    "day_id": 76,
+    "sentence_en": "Do you have any questions for me?",
+    "translation_ar": "هل لديك أي أسئلة لي؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 837,
+    "day_id": 77,
+    "sentence_en": "Thank you for the opportunity.",
+    "translation_ar": "شكراً على هذه الفرصة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 838,
+    "day_id": 77,
+    "sentence_en": "I look forward to your reply.",
+    "translation_ar": "أتطلع إلى ردك.",
+    "audio_ref": ""
+  },
+  {
+    "id": 839,
+    "day_id": 77,
+    "sentence_en": "Best regards, Ahmed.",
+    "translation_ar": "مع أطيب التحيات، أحمد.",
+    "audio_ref": ""
+  },
+  {
+    "id": 840,
+    "day_id": 77,
+    "sentence_en": "Please confirm by tomorrow.",
+    "translation_ar": "من فضلك أكد قبل الغد.",
+    "audio_ref": ""
+  },
+  {
+    "id": 841,
+    "day_id": 77,
+    "sentence_en": "Hello, can I speak to Mr. Ali?",
+    "translation_ar": "مرحباً، هل يمكنني التحدث إلى السيد علي؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 842,
+    "day_id": 77,
+    "sentence_en": "Please leave a message after the tone.",
+    "translation_ar": "من فضلك اترك رسالة بعد الصافرة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 843,
+    "day_id": 77,
+    "sentence_en": "I'm calling about the job advertisement.",
+    "translation_ar": "أتصل بشأن إعلان الوظيفة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 844,
+    "day_id": 77,
+    "sentence_en": "Could you send the file as an attachment?",
+    "translation_ar": "هل يمكنك إرسال الملف كمرفق؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 845,
+    "day_id": 77,
+    "sentence_en": "I confirm our meeting for Friday.",
+    "translation_ar": "أؤكد اجتماعنا يوم الجمعة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 846,
+    "day_id": 77,
+    "sentence_en": "Tell me about yourself.",
+    "translation_ar": "حدّثني عن نفسك.",
+    "audio_ref": ""
+  },
+  {
+    "id": 847,
+    "day_id": 77,
+    "sentence_en": "Why do you want this job?",
+    "translation_ar": "لماذا تريد هذه الوظيفة؟",
+    "audio_ref": ""
+  },
+  {
+    "id": 848,
+    "day_id": 78,
+    "sentence_en": "In my opinion, learning English is very important.",
+    "translation_ar": "في رأيي، تعلم الإنجليزية مهم جداً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 849,
+    "day_id": 78,
+    "sentence_en": "I think Morocco is a beautiful country.",
+    "translation_ar": "أعتقد أن المغرب بلد جميل.",
+    "audio_ref": ""
+  },
+  {
+    "id": 850,
+    "day_id": 78,
+    "sentence_en": "I don't really agree with that idea.",
+    "translation_ar": "لا أوافق على تلك الفكرة فعلاً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 851,
+    "day_id": 78,
+    "sentence_en": "Actually, I prefer staying at home.",
+    "translation_ar": "في الواقع، أفضل البقاء في البيت.",
+    "audio_ref": ""
+  },
+  {
+    "id": 852,
+    "day_id": 78,
+    "sentence_en": "Last summer I traveled to Spain.",
+    "translation_ar": "الصيف الماضي سافرت إلى إسبانيا.",
+    "audio_ref": ""
+  },
+  {
+    "id": 853,
+    "day_id": 78,
+    "sentence_en": "When I was a child, I lived in Marrakech.",
+    "translation_ar": "عندما كنت طفلاً، عشت في مراكش.",
+    "audio_ref": ""
+  },
+  {
+    "id": 854,
+    "day_id": 78,
+    "sentence_en": "That movie was really interesting.",
+    "translation_ar": "ذلك الفيلم كان مثيراً للاهتمام حقاً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 855,
+    "day_id": 78,
+    "sentence_en": "First, we visited the museum, then the park.",
+    "translation_ar": "أولاً، زرنا المتحف، ثم الحديقة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 856,
+    "day_id": 78,
+    "sentence_en": "On the other hand, it was expensive.",
+    "translation_ar": "من ناحية أخرى، كان غالياً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 857,
+    "day_id": 78,
+    "sentence_en": "Honestly, I don't have a strong opinion.",
+    "translation_ar": "بصراحة، ليس لدي رأي قوي.",
+    "audio_ref": ""
+  },
+  {
+    "id": 858,
+    "day_id": 78,
+    "sentence_en": "Yesterday I met an old friend.",
+    "translation_ar": "أمس قابلت صديقاً قديماً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 859,
+    "day_id": 79,
+    "sentence_en": "It was a long but useful experience.",
+    "translation_ar": "كانت تجربة طويلة لكنها مفيدة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 860,
+    "day_id": 79,
+    "sentence_en": "I think we should try a new way.",
+    "translation_ar": "أعتقد أنه يجب علينا تجربة طريقة جديدة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 861,
+    "day_id": 79,
+    "sentence_en": "That's a great point, thanks.",
+    "translation_ar": "تلك نقطة رائعة، شكراً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 862,
+    "day_id": 79,
+    "sentence_en": "In my opinion, learning English is very important.",
+    "translation_ar": "في رأيي، تعلم الإنجليزية مهم جداً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 863,
+    "day_id": 79,
+    "sentence_en": "I think Morocco is a beautiful country.",
+    "translation_ar": "أعتقد أن المغرب بلد جميل.",
+    "audio_ref": ""
+  },
+  {
+    "id": 864,
+    "day_id": 79,
+    "sentence_en": "I don't really agree with that idea.",
+    "translation_ar": "لا أوافق على تلك الفكرة فعلاً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 865,
+    "day_id": 79,
+    "sentence_en": "Actually, I prefer staying at home.",
+    "translation_ar": "في الواقع، أفضل البقاء في البيت.",
+    "audio_ref": ""
+  },
+  {
+    "id": 866,
+    "day_id": 79,
+    "sentence_en": "Last summer I traveled to Spain.",
+    "translation_ar": "الصيف الماضي سافرت إلى إسبانيا.",
+    "audio_ref": ""
+  },
+  {
+    "id": 867,
+    "day_id": 79,
+    "sentence_en": "When I was a child, I lived in Marrakech.",
+    "translation_ar": "عندما كنت طفلاً، عشت في مراكش.",
+    "audio_ref": ""
+  },
+  {
+    "id": 868,
+    "day_id": 79,
+    "sentence_en": "That movie was really interesting.",
+    "translation_ar": "ذلك الفيلم كان مثيراً للاهتمام حقاً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 869,
+    "day_id": 79,
+    "sentence_en": "First, we visited the museum, then the park.",
+    "translation_ar": "أولاً، زرنا المتحف، ثم الحديقة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 870,
+    "day_id": 80,
+    "sentence_en": "On the other hand, it was expensive.",
+    "translation_ar": "من ناحية أخرى، كان غالياً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 871,
+    "day_id": 80,
+    "sentence_en": "Honestly, I don't have a strong opinion.",
+    "translation_ar": "بصراحة، ليس لدي رأي قوي.",
+    "audio_ref": ""
+  },
+  {
+    "id": 872,
+    "day_id": 80,
+    "sentence_en": "Yesterday I met an old friend.",
+    "translation_ar": "أمس قابلت صديقاً قديماً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 873,
+    "day_id": 80,
+    "sentence_en": "It was a long but useful experience.",
+    "translation_ar": "كانت تجربة طويلة لكنها مفيدة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 874,
+    "day_id": 80,
+    "sentence_en": "I think we should try a new way.",
+    "translation_ar": "أعتقد أنه يجب علينا تجربة طريقة جديدة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 875,
+    "day_id": 80,
+    "sentence_en": "That's a great point, thanks.",
+    "translation_ar": "تلك نقطة رائعة، شكراً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 876,
+    "day_id": 80,
+    "sentence_en": "In my opinion, learning English is very important.",
+    "translation_ar": "في رأيي، تعلم الإنجليزية مهم جداً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 877,
+    "day_id": 80,
+    "sentence_en": "I think Morocco is a beautiful country.",
+    "translation_ar": "أعتقد أن المغرب بلد جميل.",
+    "audio_ref": ""
+  },
+  {
+    "id": 878,
+    "day_id": 80,
+    "sentence_en": "I don't really agree with that idea.",
+    "translation_ar": "لا أوافق على تلك الفكرة فعلاً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 879,
+    "day_id": 80,
+    "sentence_en": "Actually, I prefer staying at home.",
+    "translation_ar": "في الواقع، أفضل البقاء في البيت.",
+    "audio_ref": ""
+  },
+  {
+    "id": 880,
+    "day_id": 80,
+    "sentence_en": "Last summer I traveled to Spain.",
+    "translation_ar": "الصيف الماضي سافرت إلى إسبانيا.",
+    "audio_ref": ""
+  },
+  {
+    "id": 881,
+    "day_id": 81,
+    "sentence_en": "When I was a child, I lived in Marrakech.",
+    "translation_ar": "عندما كنت طفلاً، عشت في مراكش.",
+    "audio_ref": ""
+  },
+  {
+    "id": 882,
+    "day_id": 81,
+    "sentence_en": "That movie was really interesting.",
+    "translation_ar": "ذلك الفيلم كان مثيراً للاهتمام حقاً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 883,
+    "day_id": 81,
+    "sentence_en": "First, we visited the museum, then the park.",
+    "translation_ar": "أولاً، زرنا المتحف، ثم الحديقة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 884,
+    "day_id": 81,
+    "sentence_en": "On the other hand, it was expensive.",
+    "translation_ar": "من ناحية أخرى، كان غالياً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 885,
+    "day_id": 81,
+    "sentence_en": "Honestly, I don't have a strong opinion.",
+    "translation_ar": "بصراحة، ليس لدي رأي قوي.",
+    "audio_ref": ""
+  },
+  {
+    "id": 886,
+    "day_id": 81,
+    "sentence_en": "Yesterday I met an old friend.",
+    "translation_ar": "أمس قابلت صديقاً قديماً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 887,
+    "day_id": 81,
+    "sentence_en": "It was a long but useful experience.",
+    "translation_ar": "كانت تجربة طويلة لكنها مفيدة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 888,
+    "day_id": 81,
+    "sentence_en": "I think we should try a new way.",
+    "translation_ar": "أعتقد أنه يجب علينا تجربة طريقة جديدة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 889,
+    "day_id": 81,
+    "sentence_en": "That's a great point, thanks.",
+    "translation_ar": "تلك نقطة رائعة، شكراً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 890,
+    "day_id": 81,
+    "sentence_en": "In my opinion, learning English is very important.",
+    "translation_ar": "في رأيي، تعلم الإنجليزية مهم جداً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 891,
+    "day_id": 81,
+    "sentence_en": "I think Morocco is a beautiful country.",
+    "translation_ar": "أعتقد أن المغرب بلد جميل.",
+    "audio_ref": ""
+  },
+  {
+    "id": 892,
+    "day_id": 82,
+    "sentence_en": "I don't really agree with that idea.",
+    "translation_ar": "لا أوافق على تلك الفكرة فعلاً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 893,
+    "day_id": 82,
+    "sentence_en": "Actually, I prefer staying at home.",
+    "translation_ar": "في الواقع، أفضل البقاء في البيت.",
+    "audio_ref": ""
+  },
+  {
+    "id": 894,
+    "day_id": 82,
+    "sentence_en": "Last summer I traveled to Spain.",
+    "translation_ar": "الصيف الماضي سافرت إلى إسبانيا.",
+    "audio_ref": ""
+  },
+  {
+    "id": 895,
+    "day_id": 82,
+    "sentence_en": "When I was a child, I lived in Marrakech.",
+    "translation_ar": "عندما كنت طفلاً، عشت في مراكش.",
+    "audio_ref": ""
+  },
+  {
+    "id": 896,
+    "day_id": 82,
+    "sentence_en": "That movie was really interesting.",
+    "translation_ar": "ذلك الفيلم كان مثيراً للاهتمام حقاً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 897,
+    "day_id": 82,
+    "sentence_en": "First, we visited the museum, then the park.",
+    "translation_ar": "أولاً، زرنا المتحف، ثم الحديقة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 898,
+    "day_id": 82,
+    "sentence_en": "On the other hand, it was expensive.",
+    "translation_ar": "من ناحية أخرى، كان غالياً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 899,
+    "day_id": 82,
+    "sentence_en": "Honestly, I don't have a strong opinion.",
+    "translation_ar": "بصراحة، ليس لدي رأي قوي.",
+    "audio_ref": ""
+  },
+  {
+    "id": 900,
+    "day_id": 82,
+    "sentence_en": "Yesterday I met an old friend.",
+    "translation_ar": "أمس قابلت صديقاً قديماً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 901,
+    "day_id": 82,
+    "sentence_en": "It was a long but useful experience.",
+    "translation_ar": "كانت تجربة طويلة لكنها مفيدة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 902,
+    "day_id": 82,
+    "sentence_en": "I think we should try a new way.",
+    "translation_ar": "أعتقد أنه يجب علينا تجربة طريقة جديدة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 903,
+    "day_id": 83,
+    "sentence_en": "That's a great point, thanks.",
+    "translation_ar": "تلك نقطة رائعة، شكراً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 904,
+    "day_id": 83,
+    "sentence_en": "In my opinion, learning English is very important.",
+    "translation_ar": "في رأيي، تعلم الإنجليزية مهم جداً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 905,
+    "day_id": 83,
+    "sentence_en": "I think Morocco is a beautiful country.",
+    "translation_ar": "أعتقد أن المغرب بلد جميل.",
+    "audio_ref": ""
+  },
+  {
+    "id": 906,
+    "day_id": 83,
+    "sentence_en": "I don't really agree with that idea.",
+    "translation_ar": "لا أوافق على تلك الفكرة فعلاً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 907,
+    "day_id": 83,
+    "sentence_en": "Actually, I prefer staying at home.",
+    "translation_ar": "في الواقع، أفضل البقاء في البيت.",
+    "audio_ref": ""
+  },
+  {
+    "id": 908,
+    "day_id": 83,
+    "sentence_en": "Last summer I traveled to Spain.",
+    "translation_ar": "الصيف الماضي سافرت إلى إسبانيا.",
+    "audio_ref": ""
+  },
+  {
+    "id": 909,
+    "day_id": 83,
+    "sentence_en": "When I was a child, I lived in Marrakech.",
+    "translation_ar": "عندما كنت طفلاً، عشت في مراكش.",
+    "audio_ref": ""
+  },
+  {
+    "id": 910,
+    "day_id": 83,
+    "sentence_en": "That movie was really interesting.",
+    "translation_ar": "ذلك الفيلم كان مثيراً للاهتمام حقاً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 911,
+    "day_id": 83,
+    "sentence_en": "First, we visited the museum, then the park.",
+    "translation_ar": "أولاً، زرنا المتحف، ثم الحديقة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 912,
+    "day_id": 83,
+    "sentence_en": "On the other hand, it was expensive.",
+    "translation_ar": "من ناحية أخرى، كان غالياً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 913,
+    "day_id": 83,
+    "sentence_en": "Honestly, I don't have a strong opinion.",
+    "translation_ar": "بصراحة، ليس لدي رأي قوي.",
+    "audio_ref": ""
+  },
+  {
+    "id": 914,
+    "day_id": 84,
+    "sentence_en": "Yesterday I met an old friend.",
+    "translation_ar": "أمس قابلت صديقاً قديماً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 915,
+    "day_id": 84,
+    "sentence_en": "It was a long but useful experience.",
+    "translation_ar": "كانت تجربة طويلة لكنها مفيدة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 916,
+    "day_id": 84,
+    "sentence_en": "I think we should try a new way.",
+    "translation_ar": "أعتقد أنه يجب علينا تجربة طريقة جديدة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 917,
+    "day_id": 84,
+    "sentence_en": "That's a great point, thanks.",
+    "translation_ar": "تلك نقطة رائعة، شكراً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 918,
+    "day_id": 84,
+    "sentence_en": "In my opinion, learning English is very important.",
+    "translation_ar": "في رأيي، تعلم الإنجليزية مهم جداً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 919,
+    "day_id": 84,
+    "sentence_en": "I think Morocco is a beautiful country.",
+    "translation_ar": "أعتقد أن المغرب بلد جميل.",
+    "audio_ref": ""
+  },
+  {
+    "id": 920,
+    "day_id": 84,
+    "sentence_en": "I don't really agree with that idea.",
+    "translation_ar": "لا أوافق على تلك الفكرة فعلاً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 921,
+    "day_id": 84,
+    "sentence_en": "Actually, I prefer staying at home.",
+    "translation_ar": "في الواقع، أفضل البقاء في البيت.",
+    "audio_ref": ""
+  },
+  {
+    "id": 922,
+    "day_id": 84,
+    "sentence_en": "Last summer I traveled to Spain.",
+    "translation_ar": "الصيف الماضي سافرت إلى إسبانيا.",
+    "audio_ref": ""
+  },
+  {
+    "id": 923,
+    "day_id": 84,
+    "sentence_en": "When I was a child, I lived in Marrakech.",
+    "translation_ar": "عندما كنت طفلاً، عشت في مراكش.",
+    "audio_ref": ""
+  },
+  {
+    "id": 924,
+    "day_id": 84,
+    "sentence_en": "That movie was really interesting.",
+    "translation_ar": "ذلك الفيلم كان مثيراً للاهتمام حقاً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 925,
+    "day_id": 85,
+    "sentence_en": "Next year I will speak English better.",
+    "translation_ar": "العام القادم سأتحدث الإنجليزية بشكل أفضل.",
+    "audio_ref": ""
+  },
+  {
+    "id": 926,
+    "day_id": 85,
+    "sentence_en": "My goal is to study every day for thirty minutes.",
+    "translation_ar": "هدفي أن أدرس كل يوم لثلاثين دقيقة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 927,
+    "day_id": 85,
+    "sentence_en": "In five years, I want to work abroad.",
+    "translation_ar": "بعد خمس سنوات، أريد العمل في الخارج.",
+    "audio_ref": ""
+  },
+  {
+    "id": 928,
+    "day_id": 85,
+    "sentence_en": "I will save money to buy a car.",
+    "translation_ar": "سأدّخر المال لشراء سيارة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 929,
+    "day_id": 85,
+    "sentence_en": "Tomorrow I'll review today's words.",
+    "translation_ar": "غداً سأراجع كلمات اليوم.",
+    "audio_ref": ""
+  },
+  {
+    "id": 930,
+    "day_id": 85,
+    "sentence_en": "I hope I can travel more.",
+    "translation_ar": "آمل أن أستطيع السفر أكثر.",
+    "audio_ref": ""
+  },
+  {
+    "id": 931,
+    "day_id": 85,
+    "sentence_en": "Don't give up, keep going.",
+    "translation_ar": "لا تستسلم، استمر.",
+    "audio_ref": ""
+  },
+  {
+    "id": 932,
+    "day_id": 85,
+    "sentence_en": "Small steps every day make a big difference.",
+    "translation_ar": "خطوات صغيرة كل يوم تصنع فرقاً كبيراً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 933,
+    "day_id": 85,
+    "sentence_en": "I am proud of my progress.",
+    "translation_ar": "أنا فخور بتقدمي.",
+    "audio_ref": ""
+  },
+  {
+    "id": 934,
+    "day_id": 85,
+    "sentence_en": "You can do it, believe in yourself.",
+    "translation_ar": "يمكنك فعلها، ثق بنفسك.",
+    "audio_ref": ""
+  },
+  {
+    "id": 935,
+    "day_id": 85,
+    "sentence_en": "Even five minutes a day is enough.",
+    "translation_ar": "حتى خمس دقائق في اليوم تكفي.",
+    "audio_ref": ""
+  },
+  {
+    "id": 936,
+    "day_id": 86,
+    "sentence_en": "I will speak only English on Sundays.",
+    "translation_ar": "سأتحدث الإنجليزية فقط أيام الأحد.",
+    "audio_ref": ""
+  },
+  {
+    "id": 937,
+    "day_id": 86,
+    "sentence_en": "Next month I'll read my first English book.",
+    "translation_ar": "الشهر القادم سأقرأ أول كتاب لي بالإنجليزية.",
+    "audio_ref": ""
+  },
+  {
+    "id": 938,
+    "day_id": 86,
+    "sentence_en": "Inshallah, I will become fluent in English.",
+    "translation_ar": "إن شاء الله، سأصبح طليقاً في الإنجليزية.",
+    "audio_ref": ""
+  },
+  {
+    "id": 939,
+    "day_id": 86,
+    "sentence_en": "Next year I will speak English better.",
+    "translation_ar": "العام القادم سأتحدث الإنجليزية بشكل أفضل.",
+    "audio_ref": ""
+  },
+  {
+    "id": 940,
+    "day_id": 86,
+    "sentence_en": "My goal is to study every day for thirty minutes.",
+    "translation_ar": "هدفي أن أدرس كل يوم لثلاثين دقيقة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 941,
+    "day_id": 86,
+    "sentence_en": "In five years, I want to work abroad.",
+    "translation_ar": "بعد خمس سنوات، أريد العمل في الخارج.",
+    "audio_ref": ""
+  },
+  {
+    "id": 942,
+    "day_id": 86,
+    "sentence_en": "I will save money to buy a car.",
+    "translation_ar": "سأدّخر المال لشراء سيارة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 943,
+    "day_id": 86,
+    "sentence_en": "Tomorrow I'll review today's words.",
+    "translation_ar": "غداً سأراجع كلمات اليوم.",
+    "audio_ref": ""
+  },
+  {
+    "id": 944,
+    "day_id": 86,
+    "sentence_en": "I hope I can travel more.",
+    "translation_ar": "آمل أن أستطيع السفر أكثر.",
+    "audio_ref": ""
+  },
+  {
+    "id": 945,
+    "day_id": 86,
+    "sentence_en": "Don't give up, keep going.",
+    "translation_ar": "لا تستسلم، استمر.",
+    "audio_ref": ""
+  },
+  {
+    "id": 946,
+    "day_id": 86,
+    "sentence_en": "Small steps every day make a big difference.",
+    "translation_ar": "خطوات صغيرة كل يوم تصنع فرقاً كبيراً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 947,
+    "day_id": 87,
+    "sentence_en": "I am proud of my progress.",
+    "translation_ar": "أنا فخور بتقدمي.",
+    "audio_ref": ""
+  },
+  {
+    "id": 948,
+    "day_id": 87,
+    "sentence_en": "You can do it, believe in yourself.",
+    "translation_ar": "يمكنك فعلها، ثق بنفسك.",
+    "audio_ref": ""
+  },
+  {
+    "id": 949,
+    "day_id": 87,
+    "sentence_en": "Even five minutes a day is enough.",
+    "translation_ar": "حتى خمس دقائق في اليوم تكفي.",
+    "audio_ref": ""
+  },
+  {
+    "id": 950,
+    "day_id": 87,
+    "sentence_en": "I will speak only English on Sundays.",
+    "translation_ar": "سأتحدث الإنجليزية فقط أيام الأحد.",
+    "audio_ref": ""
+  },
+  {
+    "id": 951,
+    "day_id": 87,
+    "sentence_en": "Next month I'll read my first English book.",
+    "translation_ar": "الشهر القادم سأقرأ أول كتاب لي بالإنجليزية.",
+    "audio_ref": ""
+  },
+  {
+    "id": 952,
+    "day_id": 87,
+    "sentence_en": "Inshallah, I will become fluent in English.",
+    "translation_ar": "إن شاء الله، سأصبح طليقاً في الإنجليزية.",
+    "audio_ref": ""
+  },
+  {
+    "id": 953,
+    "day_id": 87,
+    "sentence_en": "Next year I will speak English better.",
+    "translation_ar": "العام القادم سأتحدث الإنجليزية بشكل أفضل.",
+    "audio_ref": ""
+  },
+  {
+    "id": 954,
+    "day_id": 87,
+    "sentence_en": "My goal is to study every day for thirty minutes.",
+    "translation_ar": "هدفي أن أدرس كل يوم لثلاثين دقيقة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 955,
+    "day_id": 87,
+    "sentence_en": "In five years, I want to work abroad.",
+    "translation_ar": "بعد خمس سنوات، أريد العمل في الخارج.",
+    "audio_ref": ""
+  },
+  {
+    "id": 956,
+    "day_id": 87,
+    "sentence_en": "I will save money to buy a car.",
+    "translation_ar": "سأدّخر المال لشراء سيارة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 957,
+    "day_id": 87,
+    "sentence_en": "Tomorrow I'll review today's words.",
+    "translation_ar": "غداً سأراجع كلمات اليوم.",
+    "audio_ref": ""
+  },
+  {
+    "id": 958,
+    "day_id": 88,
+    "sentence_en": "I hope I can travel more.",
+    "translation_ar": "آمل أن أستطيع السفر أكثر.",
+    "audio_ref": ""
+  },
+  {
+    "id": 959,
+    "day_id": 88,
+    "sentence_en": "Don't give up, keep going.",
+    "translation_ar": "لا تستسلم، استمر.",
+    "audio_ref": ""
+  },
+  {
+    "id": 960,
+    "day_id": 88,
+    "sentence_en": "Small steps every day make a big difference.",
+    "translation_ar": "خطوات صغيرة كل يوم تصنع فرقاً كبيراً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 961,
+    "day_id": 88,
+    "sentence_en": "I am proud of my progress.",
+    "translation_ar": "أنا فخور بتقدمي.",
+    "audio_ref": ""
+  },
+  {
+    "id": 962,
+    "day_id": 88,
+    "sentence_en": "You can do it, believe in yourself.",
+    "translation_ar": "يمكنك فعلها، ثق بنفسك.",
+    "audio_ref": ""
+  },
+  {
+    "id": 963,
+    "day_id": 88,
+    "sentence_en": "Even five minutes a day is enough.",
+    "translation_ar": "حتى خمس دقائق في اليوم تكفي.",
+    "audio_ref": ""
+  },
+  {
+    "id": 964,
+    "day_id": 88,
+    "sentence_en": "I will speak only English on Sundays.",
+    "translation_ar": "سأتحدث الإنجليزية فقط أيام الأحد.",
+    "audio_ref": ""
+  },
+  {
+    "id": 965,
+    "day_id": 88,
+    "sentence_en": "Next month I'll read my first English book.",
+    "translation_ar": "الشهر القادم سأقرأ أول كتاب لي بالإنجليزية.",
+    "audio_ref": ""
+  },
+  {
+    "id": 966,
+    "day_id": 88,
+    "sentence_en": "Inshallah, I will become fluent in English.",
+    "translation_ar": "إن شاء الله، سأصبح طليقاً في الإنجليزية.",
+    "audio_ref": ""
+  },
+  {
+    "id": 967,
+    "day_id": 88,
+    "sentence_en": "Next year I will speak English better.",
+    "translation_ar": "العام القادم سأتحدث الإنجليزية بشكل أفضل.",
+    "audio_ref": ""
+  },
+  {
+    "id": 968,
+    "day_id": 88,
+    "sentence_en": "My goal is to study every day for thirty minutes.",
+    "translation_ar": "هدفي أن أدرس كل يوم لثلاثين دقيقة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 969,
+    "day_id": 89,
+    "sentence_en": "In five years, I want to work abroad.",
+    "translation_ar": "بعد خمس سنوات، أريد العمل في الخارج.",
+    "audio_ref": ""
+  },
+  {
+    "id": 970,
+    "day_id": 89,
+    "sentence_en": "I will save money to buy a car.",
+    "translation_ar": "سأدّخر المال لشراء سيارة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 971,
+    "day_id": 89,
+    "sentence_en": "Tomorrow I'll review today's words.",
+    "translation_ar": "غداً سأراجع كلمات اليوم.",
+    "audio_ref": ""
+  },
+  {
+    "id": 972,
+    "day_id": 89,
+    "sentence_en": "I hope I can travel more.",
+    "translation_ar": "آمل أن أستطيع السفر أكثر.",
+    "audio_ref": ""
+  },
+  {
+    "id": 973,
+    "day_id": 89,
+    "sentence_en": "Don't give up, keep going.",
+    "translation_ar": "لا تستسلم، استمر.",
+    "audio_ref": ""
+  },
+  {
+    "id": 974,
+    "day_id": 89,
+    "sentence_en": "Small steps every day make a big difference.",
+    "translation_ar": "خطوات صغيرة كل يوم تصنع فرقاً كبيراً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 975,
+    "day_id": 89,
+    "sentence_en": "I am proud of my progress.",
+    "translation_ar": "أنا فخور بتقدمي.",
+    "audio_ref": ""
+  },
+  {
+    "id": 976,
+    "day_id": 89,
+    "sentence_en": "You can do it, believe in yourself.",
+    "translation_ar": "يمكنك فعلها، ثق بنفسك.",
+    "audio_ref": ""
+  },
+  {
+    "id": 977,
+    "day_id": 89,
+    "sentence_en": "Even five minutes a day is enough.",
+    "translation_ar": "حتى خمس دقائق في اليوم تكفي.",
+    "audio_ref": ""
+  },
+  {
+    "id": 978,
+    "day_id": 89,
+    "sentence_en": "I will speak only English on Sundays.",
+    "translation_ar": "سأتحدث الإنجليزية فقط أيام الأحد.",
+    "audio_ref": ""
+  },
+  {
+    "id": 979,
+    "day_id": 89,
+    "sentence_en": "Next month I'll read my first English book.",
+    "translation_ar": "الشهر القادم سأقرأ أول كتاب لي بالإنجليزية.",
+    "audio_ref": ""
+  },
+  {
+    "id": 980,
+    "day_id": 90,
+    "sentence_en": "Inshallah, I will become fluent in English.",
+    "translation_ar": "إن شاء الله، سأصبح طليقاً في الإنجليزية.",
+    "audio_ref": ""
+  },
+  {
+    "id": 981,
+    "day_id": 90,
+    "sentence_en": "Next year I will speak English better.",
+    "translation_ar": "العام القادم سأتحدث الإنجليزية بشكل أفضل.",
+    "audio_ref": ""
+  },
+  {
+    "id": 982,
+    "day_id": 90,
+    "sentence_en": "My goal is to study every day for thirty minutes.",
+    "translation_ar": "هدفي أن أدرس كل يوم لثلاثين دقيقة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 983,
+    "day_id": 90,
+    "sentence_en": "In five years, I want to work abroad.",
+    "translation_ar": "بعد خمس سنوات، أريد العمل في الخارج.",
+    "audio_ref": ""
+  },
+  {
+    "id": 984,
+    "day_id": 90,
+    "sentence_en": "I will save money to buy a car.",
+    "translation_ar": "سأدّخر المال لشراء سيارة.",
+    "audio_ref": ""
+  },
+  {
+    "id": 985,
+    "day_id": 90,
+    "sentence_en": "Tomorrow I'll review today's words.",
+    "translation_ar": "غداً سأراجع كلمات اليوم.",
+    "audio_ref": ""
+  },
+  {
+    "id": 986,
+    "day_id": 90,
+    "sentence_en": "I hope I can travel more.",
+    "translation_ar": "آمل أن أستطيع السفر أكثر.",
+    "audio_ref": ""
+  },
+  {
+    "id": 987,
+    "day_id": 90,
+    "sentence_en": "Don't give up, keep going.",
+    "translation_ar": "لا تستسلم، استمر.",
+    "audio_ref": ""
+  },
+  {
+    "id": 988,
+    "day_id": 90,
+    "sentence_en": "Small steps every day make a big difference.",
+    "translation_ar": "خطوات صغيرة كل يوم تصنع فرقاً كبيراً.",
+    "audio_ref": ""
+  },
+  {
+    "id": 989,
+    "day_id": 90,
+    "sentence_en": "I am proud of my progress.",
+    "translation_ar": "أنا فخور بتقدمي.",
+    "audio_ref": ""
+  },
+  {
+    "id": 990,
+    "day_id": 90,
+    "sentence_en": "You can do it, believe in yourself.",
+    "translation_ar": "يمكنك فعلها، ثق بنفسك.",
+    "audio_ref": ""
+  }
+]
