@@ -32,7 +32,7 @@ ThemeData buildAppTheme() {
       iconTheme: const IconThemeData(color: AppColors.ink),
       centerTitle: true,
     ),
-    cardTheme: const CardTheme(
+    cardTheme: const CardThemeData(
       color: AppColors.card,
       elevation: 0,
       margin: EdgeInsets.zero,
