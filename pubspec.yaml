@@ -46,6 +46,12 @@ dependencies:
 dev_dependencies:
   flutter_lints: ^4.0.0
 
+# Pin transitive record_* deps so they line up with record 5.2.x.
+# record_linux 0.7.2 implements the 1.5.x interface; without this it fails
+# to satisfy startStream/hasPermission from record_platform_interface 1.6.x.
+dependency_overrides:
+  record_platform_interface: 1.5.0
+
 flutter:
   uses-material-design: true
   assets:
