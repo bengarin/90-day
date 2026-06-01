@@ -91,14 +91,9 @@ class AchrafAvatar extends StatelessWidget {
     return Container(
       width: size,
       height: size,
-      decoration: BoxDecoration(
-        gradient: const LinearGradient(
-          begin: Alignment.topLeft,
-          end: Alignment.bottomRight,
-          colors: [AppColors.primary, Color(0xFF14A37F)],
-        ),
+      decoration: const BoxDecoration(
         shape: BoxShape.circle,
-        boxShadow: const [
+        boxShadow: [
           BoxShadow(
             color: Color(0x400F6E56),
             blurRadius: 8,
@@ -106,12 +101,42 @@ class AchrafAvatar extends StatelessWidget {
           ),
         ],
       ),
-      child: const Center(
+      child: ClipOval(
+        child: Image.asset(
+          'assets/images/achraf.png',
+          width: size,
+          height: size,
+          fit: BoxFit.cover,
+          errorBuilder: (_, __, ___) => _GradientFallback(size: size),
+        ),
+      ),
+    );
+  }
+}
+
+class _GradientFallback extends StatelessWidget {
+  final double size;
+  const _GradientFallback({required this.size});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      width: size,
+      height: size,
+      decoration: const BoxDecoration(
+        gradient: LinearGradient(
+          begin: Alignment.topLeft,
+          end: Alignment.bottomRight,
+          colors: [AppColors.primary, Color(0xFF14A37F)],
+        ),
+        shape: BoxShape.circle,
+      ),
+      child: Center(
         child: Text(
           'أ',
           style: TextStyle(
             color: Colors.white,
-            fontSize: 22,
+            fontSize: size * 0.5,
             fontWeight: FontWeight.w800,
           ),
         ),
