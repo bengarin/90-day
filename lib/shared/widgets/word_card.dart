@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../core/colors.dart';
+import '../../core/emoji_map.dart';
 import '../../data/models/models.dart';
 import '../tts.dart';
 
@@ -18,6 +19,20 @@ class WordCard extends StatelessWidget {
           children: [
             Row(
               children: [
+                Container(
+                  width: 44,
+                  height: 44,
+                  alignment: Alignment.center,
+                  decoration: BoxDecoration(
+                    color: AppColors.primarySoft,
+                    borderRadius: BorderRadius.circular(12),
+                  ),
+                  child: Text(
+                    EmojiMap.of(word.wordEn),
+                    style: const TextStyle(fontSize: 26),
+                  ),
+                ),
+                const SizedBox(width: 10),
                 Expanded(
                   child: Directionality(
                     textDirection: TextDirection.ltr,

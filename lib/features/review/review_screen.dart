@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../core/colors.dart';
+import '../../core/emoji_map.dart';
 import '../../data/models/models.dart';
 import '../../data/providers.dart';
 import '../../data/repositories/srs_repo.dart';
@@ -207,7 +208,12 @@ class _BigCard extends StatelessWidget {
                 ),
               ),
             ),
-            const SizedBox(height: 8),
+            const SizedBox(height: 4),
+            Text(
+              EmojiMap.of(word.wordEn),
+              style: const TextStyle(fontSize: 48),
+            ),
+            const SizedBox(height: 4),
             Directionality(
               textDirection: TextDirection.ltr,
               child: Text(
