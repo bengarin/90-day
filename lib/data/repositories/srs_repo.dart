@@ -84,7 +84,7 @@ class SrsRepo {
     final t = fmtDate(today());
     final rows = await db.rawQuery(
       '''
-      SELECT s.*, w.day_id, w.word_en, w.ipa, w.meaning_ar,
+      SELECT s.*, w.id AS id, w.day_id, w.word_en, w.ipa, w.meaning_ar,
              w.example_en, w.example_ar, w.audio_ref
       FROM srs s
       INNER JOIN words w ON w.id = s.word_id

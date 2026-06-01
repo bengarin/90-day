@@ -10,7 +10,9 @@ import '../../shared/widgets/pill.dart';
 import '../../shared/widgets/progress_bar.dart';
 import '../../shared/widgets/streak_badge.dart';
 import '../../shared/widgets/task_tile.dart';
+import '../ai_coach/ai_coach_screen.dart';
 import '../day_complete/day_complete_screen.dart';
+import '../quiz/quiz_screen.dart';
 import '../task_detail/task_detail_screen.dart';
 
 class TodayScreen extends ConsumerWidget {
@@ -87,6 +89,21 @@ class TodayScreen extends ConsumerWidget {
             const SizedBox(height: 14),
             _LessonBanner(day: d, words: ws.length, sentences: ss.length),
             const SizedBox(height: 14),
+            _SectionTitle('سول أشرف AI'),
+            const SizedBox(height: 8),
+            _ToolTile(
+              icon: Icons.auto_awesome,
+              iconBg: AppColors.amberSoft,
+              iconColor: AppColors.amber,
+              title: 'prompts جاهزة للـ ChatGPT / Claude',
+              subtitle: 'انسخ، الصق، وقرا اليوم مع AI.',
+              onTap: () => Navigator.of(context).push(
+                MaterialPageRoute(
+                  builder: (_) => AiCoachScreen(dayId: dayId),
+                ),
+              ),
+            ),
+            const SizedBox(height: 14),
             _SectionTitle('مهام اليوم'),
             const SizedBox(height: 8),
             Card(
@@ -116,26 +133,35 @@ class TodayScreen extends ConsumerWidget {
               ),
             ),
             const SizedBox(height: 14),
-            _SectionTitle('مراجعة اليوم'),
+            _SectionTitle('اختبار اليوم'),
             const SizedBox(height: 8),
-            Card(
-              child: ListTile(
-                leading: const CircleAvatar(
-                  backgroundColor: AppColors.primarySoft,
-                  child: Icon(Icons.refresh, color: AppColors.primary),
+            _ToolTile(
+              icon: Icons.quiz_outlined,
+              iconBg: const Color(0xFFE7E4F7),
+              iconColor: const Color(0xFF5C4DA8),
+              title: 'اختبار سريع — 9 أسئلة',
+              subtitle: 'باش تتأكد فهمت كلمات و جمل اليوم.',
+              onTap: () => Navigator.of(context).push(
+                MaterialPageRoute(
+                  builder: (_) => QuizScreen(dayId: dayId),
                 ),
-                title: const Text('بطاقات مستحقة اليوم'),
-                subtitle: Text('عدد البطاقات: $totalDue'),
-                trailing: const Icon(Icons.chevron_left),
-                onTap: () {
-                  // Switch to Review tab via simple message — easier than
-                  // wiring a navigator key. Tell the user where to go.
-                  ScaffoldMessenger.of(context).showSnackBar(
-                    const SnackBar(
-                        content: Text('اذهب إلى تبويب "مراجعة" بالأسفل')),
-                  );
-                },
               ),
+            ),
+            const SizedBox(height: 14),
+            _SectionTitle('مراجعة'),
+            const SizedBox(height: 8),
+            _ToolTile(
+              icon: Icons.refresh,
+              iconBg: AppColors.primarySoft,
+              iconColor: AppColors.primary,
+              title: 'بطاقات مستحقة اليوم',
+              subtitle: 'عدد البطاقات: $totalDue',
+              onTap: () {
+                ScaffoldMessenger.of(context).showSnackBar(
+                  const SnackBar(
+                      content: Text('اذهب إلى تبويب "مراجعة" بالأسفل')),
+                );
+              },
             ),
             const SizedBox(height: 14),
             _EmergencyButton(dayId: dayId),
@@ -438,5 +464,74 @@ class _EmergencyButton extends ConsumerWidget {
     ref.invalidate(dueCardsProvider);
     ref.invalidate(dueCountByDayProvider);
     ref.read(refreshCounterProvider.notifier).state++;
+  }
+}
+
+class _ToolTile extends StatelessWidget {
+  final IconData icon;
+  final Color iconBg;
+  final Color iconColor;
+  final String title;
+  final String subtitle;
+  final VoidCallback onTap;
+  const _ToolTile({
+    required this.icon,
+    required this.iconBg,
+    required this.iconColor,
+    required this.title,
+    required this.subtitle,
+    required this.onTap,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Card(
+      child: InkWell(
+        borderRadius: BorderRadius.circular(16),
+        onTap: onTap,
+        child: Padding(
+          padding: const EdgeInsets.all(14),
+          child: Row(
+            children: [
+              Container(
+                width: 44,
+                height: 44,
+                alignment: Alignment.center,
+                decoration: BoxDecoration(
+                  color: iconBg,
+                  shape: BoxShape.circle,
+                ),
+                child: Icon(icon, color: iconColor),
+              ),
+              const SizedBox(width: 12),
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      title,
+                      style: const TextStyle(
+                        fontWeight: FontWeight.w800,
+                        color: AppColors.ink,
+                        fontSize: 14,
+                      ),
+                    ),
+                    const SizedBox(height: 2),
+                    Text(
+                      subtitle,
+                      style: const TextStyle(
+                        fontSize: 12,
+                        color: AppColors.inkSecondary,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              const Icon(Icons.chevron_left, color: AppColors.inkSecondary),
+            ],
+          ),
+        ),
+      ),
+    );
   }
 }
