@@ -29,7 +29,7 @@ dependencies:
   timezone: ^0.9.4
 
   # Voice (speaking task)
-  record: ^5.1.2
+  record: ^6.0.0
   just_audio: ^0.9.40
   permission_handler: ^11.3.1
 
@@ -45,12 +45,6 @@ dependencies:
 
 dev_dependencies:
   flutter_lints: ^4.0.0
-
-# Pin transitive record_* deps so they line up with record 5.2.x.
-# record_linux 0.7.2 implements the 1.5.x interface; without this it fails
-# to satisfy startStream/hasPermission from record_platform_interface 1.6.x.
-dependency_overrides:
-  record_platform_interface: 1.5.0
 
 flutter:
   uses-material-design: true
