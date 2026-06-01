@@ -182,6 +182,19 @@ class SrsRepo {
     return (r.first['c'] as int?) ?? 0;
   }
 
+  /// How many cards the user already reviewed today (last_reviewed = today).
+  /// Lets the empty-state UI distinguish "finished for the day" from
+  /// "haven't started yet".
+  Future<int> reviewedTodayCount() async {
+    final db = await _db;
+    final t = fmtDate(today());
+    final r = await db.rawQuery(
+      'SELECT COUNT(*) AS c FROM srs WHERE last_reviewed = ?',
+      [t],
+    );
+    return (r.first['c'] as int?) ?? 0;
+  }
+
   /// Aggregate stats for the Achraf review screen header / Progress page.
   Future<({int total, int learning, int review, int relearning, int leeches})>
       memoryStats() async {

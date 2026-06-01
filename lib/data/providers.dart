@@ -85,6 +85,11 @@ final dueCountByDayProvider = FutureProvider<Map<int, int>>((ref) async {
   return ref.read(srsRepoProvider).dueCountByDay();
 });
 
+final reviewedTodayProvider = FutureProvider<int>((ref) async {
+  ref.watch(refreshCounterProvider);
+  return ref.read(srsRepoProvider).reviewedTodayCount();
+});
+
 /// Bumps every time something changes (task done, srs graded, etc).
 /// Watchers can listen to refresh.
 final refreshCounterProvider = StateProvider<int>((ref) => 0);

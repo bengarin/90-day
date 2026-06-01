@@ -46,6 +46,10 @@ class _ReviewScreenState extends ConsumerState<ReviewScreen> {
       error: (e, _) => Center(child: Text('خطأ: $e')),
       data: (cards) {
         if (cards.isEmpty) {
+          final reviewedAsync = ref.watch(reviewedTodayProvider);
+          final totalReviewed = (_sessionTotal > 0)
+              ? _sessionTotal
+              : (reviewedAsync.valueOrNull ?? 0);
           return Padding(
             padding: const EdgeInsets.all(24),
             child: Center(
@@ -66,7 +70,7 @@ class _ReviewScreenState extends ConsumerState<ReviewScreen> {
                   const SizedBox(height: 14),
                   AchrafCard(
                     message: Achraf.reviewFinished(
-                      reviewed: _sessionTotal,
+                      reviewed: totalReviewed,
                       again: _sessionAgain,
                     ),
                   ),
@@ -137,6 +141,7 @@ class _ReviewScreenState extends ConsumerState<ReviewScreen> {
                           });
                           ref.invalidate(dueCardsProvider);
                           ref.invalidate(dueCountByDayProvider);
+                          ref.invalidate(reviewedTodayProvider);
                           ref.read(refreshCounterProvider.notifier).state++;
                         },
                       ),
