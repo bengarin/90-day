@@ -3,9 +3,8 @@ class AppConstants {
   static const totalDays = 90;
   static const tasksPerDay = 6;
 
-  // SRS intervals (days) used for جيدة (Good) progression.
-  // صعبة (Hard) resets to 1.  سهلة (Easy) jumps two steps ahead.
-  static const srsIntervals = [1, 3, 7, 16, 35, 70];
+  // FSRS-4.5: target retention rate. 0.9 = aim to remember 90% of cards.
+  static const fsrsRequestRetention = 0.9;
 
   // Default daily reminder time (24h).
   static const defaultReminderHour = 19;

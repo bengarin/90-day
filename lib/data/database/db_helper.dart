@@ -24,11 +24,34 @@ class DbHelper {
     final path = p.join(dir, 'english_coach_90.db');
     return openDatabase(
       path,
-      version: 1,
+      version: 2,
       onCreate: (db, version) async {
         await _createSchema(db);
         await _seedContentFromAssets(db);
         await _seedInitialState(db);
+      },
+      onUpgrade: (db, oldVersion, newVersion) async {
+        if (oldVersion < 2) {
+          // FSRS-4.5 columns. Existing SM-2 cards are treated as
+          // "new" (state=0); FSRS will initialize stability/difficulty
+          // on the next review.
+          final batch = db.batch();
+          batch.execute(
+              'ALTER TABLE srs ADD COLUMN stability REAL NOT NULL DEFAULT 0');
+          batch.execute(
+              'ALTER TABLE srs ADD COLUMN difficulty REAL NOT NULL DEFAULT 0');
+          batch.execute(
+              'ALTER TABLE srs ADD COLUMN state INTEGER NOT NULL DEFAULT 0');
+          batch.execute(
+              'ALTER TABLE srs ADD COLUMN lapses INTEGER NOT NULL DEFAULT 0');
+          batch.execute(
+              'ALTER TABLE srs ADD COLUMN reps INTEGER NOT NULL DEFAULT 0');
+          batch.execute(
+              'ALTER TABLE srs ADD COLUMN elapsed_days INTEGER NOT NULL DEFAULT 0');
+          batch.execute(
+              'ALTER TABLE srs ADD COLUMN scheduled_days INTEGER NOT NULL DEFAULT 0');
+          await batch.commit(noResult: true);
+        }
       },
     );
   }
@@ -137,11 +160,15 @@ class DbHelper {
     batch.execute('''
       CREATE TABLE srs(
         word_id INTEGER PRIMARY KEY,
-        ease_factor REAL NOT NULL DEFAULT 2.5,
-        interval_days INTEGER NOT NULL DEFAULT 1,
-        repetitions INTEGER NOT NULL DEFAULT 0,
         next_review_date TEXT NOT NULL,
-        last_reviewed TEXT
+        last_reviewed TEXT,
+        stability REAL NOT NULL DEFAULT 0,
+        difficulty REAL NOT NULL DEFAULT 0,
+        state INTEGER NOT NULL DEFAULT 0,
+        lapses INTEGER NOT NULL DEFAULT 0,
+        reps INTEGER NOT NULL DEFAULT 0,
+        elapsed_days INTEGER NOT NULL DEFAULT 0,
+        scheduled_days INTEGER NOT NULL DEFAULT 0
       )
     ''');
     batch.execute('CREATE INDEX idx_srs_next ON srs(next_review_date)');

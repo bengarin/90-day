@@ -7,6 +7,7 @@ import '../../core/constants.dart';
 import '../../core/date_utils.dart';
 import '../../core/notifications.dart';
 import '../../data/providers.dart';
+import '../../shared/widgets/achraf_card.dart';
 
 class OnboardingScreen extends ConsumerStatefulWidget {
   final VoidCallback onDone;
@@ -43,15 +44,12 @@ class _OnboardingScreenState extends ConsumerState<OnboardingScreen> {
                   color: AppColors.ink,
                 ),
               ),
-              const SizedBox(height: 6),
-              const Text(
-                'سأكون رفيقك في تعلّم الإنجليزية لمدة 90 يوماً.',
-                style: TextStyle(
-                  fontSize: 15,
-                  color: AppColors.inkSecondary,
-                ),
+              const SizedBox(height: 16),
+              const AchrafCard(
+                message:
+                    'أنا أشرف، مدرّبك الشخصي ف الإنجليزية. غادي نمشي معاك يوم بيوم — 90 يوم وغادي تهضر بثقة.\nقبل ما نبداو، عرّفني على راسك.',
               ),
-              const SizedBox(height: 24),
+              const SizedBox(height: 20),
               _label('اسمك'),
               TextField(
                 controller: _nameCtrl,
