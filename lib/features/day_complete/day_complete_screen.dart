@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 import '../../core/colors.dart';
+import '../../shared/achraf.dart';
+import '../../shared/widgets/achraf_card.dart';
 
 class DayCompleteScreen extends StatelessWidget {
   final int dayId;
@@ -60,17 +62,11 @@ class DayCompleteScreen extends StatelessWidget {
                   ],
                 ),
               ),
-              const SizedBox(height: 16),
-              const Padding(
-                padding: EdgeInsets.symmetric(horizontal: 20),
-                child: Text(
-                  'استمرّ يوماً بيوم. خمس دقائق اليوم أفضل من ساعتين غداً.',
-                  textAlign: TextAlign.center,
-                  style: TextStyle(
-                    fontSize: 14,
-                    color: AppColors.inkSecondary,
-                    height: 1.5,
-                  ),
+              const SizedBox(height: 20),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 4),
+                child: AchrafCard(
+                  message: Achraf.dayDoneCheer(streak: streak, dayId: dayId),
                 ),
               ),
               const Spacer(),

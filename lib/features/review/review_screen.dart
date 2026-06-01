@@ -5,7 +5,9 @@ import '../../core/colors.dart';
 import '../../data/models/models.dart';
 import '../../data/providers.dart';
 import '../../data/repositories/srs_repo.dart';
+import '../../shared/achraf.dart';
 import '../../shared/tts.dart';
+import '../../shared/widgets/achraf_card.dart';
 
 class ReviewScreen extends ConsumerStatefulWidget {
   const ReviewScreen({super.key});
@@ -16,6 +18,21 @@ class ReviewScreen extends ConsumerStatefulWidget {
 
 class _ReviewScreenState extends ConsumerState<ReviewScreen> {
   bool _showMeaning = false;
+  int _sessionTotal = 0;
+  int _sessionAgain = 0;
+  String? _intro;
+
+  String _intervalLabel(int days) {
+    if (days < 1) return '<1ي';
+    if (days == 1) return 'غدا';
+    if (days < 30) return '${days}ي';
+    if (days < 365) {
+      final m = (days / 30).round();
+      return '${m}ش';
+    }
+    final y = (days / 365).round();
+    return '${y}س';
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -45,11 +62,12 @@ class _ReviewScreenState extends ConsumerState<ReviewScreen> {
                       color: AppColors.ink,
                     ),
                   ),
-                  const SizedBox(height: 6),
-                  const Text(
-                    'أنهِ مهمة الكلمات لليوم لكي تُضاف بطاقات جديدة.',
-                    textAlign: TextAlign.center,
-                    style: TextStyle(color: AppColors.inkSecondary),
+                  const SizedBox(height: 14),
+                  AchrafCard(
+                    message: Achraf.reviewFinished(
+                      reviewed: _sessionTotal,
+                      again: _sessionAgain,
+                    ),
                   ),
                 ],
               ),
@@ -57,7 +75,13 @@ class _ReviewScreenState extends ConsumerState<ReviewScreen> {
           );
         }
 
+        // Cache the intro line per build so it doesn't reshuffle every grade.
+        _intro ??= Achraf.reviewIntro(cards.length);
+
         final current = cards.first;
+        final preview =
+            ref.read(srsRepoProvider).previewIntervals(current.card);
+
         return Column(
           children: [
             Padding(
@@ -79,9 +103,12 @@ class _ReviewScreenState extends ConsumerState<ReviewScreen> {
                 padding: const EdgeInsets.all(16),
                 child: Column(
                   children: [
+                    AchrafCard(message: _intro!, compact: true),
+                    const SizedBox(height: 12),
                     _BigCard(
                       word: current.word,
                       showMeaning: _showMeaning,
+                      card: current.card,
                       onSpeak: () => Tts.instance.speakEn(current.word.wordEn),
                     ),
                     const SizedBox(height: 14),
@@ -96,9 +123,17 @@ class _ReviewScreenState extends ConsumerState<ReviewScreen> {
                       )
                     else
                       _GradeButtons(
+                        preview: preview,
+                        intervalLabel: _intervalLabel,
                         onGrade: (g) async {
-                          await ref.read(srsRepoProvider).grade(current.card, g);
-                          setState(() => _showMeaning = false);
+                          await ref
+                              .read(srsRepoProvider)
+                              .grade(current.card, g);
+                          setState(() {
+                            _showMeaning = false;
+                            _sessionTotal++;
+                            if (g == SrsGrade.again) _sessionAgain++;
+                          });
                           ref.invalidate(dueCardsProvider);
                           ref.invalidate(dueCountByDayProvider);
                           ref.read(refreshCounterProvider.notifier).state++;
@@ -123,13 +158,28 @@ class _ReviewScreenState extends ConsumerState<ReviewScreen> {
 
 class _BigCard extends StatelessWidget {
   final Word word;
+  final SrsCard card;
   final bool showMeaning;
   final VoidCallback onSpeak;
   const _BigCard({
     required this.word,
+    required this.card,
     required this.showMeaning,
     required this.onSpeak,
   });
+
+  String? _stateBadge() {
+    switch (card.state) {
+      case 1:
+        return 'تعلّم';
+      case 2:
+        return 'مراجعة';
+      case 3:
+        return 'إعادة تعلّم';
+      default:
+        return 'جديدة';
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -138,6 +188,26 @@ class _BigCard extends StatelessWidget {
         padding: const EdgeInsets.all(20),
         child: Column(
           children: [
+            Align(
+              alignment: AlignmentDirectional.topStart,
+              child: Container(
+                padding:
+                    const EdgeInsets.symmetric(horizontal: 8, vertical: 3),
+                decoration: BoxDecoration(
+                  color: AppColors.primarySoft,
+                  borderRadius: BorderRadius.circular(8),
+                ),
+                child: Text(
+                  _stateBadge() ?? '',
+                  style: const TextStyle(
+                    fontSize: 11,
+                    color: AppColors.primary,
+                    fontWeight: FontWeight.w800,
+                  ),
+                ),
+              ),
+            ),
+            const SizedBox(height: 8),
             Directionality(
               textDirection: TextDirection.ltr,
               child: Text(
@@ -206,29 +276,53 @@ class _BigCard extends StatelessWidget {
 
 class _GradeButtons extends StatelessWidget {
   final ValueChanged<SrsGrade> onGrade;
-  const _GradeButtons({required this.onGrade});
+  final Map<SrsGrade, int> preview;
+  final String Function(int) intervalLabel;
+  const _GradeButtons({
+    required this.onGrade,
+    required this.preview,
+    required this.intervalLabel,
+  });
 
   @override
   Widget build(BuildContext context) {
     return Row(
       children: [
         Expanded(
-            child: _Btn(
-                color: AppColors.coral,
-                label: 'صعبة',
-                onTap: () => onGrade(SrsGrade.hard))),
-        const SizedBox(width: 8),
+          child: _Btn(
+            color: AppColors.coral,
+            label: 'نسيت',
+            subtitle: intervalLabel(preview[SrsGrade.again] ?? 1),
+            onTap: () => onGrade(SrsGrade.again),
+          ),
+        ),
+        const SizedBox(width: 6),
         Expanded(
-            child: _Btn(
-                color: AppColors.primary,
-                label: 'جيدة',
-                onTap: () => onGrade(SrsGrade.good))),
-        const SizedBox(width: 8),
+          child: _Btn(
+            color: const Color(0xFFB07539),
+            label: 'صعبة',
+            subtitle: intervalLabel(preview[SrsGrade.hard] ?? 1),
+            onTap: () => onGrade(SrsGrade.hard),
+          ),
+        ),
+        const SizedBox(width: 6),
         Expanded(
-            child: _Btn(
-                color: AppColors.amber,
-                label: 'سهلة',
-                onTap: () => onGrade(SrsGrade.easy))),
+          child: _Btn(
+            color: AppColors.primary,
+            label: 'جيدة',
+            subtitle: intervalLabel(preview[SrsGrade.good] ?? 1),
+            onTap: () => onGrade(SrsGrade.good),
+          ),
+        ),
+        const SizedBox(width: 6),
+        Expanded(
+          child: _Btn(
+            color: AppColors.amber,
+            label: 'سهلة',
+            subtitle: intervalLabel(preview[SrsGrade.easy] ?? 1),
+            onTap: () => onGrade(SrsGrade.easy),
+          ),
+        ),
       ],
     );
   }
@@ -237,8 +331,14 @@ class _GradeButtons extends StatelessWidget {
 class _Btn extends StatelessWidget {
   final Color color;
   final String label;
+  final String subtitle;
   final VoidCallback onTap;
-  const _Btn({required this.color, required this.label, required this.onTap});
+  const _Btn({
+    required this.color,
+    required this.label,
+    required this.subtitle,
+    required this.onTap,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -246,9 +346,25 @@ class _Btn extends StatelessWidget {
       style: ElevatedButton.styleFrom(
         backgroundColor: color,
         foregroundColor: Colors.white,
+        padding: const EdgeInsets.symmetric(vertical: 12, horizontal: 4),
       ),
       onPressed: onTap,
-      child: Text(label),
+      child: Column(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          Text(label,
+              style: const TextStyle(
+                fontWeight: FontWeight.w800,
+                fontSize: 14,
+              )),
+          const SizedBox(height: 2),
+          Text(subtitle,
+              style: const TextStyle(
+                fontSize: 11,
+                fontWeight: FontWeight.w600,
+              )),
+        ],
+      ),
     );
   }
 }

@@ -1,15 +1,45 @@
 import 'package:sqflite/sqflite.dart';
 
-import '../../core/constants.dart';
 import '../../core/date_utils.dart';
 import '../database/db_helper.dart';
 import '../models/models.dart';
+import '../srs/fsrs.dart';
 
 /// Grade values used by the Review screen buttons.
-enum SrsGrade { hard, good, easy }
+/// Maps directly to FSRS ratings (again=1, hard=2, good=3, easy=4).
+enum SrsGrade { again, hard, good, easy }
+
+int _gradeToRating(SrsGrade g) {
+  switch (g) {
+    case SrsGrade.again:
+      return FsrsRating.again;
+    case SrsGrade.hard:
+      return FsrsRating.hard;
+    case SrsGrade.good:
+      return FsrsRating.good;
+    case SrsGrade.easy:
+      return FsrsRating.easy;
+  }
+}
+
+FsrsCard _toFsrs(SrsCard c) {
+  final last = c.lastReviewed == null ? null : parseDate(c.lastReviewed!);
+  return FsrsCard(
+    stability: c.stability,
+    difficulty: c.difficulty,
+    state: c.state,
+    lapses: c.lapses,
+    reps: c.reps,
+    elapsedDays: c.elapsedDays,
+    scheduledDays: c.scheduledDays,
+    lastReview: last,
+  );
+}
 
 class SrsRepo {
   Future<Database> get _db => DbHelper.instance.db;
+
+  final Fsrs _fsrs = const Fsrs(requestRetention: 0.9);
 
   /// Adds the day's words to SRS if they're not already there.
   /// Called after the user completes the Vocabulary task for a day.
@@ -29,24 +59,17 @@ class SrsRepo {
           'srs',
           {
             'word_id': w['id'],
-            'ease_factor': 2.5,
-            'interval_days': 1,
-            'repetitions': 0,
-            // First review = tomorrow.
-            'next_review_date': fmtDate(today().add(const Duration(days: 1))),
+            'next_review_date': t,
             'last_reviewed': null,
+            'stability': 0,
+            'difficulty': 0,
+            'state': 0,
+            'lapses': 0,
+            'reps': 0,
+            'elapsed_days': 0,
+            'scheduled_days': 0,
           },
           conflictAlgorithm: ConflictAlgorithm.ignore,
-        );
-      }
-      // Force at least one card to be due today so the Review screen
-      // doesn't feel empty on day 1.
-      if (words.isNotEmpty) {
-        b.update(
-          'srs',
-          {'next_review_date': t},
-          where: 'word_id = ?',
-          whereArgs: [words.first['id']],
         );
       }
       await b.commit(noResult: true);
@@ -54,6 +77,8 @@ class SrsRepo {
   }
 
   /// Cards due today (or earlier), with their word data joined.
+  /// Sort puts new cards (state=0) after review cards so the user
+  /// warms up on words they've seen before.
   Future<List<({SrsCard card, Word word})>> dueToday() async {
     final db = await _db;
     final t = fmtDate(today());
@@ -64,7 +89,7 @@ class SrsRepo {
       FROM srs s
       INNER JOIN words w ON w.id = s.word_id
       WHERE s.next_review_date <= ?
-      ORDER BY s.next_review_date ASC, s.word_id ASC
+      ORDER BY (s.state = 0) ASC, s.next_review_date ASC, s.word_id ASC
       ''',
       [t],
     );
@@ -93,46 +118,45 @@ class SrsRepo {
     return {for (final r in rows) r['day_id'] as int: r['c'] as int};
   }
 
-  /// Apply the SM-2 simplified update.
-  /// hard => reset interval to 1, lower ease.
-  /// good => next step in the interval ladder.
-  /// easy => skip a step + raise ease.
+  /// What interval (in days) would each grade produce for the given card?
+  /// Used by the Review UI to show "Again 1d · Hard 3d · Good 14d" etc.
+  Map<SrsGrade, int> previewIntervals(SrsCard card) {
+    final fc = _toFsrs(card);
+    final now = today();
+    final raw = _fsrs.previewIntervals(fc, now);
+    return {
+      SrsGrade.again: raw[FsrsRating.again]!,
+      SrsGrade.hard: raw[FsrsRating.hard]!,
+      SrsGrade.good: raw[FsrsRating.good]!,
+      SrsGrade.easy: raw[FsrsRating.easy]!,
+    };
+  }
+
+  /// Apply a grade and persist.
   Future<SrsCard> grade(SrsCard card, SrsGrade grade) async {
     final db = await _db;
-    int newRep = card.repetitions;
-    double newEase = card.easeFactor;
-    int newInterval = card.intervalDays;
-
-    final ladder = AppConstants.srsIntervals;
-
-    if (grade == SrsGrade.hard) {
-      newRep = 0;
-      newInterval = ladder.first; // 1 day
-      newEase = (card.easeFactor - 0.2).clamp(1.3, 2.8);
-    } else if (grade == SrsGrade.good) {
-      newRep = card.repetitions + 1;
-      final idx = newRep.clamp(0, ladder.length - 1);
-      newInterval = ladder[idx];
-      newEase = (card.easeFactor + 0.0).clamp(1.3, 2.8);
-    } else {
-      // easy
-      newRep = card.repetitions + 2;
-      final idx = newRep.clamp(0, ladder.length - 1);
-      newInterval = ladder[idx];
-      newEase = (card.easeFactor + 0.15).clamp(1.3, 2.8);
-    }
-
-    final next = fmtDate(today().add(Duration(days: newInterval)));
-    final last = fmtDate(today());
+    final now = today();
+    final info = _fsrs.schedule(
+      card: _toFsrs(card),
+      rating: _gradeToRating(grade),
+      now: now,
+    );
+    final updated = info.card;
+    final nextDate = fmtDate(info.due);
+    final lastDate = fmtDate(now);
 
     await db.update(
       'srs',
       {
-        'ease_factor': newEase,
-        'interval_days': newInterval,
-        'repetitions': newRep,
-        'next_review_date': next,
-        'last_reviewed': last,
+        'stability': updated.stability,
+        'difficulty': updated.difficulty,
+        'state': updated.state,
+        'lapses': updated.lapses,
+        'reps': updated.reps,
+        'elapsed_days': updated.elapsedDays,
+        'scheduled_days': updated.scheduledDays,
+        'next_review_date': nextDate,
+        'last_reviewed': lastDate,
       },
       where: 'word_id = ?',
       whereArgs: [card.wordId],
@@ -140,11 +164,15 @@ class SrsRepo {
 
     return SrsCard(
       wordId: card.wordId,
-      easeFactor: newEase,
-      intervalDays: newInterval,
-      repetitions: newRep,
-      nextReviewDate: next,
-      lastReviewed: last,
+      nextReviewDate: nextDate,
+      lastReviewed: lastDate,
+      stability: updated.stability,
+      difficulty: updated.difficulty,
+      state: updated.state,
+      lapses: updated.lapses,
+      reps: updated.reps,
+      elapsedDays: updated.elapsedDays,
+      scheduledDays: updated.scheduledDays,
     );
   }
 
@@ -152,5 +180,28 @@ class SrsRepo {
     final db = await _db;
     final r = await db.rawQuery('SELECT COUNT(*) AS c FROM srs');
     return (r.first['c'] as int?) ?? 0;
+  }
+
+  /// Aggregate stats for the Achraf review screen header / Progress page.
+  Future<({int total, int learning, int review, int relearning, int leeches})>
+      memoryStats() async {
+    final db = await _db;
+    final r = await db.rawQuery('''
+      SELECT
+        COUNT(*) AS total,
+        SUM(CASE WHEN state = 1 THEN 1 ELSE 0 END) AS learning,
+        SUM(CASE WHEN state = 2 THEN 1 ELSE 0 END) AS review,
+        SUM(CASE WHEN state = 3 THEN 1 ELSE 0 END) AS relearning,
+        SUM(CASE WHEN lapses >= 4 THEN 1 ELSE 0 END) AS leeches
+      FROM srs
+    ''');
+    final row = r.first;
+    return (
+      total: (row['total'] as int?) ?? 0,
+      learning: (row['learning'] as int?) ?? 0,
+      review: (row['review'] as int?) ?? 0,
+      relearning: (row['relearning'] as int?) ?? 0,
+      leeches: (row['leeches'] as int?) ?? 0,
+    );
   }
 }

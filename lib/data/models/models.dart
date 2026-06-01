@@ -244,27 +244,40 @@ class TaskState {
 
 class SrsCard {
   final int wordId;
-  final double easeFactor;
-  final int intervalDays;
-  final int repetitions;
   final String nextReviewDate; // yyyy-mm-dd
   final String? lastReviewed;
+  // FSRS-4.5 fields.
+  final double stability;
+  final double difficulty;
+  final int state; // 0 new | 1 learning | 2 review | 3 relearning
+  final int lapses;
+  final int reps;
+  final int elapsedDays;
+  final int scheduledDays;
 
   const SrsCard({
     required this.wordId,
-    required this.easeFactor,
-    required this.intervalDays,
-    required this.repetitions,
     required this.nextReviewDate,
     required this.lastReviewed,
+    this.stability = 0,
+    this.difficulty = 0,
+    this.state = 0,
+    this.lapses = 0,
+    this.reps = 0,
+    this.elapsedDays = 0,
+    this.scheduledDays = 0,
   });
 
   factory SrsCard.fromMap(Map<String, dynamic> m) => SrsCard(
         wordId: m['word_id'] as int,
-        easeFactor: (m['ease_factor'] as num).toDouble(),
-        intervalDays: m['interval_days'] as int,
-        repetitions: m['repetitions'] as int,
         nextReviewDate: m['next_review_date'] as String,
         lastReviewed: m['last_reviewed'] as String?,
+        stability: ((m['stability'] as num?) ?? 0).toDouble(),
+        difficulty: ((m['difficulty'] as num?) ?? 0).toDouble(),
+        state: (m['state'] as int?) ?? 0,
+        lapses: (m['lapses'] as int?) ?? 0,
+        reps: (m['reps'] as int?) ?? 0,
+        elapsedDays: (m['elapsed_days'] as int?) ?? 0,
+        scheduledDays: (m['scheduled_days'] as int?) ?? 0,
       );
 }

@@ -4,6 +4,8 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../core/colors.dart';
 import '../../data/models/models.dart';
 import '../../data/providers.dart';
+import '../../shared/achraf.dart';
+import '../../shared/widgets/achraf_card.dart';
 import '../../shared/widgets/pill.dart';
 import '../../shared/widgets/progress_bar.dart';
 import '../../shared/widgets/streak_badge.dart';
@@ -52,11 +54,19 @@ class TodayScreen extends ConsumerWidget {
         final totalDue =
             (dueByDay.value ?? const <int, int>{}).values.fold<int>(0, (a, b) => a + b);
 
+        final achrafMsg = Achraf.greet(
+          userName: s.name,
+          streak: s.currentStreak,
+          dayId: dayId,
+          doneTasks: doneCount,
+          totalTasks: totalCount,
+        );
+
         return ListView(
           padding: const EdgeInsets.fromLTRB(16, 12, 16, 24),
           children: [
-            _Greeting(name: s.name),
-            const SizedBox(height: 10),
+            AchrafCard(message: achrafMsg),
+            const SizedBox(height: 12),
             // Pills row
             Wrap(
               spacing: 8,
@@ -199,28 +209,6 @@ class TodayScreen extends ConsumerWidget {
     ref.invalidate(completedCountProvider);
     ref.invalidate(allDayStatesProvider);
     ref.read(refreshCounterProvider.notifier).state++;
-  }
-}
-
-class _Greeting extends StatelessWidget {
-  final String name;
-  const _Greeting({required this.name});
-
-  @override
-  Widget build(BuildContext context) {
-    final hour = DateTime.now().hour;
-    final greeting = hour < 12
-        ? 'صباح الخير'
-        : (hour < 18 ? 'مساء الخير' : 'مساء النور');
-    final who = name.isEmpty ? '' : '، $name';
-    return Text(
-      '$greeting$who 👋',
-      style: const TextStyle(
-        fontSize: 22,
-        fontWeight: FontWeight.w800,
-        color: AppColors.ink,
-      ),
-    );
   }
 }
 
