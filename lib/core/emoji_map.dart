@@ -100,8 +100,8 @@ class EmojiMap {
     'old': '👴', 'young': '👶', 'fast': '⚡', 'slow': '🐢', 'easy': '😊',
     'hard': '😤', 'difficult': '😤', 'happy': '😄', 'sad': '😢',
     'angry': '😠', 'tired': '😩', 'busy': '🏃', 'free': '🆓',
-    'beautiful': '✨', 'ugly': '🤢', 'clean': '✨', 'dirty': '🧼',
-    'rich': '💰', 'long': '➖', 'short': '➖', 'tall': '⬆️',
+    'beautiful': '✨', 'ugly': '🤢', 'dirty': '🧼',
+    'long': '➖', 'short': '➖', 'tall': '⬆️',
 
     // colors
     'red': '🔴', 'blue': '🔵', 'green': '🟢', 'yellow': '🟡',
