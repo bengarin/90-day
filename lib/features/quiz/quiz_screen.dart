@@ -271,7 +271,7 @@ class _QuizScreenState extends ConsumerState<QuizScreen> {
                 borderRadius: BorderRadius.circular(12),
               ),
             ),
-            onChanged: (v) => _typed[_idx] = v,
+            onChanged: (v) => setState(() => _typed[_idx] = v),
           ),
         ),
       ),
