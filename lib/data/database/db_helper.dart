@@ -24,7 +24,7 @@ class DbHelper {
     final path = p.join(dir, 'english_coach_90.db');
     return openDatabase(
       path,
-      version: 2,
+      version: 3,
       onCreate: (db, version) async {
         await _createSchema(db);
         await _seedContentFromAssets(db);
@@ -51,6 +51,10 @@ class DbHelper {
           batch.execute(
               'ALTER TABLE srs ADD COLUMN scheduled_days INTEGER NOT NULL DEFAULT 0');
           await batch.commit(noResult: true);
+        }
+        if (oldVersion < 3) {
+          await db.execute(
+              "ALTER TABLE user_stats ADD COLUMN language TEXT NOT NULL DEFAULT 'en'");
         }
       },
     );
@@ -134,7 +138,8 @@ class DbHelper {
         last_active_date TEXT,
         total_minutes INTEGER NOT NULL DEFAULT 0,
         total_words INTEGER NOT NULL DEFAULT 0,
-        current_level TEXT NOT NULL DEFAULT 'A1'
+        current_level TEXT NOT NULL DEFAULT 'A1',
+        language TEXT NOT NULL DEFAULT 'en'
       )
     ''');
 
@@ -233,6 +238,7 @@ class DbHelper {
       'total_minutes': 0,
       'total_words': 0,
       'current_level': 'A1',
+      'language': 'en',
     });
 
     final days =

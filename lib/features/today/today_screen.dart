@@ -77,7 +77,7 @@ class TodayScreen extends ConsumerWidget {
                 StreakBadge(streak: s.currentStreak),
                 Pill(text: 'اليوم $dayId / 90'),
                 Pill(
-                  text: 'المستوى ${s.currentLevel}',
+                  text: '${s.language == 'fr' ? '🇫🇷' : '🇬🇧'} ${s.currentLevel}',
                   icon: Icons.emoji_events_outlined,
                   bg: AppColors.amberSoft,
                   fg: AppColors.amber,

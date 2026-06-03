@@ -152,6 +152,7 @@ class UserStats {
   final int totalMinutes;
   final int totalWords;
   final String currentLevel; // A1/A2/B1/B2
+  final String language; // en / fr
 
   const UserStats({
     required this.id,
@@ -163,6 +164,7 @@ class UserStats {
     required this.totalMinutes,
     required this.totalWords,
     required this.currentLevel,
+    this.language = 'en',
   });
 
   factory UserStats.fromMap(Map<String, dynamic> m) => UserStats(
@@ -175,6 +177,7 @@ class UserStats {
         totalMinutes: (m['total_minutes'] as int?) ?? 0,
         totalWords: (m['total_words'] as int?) ?? 0,
         currentLevel: (m['current_level'] as String?) ?? 'A1',
+        language: (m['language'] as String?) ?? 'en',
       );
 
   UserStats copyWith({
@@ -186,6 +189,7 @@ class UserStats {
     int? totalMinutes,
     int? totalWords,
     String? currentLevel,
+    String? language,
   }) =>
       UserStats(
         id: id,
@@ -197,6 +201,7 @@ class UserStats {
         totalMinutes: totalMinutes ?? this.totalMinutes,
         totalWords: totalWords ?? this.totalWords,
         currentLevel: currentLevel ?? this.currentLevel,
+        language: language ?? this.language,
       );
 }
 
