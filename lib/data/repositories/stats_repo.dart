@@ -22,6 +22,7 @@ class StatsRepo {
     int? totalMinutes,
     int? totalWords,
     String? currentLevel,
+    String? language,
   }) async {
     final db = await _db;
     final patch = <String, Object?>{};
@@ -33,6 +34,7 @@ class StatsRepo {
     if (totalMinutes != null) patch['total_minutes'] = totalMinutes;
     if (totalWords != null) patch['total_words'] = totalWords;
     if (currentLevel != null) patch['current_level'] = currentLevel;
+    if (language != null) patch['language'] = language;
     if (patch.isEmpty) return;
     await db.update('user_stats', patch, where: 'id = 1');
   }
@@ -68,7 +70,11 @@ class StatsRepo {
 
     final updatedMinutes = cur.totalMinutes + minutesAdded;
     final updatedWords = cur.totalWords + wordsAdded;
-    final level = _levelFor(updatedWords);
+
+    // Keep the user's chosen starting level unless they've passed a
+    // milestone that pushes them up. Never downgrade.
+    final autoLevel = _levelFor(updatedWords);
+    final level = _maxLevel(cur.currentLevel, autoLevel);
 
     await db.update(
       'user_stats',
@@ -93,8 +99,15 @@ class StatsRepo {
     );
   }
 
-  /// Simple word-count -> CEFR level mapping. Keeps the Progress screen
-  /// motivating without being too strict.
+  static const _levelOrder = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
+
+  String _maxLevel(String a, String b) {
+    final ia = _levelOrder.indexOf(a);
+    final ib = _levelOrder.indexOf(b);
+    return ia >= ib ? a : b;
+  }
+
+  /// Simple word-count -> CEFR level mapping (upgrade hint only).
   String _levelFor(int words) {
     if (words >= 1500) return 'B2';
     if (words >= 800) return 'B1';

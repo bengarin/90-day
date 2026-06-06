@@ -34,9 +34,11 @@ class AiCoachScreen extends ConsumerWidget {
     final day = dayAsync.value!;
     final words = wordsAsync.value!;
     final sentences = sentencesAsync.value!;
-    final level = statsAsync.value!.currentLevel;
+    final stats = statsAsync.value!;
+    final level = stats.currentLevel;
+    final language = stats.language;
 
-    final prompts = _buildPrompts(day, words, sentences, level);
+    final prompts = _buildPrompts(day, words, sentences, level, language);
 
     return Scaffold(
       appBar: AppBar(
@@ -67,23 +69,47 @@ class AiCoachScreen extends ConsumerWidget {
     List<Word> words,
     List<Sentence> sentences,
     String level,
+    String language,
   ) {
+    final langAr = language == 'fr' ? 'الفرنسية' : 'الإنجليزية';
+    final langEn = language == 'fr' ? 'French' : 'English';
+
     final wordList = words.map((w) => w.wordEn).join(', ');
     final wordsWithMeaning =
         words.map((w) => '- ${w.wordEn} = ${w.meaningAr}').join('\n');
     final sampleSentences =
         sentences.take(3).map((s) => '- ${s.sentenceEn}').join('\n');
 
+    // Light-touch level hint embedded in each prompt so the AI calibrates.
+    final levelHint = switch (level) {
+      'A1' =>
+        'مبتدئ تماماً: استعمل جمل قصار جدا (3-5 كلمات)، present simple فقط، مفردات أساسية.',
+      'A2' =>
+        'مبتدئ متقدم: جمل بسيطة، present + past simple، vocabulary للحياة اليومية.',
+      'B1' =>
+        'متوسط: جمل أطول، استعمل present perfect, past continuous, conditionals بسيطة.',
+      'B2' =>
+        'متوسط متقدم: قواعد أعقد، expressions اصطلاحية، لا تتجنب الـ phrasal verbs.',
+      _ => '',
+    };
+
+    // For French learners, hint the AI to translate/adapt English content.
+    final fromEnNote = language == 'fr'
+        ? '\n\nملاحظة: الكلمات أعلاه بالإنجليزية فالتطبيق ديالي. ترجمهم/كيفهم للـ$langAr قبل ما تستعملهم فالأمثلة.'
+        : '';
+
     return [
       _Prompt(
         title: 'علّمني الدرس',
         icon: Icons.school_outlined,
-        body: '''أنا مغربي، كنتعلم الإنجليزية. المستوى ديالي: $level.
+        body: '''أنا مغربي، كنتعلم $langAr ($langEn). المستوى ديالي: $level.
+$levelHint
+
 اليوم خاصني نتعلم الموضوع: "${day.topicEn}" (${day.topicAr}).
 
 عرّفني هاد الموضوع بالدارجة، فبساطة:
 1. شرح فـ 3-4 جمل قصار، بمثال من الحياة اليومية ديال شي مغربي.
-2. 5 جمل إنجليزية بسيطة كتستعمل هاد الموضوع، مع الترجمة بالدارجة.
+2. 5 جمل بالـ$langAr بسيطة كتستعمل هاد الموضوع، مع الترجمة بالدارجة.
 3. الأخطاء الشائعة لي كيدير المغاربة فهاد الباب.
 4. تمرين قصير من 3 أسئلة باش نتأكد فهمت — انتظر جوابي قبل ما تكمل.
 
@@ -92,13 +118,14 @@ class AiCoachScreen extends ConsumerWidget {
       _Prompt(
         title: 'علّمني هاد الكلمات',
         icon: Icons.menu_book_outlined,
-        body: '''عندي ${words.length} كلمة إنجليزية اليوم خاصني نحفظهم. المستوى ديالي: $level.
+        body: '''عندي ${words.length} كلمة اليوم خاصني نحفظهم. المستوى ديالي: $level.
+$levelHint
 
 الكلمات:
-$wordsWithMeaning
+$wordsWithMeaning$fromEnNote
 
 ساعدني نحفظهم بهاد الطريقة:
-1. لكل كلمة، عطيني جملة إنجليزية بسيطة جدا (5-7 كلمات) كتستعملها فسياق طبيعي.
+1. لكل كلمة، عطيني جملة بالـ$langAr بسيطة جدا (5-7 كلمات) كتستعملها فسياق طبيعي.
 2. بعدها، عطيني الترجمة ديال الجملة بالدارجة.
 3. فالأخر، عطيني hack صغير (mnemonics) لكل كلمة باش نحفظها بسرعة — استعمل تشابه فالصوت مع كلمة عربية أو دارجة.
 
@@ -107,15 +134,15 @@ $wordsWithMeaning
       _Prompt(
         title: 'دير معايا محادثة',
         icon: Icons.chat_bubble_outline,
-        body: '''أنا كنتعلم الإنجليزية. المستوى ديالي: $level. الموضوع ديال اليوم: "${day.topicEn}".
+        body: '''أنا كنتعلم $langAr. المستوى ديالي: $level. الموضوع ديال اليوم: "${day.topicEn}".
+$levelHint
 
-تعال نديرو محادثة قصيرة بالإنجليزية فهاد الموضوع. قواعد:
+تعال نديرو محادثة قصيرة بالـ$langAr فهاد الموضوع. قواعد:
 - تبدا أنت بسؤال بسيط.
-- استعمل غير الكلمات لي عند مستوى $level (سهلة، يومية).
+- استعمل غير الكلمات لي عند مستوى $level.
 - منين نجاوب، صحح لي الأخطاء بطريقة لطيفة:
   * كتب الجواب ديالي معدّل
   * اشرح الخطأ بالدارجة فـ سطر واحد
-- بعد كل سؤال ديالك، حاول تستعمل وحدة من هاد الكلمات: $wordList
 - المحادثة كاملة كتكون فـ 6 questions/answers.
 
 ابدا الآن.''',
@@ -123,25 +150,29 @@ $wordsWithMeaning
       _Prompt(
         title: 'اختبرني',
         icon: Icons.quiz_outlined,
-        body: '''أنا كنتعلم الإنجليزية، المستوى $level. اليوم تعلمت الموضوع: "${day.topicEn}" مع هاد الكلمات: $wordList.
+        body: '''أنا كنتعلم $langAr، المستوى $level. اليوم تعلمت الموضوع: "${day.topicEn}" مع هاد الكلمات: $wordList.
+$levelHint
 
-دير لي quiz من 5 أسئلة باش نتأكد فهمت:
+دير لي quiz بالـ$langAr من 5 أسئلة باش نتأكد فهمت:
 - 2 multiple-choice (سؤال + 4 إجابات، وحدة صحيحة)
 - 2 fill-in-the-blank (جملة فيها كلمة ناقصة، وأنا نكملها)
-- 1 سؤال ديال الترجمة (دارجة → إنجليزية)
+- 1 سؤال ديال الترجمة (دارجة → $langAr)
 
 عطيني الأسئلة وحدة بوحدة. استنى الجواب ديالي، ثم قول لي صحيح/خطأ مع الشرح. فالأخر عطيني score من 5.''',
       ),
       _Prompt(
         title: 'دور هاد الجمل لحياتي',
         icon: Icons.format_quote_outlined,
-        body: '''هاد الجمل تعلمتهم اليوم بالإنجليزية:
+        body: '''هاد الجمل (بالإنجليزية فالتطبيق ديالي):
 $sampleSentences
 
-دور كل وحدة فيهم باش تكون مرتبطة بالحياة ديال شي شاب مغربي عادي (طالب أو خدام).
-- خلي المعنى نفسو، ولكن غير المحيط (الأشخاص، الأماكن).
-- اعطيني الجملة الجديدة بالإنجليزية + الترجمة بالدارجة.
-- اعطي 2 variations لكل جملة باش تكون عندي مرونة منين نهضر.''',
+دور كل وحدة فيهم باش تكون:
+1. بالـ$langAr (ترجم/كيف إيلا كانوا بلغة أخرى)
+2. مرتبطة بالحياة ديال شي شاب مغربي عادي (طالب أو خدام)
+3. مناسبة للمستوى $level
+$levelHint
+
+اعطيني لكل جملة: النسخة الجديدة بالـ$langAr + الترجمة بالدارجة + 2 variations.''',
       ),
     ];
   }
